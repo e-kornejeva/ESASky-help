@@ -352,10 +352,8 @@ The following Jupyter notebooks are available:
 
 Access all the notebooks, and others, on [GitHub](https://github.com/esdc-esac-esa-int/notebooks).
 
-# EDDIE CUTOUT SERVICE
+# EDDIE Cut-out Image Service
 #### URL: https://www.cosmos.esa.int/web/esdc/cutout-service
-
-This is a [tool](http://sky.esa.int/hipsCutout/index.html) to generate images from a given sky map (HiPS), a field of view and a specific projection. Click [here](https://www.cosmos.esa.int/web/esdc/cutout-service) for information.
 
 This service is intended for the generation of high resolution astronomical images, given a field-of-view (FoV), a HiPS map and a specific projection. The output image format is configurable, as well as the zoom level (HealPix nOrder) and the size of the output images.
 
@@ -952,7 +950,7 @@ The Atacama Large Millimeter/submillimeter Array (ALMA) observations and associa
 
 *   Pipeline Version: Various versions of [CASA](https://casa.nrao.edu/casa_obtaining.shtml) and the [ALMA Science Pipeline](https://almascience.nrao.edu/processing/science-pipeline).
 
-# Observational information - catalogues information
+# Catalogues - ESDC - Cosmos
 
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-catalogues
 
@@ -1151,13 +1149,16 @@ Gaia DR3 catalogue default columns displayed on ESASky
 ### GAIA FOCUSED PRODUCT RELEASE (Crowded Field Source catalogue)
 
 *   Release: Focused Product Release (FPR) (2023)
+
 *   Date of observations: From 1 January 2015 to 20 January 2020
+
 *   Source: [ESA](http://gea.esac.esa.int/archive/)
+
 *   Reference: [Gaia Collaboration, Weingrill, K., et al. 2023](https://www.aanda.org/10.1051/0004-6361/202347203) (arXiv) (ADS)
+
 *   DOI: [https://doi.org/10.1051/0004-6361/202347203](https://doi.org/10.1051/0004-6361/202347203)
 
 The Gaia Focused Product Release (FPR) Crowded Field Source catalogue consists of astrometry and photometry from engineering images taken in the Omega Centauri region. The sources are based on Service Interface Function (SIF) images of very dense regions in the sky. These sources build an add-on catalogue to the nominal Gaia catalogue. Nominal and SIF detections were not mixed to create these sources. These sources are thus obtained from SIF image detections only. Sources already present in the nominal catalogue were removed from the SIF add-on catalogue. The catalogue contains positions, parallaxes and proper motions for 526,457 new Gaia sources as derived from the SIF images (with 130 additional sources with positions only), and photometric information (mean G magnitude and flux) for these same 526,587 sources as derived from the SIF images.
-
 
 Summary:
 
@@ -1213,12 +1214,14 @@ Gaia FPR catalogue default columns displayed in ESASky
   * Units       : mag
   * Description: Gaia mean G-magnitude (column also called phot_g_mean_mag)
 
-
 HIPPARCOS-2 CATALOGUE
 
 *   Release: 2.0 (2007)
+
 *   Date of observations: From 1989 to 1993 
+
 *   Source: [ESA](https://www.cosmos.esa.int/web/hipparcos/hipparcos-2)
+
 *   Reference: [van Leeuwen 2007, A&A 474, 653](http://cdsads.u-strasbg.fr/cgi-bin/nph-bib_query?2007A%26A...474..653V&db_key=AST&nosetcookie=1)
 
 ​The Hipparcos-2 Catalogue is a new reduction of the data from the Hipparcos mission that improved up to a factor of 4 the accuracy of stars with Hp magnitude 8 or lower. It contains positions, parallaxes and proper motions for 118,218 stars. For more information on this catalogue, go to [this page](http://www.cosmos.esa.int/web/hipparcos) or to [Vizier](http://cdsarc.u-strasbg.fr/viz-bin/Cat?I/311).
@@ -1269,21 +1272,21 @@ Hipparcos-2 catalogue default columns displayed in ESASky
   * Units: mag
   * Description: V - I Colour index
 
-
 ### TYCHO-2 CATALOGUE
 
 *   Release: 2.0 (2000)
+
 *   Date of observations: From 1989 to 1993 
+
 *   Source: [ESA](https://www.cosmos.esa.int/web/hipparcos/tycho-2)
+
 *   Reference: [H](http://adsabs.harvard.edu/abs/2000A&A...355L..27H)[øg et al. 2000, A&A 355, L27](http://adsabs.harvard.edu/abs/2000A&A...355L..27H)
 
 ​The Tycho-2 Catalogue is an astrometric reference catalogue containing positions, proper motions and two-colour photometry (BT and VT) for the 2.5 million brightest stars in the sky. The catalogue is based on observations made using the Hipparcos satellite star mapper and is constructed using the same observations that were used to create the original Tycho catalogue. Improved reduction techniques have resulted in a catalogue with significantly more entries and in improved precision. More information on the Tycho-2 catalogue can be found [here](https://www.rssd.esa.int/index.php?project=HIPPARCOS&page=tycho2) and [in Vizier](http://cdsarc.u-strasbg.fr/viz-bin/Cat?I/259).
 
 _ESASky_ displays the following columns from the Tycho-2 catalogue:
 
-
 Tycho-2 catalogue default columns displayed in ESASky
-
 
 * Column name: Name
   * Units: -
@@ -1322,18 +1325,17 @@ Tycho-2 catalogue default columns displayed in ESASky
   * Units: -
   * Description: Hipparcos number
 
-
-FOURTH integral IBIS/IGRI SOFT GAMMA-RAY SOURCE catalog
--------------------------------------------------------
+## FOURTH integral IBIS/IGRI SOFT GAMMA-RAY SOURCE catalog
 
 *   Release: 4 (2010, updated 2016)
+
 *   Date of observations: From 2002 to 2010
+
 *   Reference: [Bird et al. 2009, ApJ SS 186, 1](http://adsabs.harvard.edu/abs/2010ApJS..186....1B); [Bird et al. 2016, ApJ SS 223, 1](http://adsabs.harvard.edu/abs/2016ApJS..223...15B)
 
 The IBIS/ISGRI Soft Gamma-Ray Source Catalog is an all-sky catalog based on INTEGRAL-IBIS observations performed during the first 1000 orbits of the satellite. The catalogue was released in 2009 and updated in 2016. It is constructed from all public good-quality data available from the mission launch in 2002 up to the end of 2010, and it includes 939 sources significantly detected in the 17-100 keV energy band, of which 120 are previously undiscovered soft gamma-ray emitters. For more information on this catalogue, read the above references, or go to [Vizier](http://vizier.cfa.harvard.edu/viz-bin/VizieR-3?-source=J/ApJS/223/15/table2).
 
 _ESASky_ displays the following columns of this catalogue:
-
 
 IBIS/ISGRI Catalogue default columns displayed in ESASky
 
@@ -1349,23 +1351,23 @@ IBIS/ISGRI Catalogue default columns displayed in ESASky
 |Exposure          |ksec          |Exposure time                       |
 
 
-xmm-newton catalogues
----------------------
+## xmm-newton catalogues
 
 The following catalogues from the XMM-Newton mission are included in _ESASky_: [4XMM-DR12](#), [4XMM-DR12s](#4XMMs), [XMMSL2](#XMMSL), [XMM-SUSS5.0](#SUSS).
 
 ### THE XMM-NEWTON EPIC SERENDIPITOUS SOURCE CATALOGUE (4XMM-DR12)
 
 *   Release: 4XMM\_DR12 (2022)
+
 *   Date of observations: From 3 February 2000 to 31 December 2021
+
 *   Source: [XMM-Newton Science Archive](http://www.cosmos.esa.int/web/xmm-newton/xsa)
+
 *   Reference: [Webb et al. (2020)](https://ui.adsabs.harvard.edu/abs/2020A%26A...641A.136W/abstract)
 
 The 4XMM-DR12 catalogue contains source detections drawn from 12,712 XMM-Newton EPIC observations, covering an energy interval from 0.2 keV to 12 keV. These observations were made between 2000 February 3 and 2021 December 31 and all datasets were publicly available by 2021 December 31, but not all public observations are included in this catalogue (see [here](http://xmmssc.irap.omp.eu/Catalogue/4XMM-DR12/4XMM_DR12.html) for more information). Presently, only sources with QUALITY flag equals 0 or 1 (sources "good" or "with suspect parameters") are displayed in ESASky.
 
-
 4XMM-DR12 characteristics 
-
 
 * Number of observations: Number of 'clean' observations
   * 12,712: 10,543
@@ -1386,9 +1388,7 @@ The 4XMM-DR12 catalogue contains source detections drawn from 12,712 XMM-Newton 
 * Number of observations: Number of detections with probable constant time series (P <  1  × 10-5)
   * 12,712: 7,697
 
-
 _ESASky_ displays the following columns of the 4XMM-DR12 catalogue by default:
-
 
 4XMM-DR12 default columns displayed in ESASky
 
@@ -1413,13 +1413,15 @@ _ESASky_ displays the following columns of the 4XMM-DR12 catalogue by default:
 ### The 4XMM-DR12s XMM-NEWTON serendipitious source CATALOGUE from Overlapping observations (4xmm-DR12s)
 
 *   Release: 4XMM-DR12s (2022)
+
 *   Date of observations: From 1 February 2000 to 4 December 2021
+
 *   Source: [XMM-Newton Science Archive](http://www.cosmos.esa.int/web/xmm-newton/xsa)
+
 *   Reference: [Traulsen et al. (2020)](https://ui.adsabs.harvard.edu/abs/2020A%26A...641A.137T/abstract)
     
 
 The stacked catalogue 4XMM-DR12s has been compiled from 1,620 groups of 9,355 overlapping good-quality XMM-Newton observations. They were selected from the public observations taken between 2000 February 1 and 2021 December 4 and overlap by at least one arcminute in radius and are not affected by very high background emission. The catalogue contains 386,043 unique sources, 298,626 of them multiply observed, with positions and source parameters like fluxes in the XMM-Newton standard energy bands, hardness ratios, quality estimate, and information on inter-observation variability. For more details, go to the paper above or to [this page](https://xmmssc.aip.de/cms/catalogues/4xmm-dr12s/).
-
 
 4XMM-DR12s characteristics
 
@@ -1430,11 +1432,8 @@ The stacked catalogue 4XMM-DR12s has been compiled from 1,620 groups of 9,355 ov
 |Approximated multiply observed sky area                 |400 sq.deg|
 |Number of sources                                       |386,043   |
 |Number of sources with several contributing observations|298,626   |
-
-
   
 ESASky displays the following columns of the 4XMM-DR12s catalogue by default:
-
 
 4XMM-DR12s default columns displayed in ESASky
 
@@ -1454,15 +1453,16 @@ ESASky displays the following columns of the 4XMM-DR12s catalogue by default:
 |Extent err |arcsec      |Error in the source extent radius                             |
 |Flux var.  |-           |Largest difference between fluxes (in terms of sigma)         |
 
-
 ### the XMM-Newton SLEW CATALOGue 2.0
 
 *   Release: 2.0 (2017)
+
 *   Date of observations: From February 2000 to December 2013
+
 *   Source: [XMM-Newton Science Archive](http://www.cosmos.esa.int/web/xmm-newton/xsa)
+
 *   Reference: [Saxton et al. (2008)](http://adsabs.harvard.edu/abs/2008A%26A...480..611S)
     
-
 ​XMMSL2 is the second catalogue of X-ray sources found in slew data taken from the European Space Agency's (ESA) XMM-Newton observatory, and has been constructed by members of the XMM SOC and the EPIC consortium on behalf of ESA. This release uses results of work which has been carried out within the framework of the EXTraS project ("Exploring the X-ray variable and Transient Sky"), funded from the EU's Seventh Framework Programme under grant agreement no.607452. 
 
 XMMSL2 has been generated from 2,114 slews, executed between 2001-08-26 and 2014-12-31, revolutions 314 to 2,758. Not all slews made in this period have been used; slews with particularly high background throughout the slew or which gave processing problems have been rejected. A description of slew selection and initial processing is given [here](https://www.cosmos.esa.int/web/xmm-newton/xmmsl2-ug#DataSel). The slews have been processed separately in three energy bands to form three distinct surveys which have been subsequently combined to form one catalogue. After correcting for overlaps between slews, 84% of the sky has now been covered.
@@ -1470,7 +1470,6 @@ XMMSL2 has been generated from 2,114 slews, executed between 2001-08-26 and 2014
 The release includes two FITS files. A full catalogue (xmmsl2\_total.fits.gz), containing 72,352 detections found with a likelihood of DET\_ML>8 and a "clean" catalogue (xmmsl2\_clean.fits.gz) where all known bad sources have been removed and where the detection limit has been raised to DET\_ML>10.5 in general and DET\_ML>15.5 for sources found in images with a higher than usual background. Efforts have been made to identify spurious detections and 3,017 have been flagged as such in the full catalogue
 
 The default columns from this catalogue displayed in _ESASky_ are the following:
-
 
 XMMSL2 default columns displayed on ESASky
 
@@ -1486,15 +1485,16 @@ XMMSL2 default columns displayed on ESASky
 |Flux (0.2-2kev)       |erg·cm-2·s-1this​|Flux in the 0.2-2 keV band       |
 |Flux Error (0.2-2kev) |erg·cm-2·s-1​    |Flux error in the 0.2-2 keV band |
 
-
 ### THE XMM-Newton SLEW CATALOGUE 2.0
 
 *   Release: 2.0 (2017)
+
 *   Date of observations: From February 2000 to December 2013
+
 *   Source: [XMM-Newton Science Archive](http://www.cosmos.esa.int/web/xmm-newton/xsa)
+
 *   Reference: [Saxton et al. (2008)](http://adsabs.harvard.edu/abs/2008A%26A...480..611S)
     
-
 ​XMMSL2 is the second catalogue of X-ray sources found in slew data taken from the European Space Agency's (ESA) XMM-Newton observatory, and has been constructed by members of the XMM SOC and the EPIC consortium on behalf of ESA. This release uses results of work which has been carried out within the framework of the EXTraS project ("Exploring the X-ray variable and Transient Sky"), funded from the EU's Seventh Framework Programme under grant agreement no.607452. 
 
 XMMSL2 has been generated from 2114 slews, executed between 2001-08-26 and 2014-12-31, revolutions 314 to 2758. Not all slews made in this period have been used; slews with particularly high background throughout the slew or which gave processing problems have been rejected. A description of slew selection and initial processing is given [here](https://www.cosmos.esa.int/web/xmm-newton/xmmsl2-ug#DataSel). The slews have been processed separately in three energy bands to form three distinct surveys which have been subsequently combined to form one catalogue. After correcting for overlaps between slews, 84% of the sky has now been covered.
@@ -1502,7 +1502,6 @@ XMMSL2 has been generated from 2114 slews, executed between 2001-08-26 and 2014-
 The release includes two FITS files. A full catalogue (xmmsl2\_total.fits.gz), containing 72352 detections found with a likelihood of DET\_ML>8 and a "clean" catalogue (xmmsl2\_clean.fits.gz) where all known bad sources have been removed and where the detection limit has been raised to DET\_ML>10.5 in general and DET\_ML>15.5 for sources found in images with a higher than usual background. Efforts have been made to identify spurious detections and 3017 have been flagged as such in the full catalogue
 
 The default columns from this catalogue displayed in _ESASky_ are the following:
-
 
 XMMSL2 default columns displayed in ESASky
 
@@ -1518,17 +1517,17 @@ XMMSL2 default columns displayed in ESASky
 |Flux (0.2-2kev)       |erg·cm-2·s-1this​|Flux in the 0.2-2 keV band       |
 |Flux Error (0.2-2kev) |erg·cm-2·s-1​    |Flux error in the 0.2-2 keV band |
 
-
 ### The XMM-OM serendipitous ultraviolet source survey CATALOGUE (XMM-suss5.0)
 
 *   Release: 5.0 (2020)
+
 *   Date of observations: From February 2000 to February 2020
+
 *   Source: [XMM-Newton Science Archive](http://www.cosmos.esa.int/web/xmm-newton/xsa)
+
 *   Reference: [Page et al. (2012)](http://adsabs.harvard.edu/abs/2012MNRAS.426..903P)
     
-
 ​The SUSS5.0 catalogue is a catalogue of sources serendipitously detected by the Optical Monitor (OM) on board the XMM-Newton observatory. It provides source positions, magnitudes and fluxes in six broad-band ultraviolet and optical filters for more than 5.9 million sources, as well as profile diagnostics and variability statistics. 
-
 
 SUSS5.0 characteristics
 
@@ -1538,14 +1537,11 @@ SUSS5.0 characteristics
 |Number of unique sources                    |5,965,434|
 |Number of sources with repeated observations|1,120,754|
 
-
 The data processing was performed at the European Space Astronomy Centre (ESAC, Madrid, Spain) using the XMM Science Analysis Software system (SAS) version 18.0. In addition to covering a larger observation period, this fifth release includes flagging of sources affected by a patch of reduced sensitivity near the boresight, caused by erroneously V-filter exposures during an observation of Jupiter in July 2017 (revolution 3224). For more details on this release of the catalogue, go to [this page](http://www.cosmos.esa.int/web/xmm-newton/om-catalogue).
 
 These are the default columns from the SUSS5.0 catalogue displayed in _ESA__Sky_:
 
-
 SUSS5.0 default columns displayed in ESASky
-
 
 * Column name: Name
   * Units: -
@@ -1581,16 +1577,16 @@ SUSS5.0 default columns displayed in ESASky
   * Units: erg·cm-2·s-1​
   * Description: Flux in the B band
 
-
-Hubble Source Catalog (HSC)
----------------------------
+## Hubble Source Catalog (HSC)
 
 *   Release: 3.1 (June 2019)
+
 *   Date of observations: to October 2017
+
 *   Source: [Space Telescope Science Institute (STScI)](https://archive.stsci.edu/hst/hsc/)
+
 *   Reference: [Whitmore et al. 2016, ApJ, 151, 134](http://adsabs.harvard.edu/abs/2016AJ....151..134W)
     
-
 The Hubble Source Catalog is a combination of all the visit-based source lists in the Hubble Legacy Archive (HLA) into a single catalogue and is designed to optimize science from the Hubble Space Telescope by combining the tens of thousands of visit-based source lists in the HLA into a single master catalog.
 
 The HSC v3 contains members of the WFPC2, ACS/WFC, WFC3/UVIS and WFC3/IR [Source Extractor](https://www.astromatic.net/software/sextractor) source lists from HLA version DR10 (data release 10). The cross-matching process involves adjusting the relative astrometry of overlapping images so as to minimize positional offsets between closely aligned sources in different images. After correction, the astrometric residuals of cross-matched sources are significantly reduced, with median errors less than 8 mas. The absolute astrometry is calibrated using Gaia DR1, Pan-STARRS, SDSS, and 2MASS as the astrometric backbone for initial corrections. In addition, the catalog includes source nondetections. The cross-matching algorithms and the properties of the initial (Beta 0.1) catalog are described in [Budavari & Lubow (2012)](https://ui.adsabs.harvard.edu/abs/2012ApJ...761..188B), and the Version 1 catalog is described in [Whitmore et al. (2016)](https://ui.adsabs.harvard.edu/abs/2016AJ....151..134W).
@@ -1598,15 +1594,16 @@ The HSC v3 contains members of the WFPC2, ACS/WFC, WFC3/UVIS and WFC3/IR [Source
 Version 3 includes (see [here](https://archive.stsci.edu/hst/hsc/) for more details):
 
 *   _There are approximately 25% more ACS source lists and almost twice as many WFC3 source lists compared with HSC v2._
+
 *   _The source list photometric quality is significantly improved._
+
 *   _Improved astrometric calibration is based on the Gaia DR1 catalog. Shifts up to 100 arcsec have been correctly identified. 94% of the fields have matches to an external astrometric reference catalog._
+
 *   _The scatter in magnitudes is measured using the median absolute deviation (MAD) of the differences from the median magnitude for more robust estimates._
 
 _ESASky_ displays the following default columns from the Hubble Source Catalog:
 
-
 HSC default columns displayed in ESASky
-
 
 * Column name: Match ID
   * Units: -
@@ -1636,42 +1633,43 @@ HSC default columns displayed in ESASky
   * Units: mag
   * Description: Median absolute deviation around the median magnitude.
 
-
 **Note:** There is a small positional offset (< 1") between the source coordinates from the HSC and their location on the HST HiPS maps. This is due to the fact that the HST HiPS were generated from HST data products, while the HSC was created from HLA data products, and there is a discrepancy between the astrometric solutions from both samples. An improved sample of HST HiPS will be produced soon.
 
 See the [Caveats](http://www.cosmos.esa.int/web/esdc/esasky-caveats#CATS) page for caveats on the HSC.
 
-All-Sky PLATO input catalogue (asPIC1.1)
-----------------------------------------
+## All-Sky PLATO input catalogue (asPIC1.1)
 
 *   Release: 1.1 (September 2021)
+
 *   Date of observations: July 2014 to May 2016 (Gaia DR2)
+
 *   Source: VizieR (CDS): [J/A+A/653/A98/](https://vizier.cds.unistra.fr/viz-bin/VizieR-3?-source=J/A%2bA/653/A98/), [SSDC asPICtool](https://tools.ssdc.asi.it/asPICtool/), [Space Telescope Science Institute (STScI)](https://archive.stsci.edu/hlsp/aspic)
+
 *   Reference: [Montalto, M. et. al. (2021) A&A, 653, 98](https://ui.adsabs.harvard.edu/abs/2021A%26A...653A..98M/abstract)
     
-
 The ESA PLAnetary Transits and Oscillations of stars (PLATO) mission will search for terrestrial planets in the habitable zone of solar-type stars. Because of telemetry limitations, PLATO targets need to be pre-selected. The all-sky PLATO input catalogue will be fundamental to selecting the best PLATO fields and the most promising target stars, deriving their basic parameters, analysing the instrumental performances, and then planning and optimising follow-up observations. This catalogue also represents a valuable resource for the general definition of stellar samples optimised for the search of transiting planets. 
 
 The first public release of the all sky PLATO Input catalogue (asPIC version 1.1) contains a total of 2,675,539 stars, among which are 2,378,177 FGK dwarfs and subgiants and 297,362 M dwarfs. It was produced using Gaia Data Release 2 (DR2) astrometry and photometry and 3D maps of the local interstellar medium. It provides derived reddening of the targets and estimates of stellar fundamental parameters (Teff, radius, mass) from astrometric and photometric measurements using a developed algorithm. For more information, see [Montalto, M. et. al. (2021) A&A, 653, 98](https://ui.adsabs.harvard.edu/abs/2021A%26A...653A..98M/abstract).
 
-HERSCHEL CATALOGUES
+## HERSCHEL CATALOGUES
 
 _ESASky_ provides access to the following catalogues from the Herschel mission: the [Herschel-PACS Point Source Catalogue (HPPSC)](#HPPSC) and the [Herschel-SPIRE Point Source Catalogue (HSPSC)](#HSPSC). 
 
 ### HERSCHEL-PACS POINT SOURCE CATALOGUE (HPPSC)
 
 *   Release: 1.0 (2017)
+
 *   Date of observations: from 2009 to 2013
+
 *   Source: [Herschel Science Centre](https://www.cosmos.esa.int/web/herschel)
+
 *   Reference: [Explanatory Supplement](http://archives.esac.esa.int/hsa/legacy/HPDP/PACS/PACS-P/PPSC/HPPSC_Explanatory_Supplement_v2.2.pdf)
 
 The Herschel-PACS Point Source Catalogue (HPPSC), released on 17th May 2017, contains about half million entries distributed over the three bands of the Photodetector Array Camera and Spectrometer (PACS) onboard Herschel, which mapped ~8% of the far-infrared sky. The broad-band filters were centred at 70, 100 and 160 μm, allowing an angular resolution of 5.6ʺ, 6.8ʺ and 11.3ʺ, respectively. 
 
 The catalogue consists of three tables, one per each of these bands. The table below summarises the columns from each table that are displayed in _ESASky_.
 
-
 HPPSC default columns displayed in ESASky
-
 
 * Column name: Name
   * Units: -
@@ -1719,14 +1717,16 @@ HPPSC default columns displayed in ESASky
   * Units: -
   * Description: First Observation ID from the list of observations that built the map  
 
-
 For details on the HPPSC, and to get the full catalogues, go to [this page](https://www.cosmos.esa.int/web/herschel/pacs-point-source-catalogue).
 
 ### HERSCHEL-SPIRE POINT SOURCE CATALOGUE (HSPSC)
 
 *   Release: 1.0 (2017)
+
 *   Date of observations: from 2009 to 2013
+
 *   Source: [Herschel Science Centre](https://www.cosmos.esa.int/web/herschel)
+
 *   Reference: [Explanatory Supplement](http://archives.esac.esa.int/hsa/legacy/HPDP/SPIRE/SPIRE-P/SPSC/SPIREPointSourceCatalogExplanatorySupplementFull20170203.pdf)
 
 The SPIRE Point Source Catalogue (SPSC) was released on 7th February 2017 jointly by the NASA Herschel Science Center and the ESA Herschel Science Centre. It contains more than 1.6 million entries extracted from a total 6878 observations in the sub-millimetre range made by the Spectral and Photometric Imaging Receiver (SPIRE) onboard Herschel. 
@@ -1758,26 +1758,27 @@ HSPSC default columns displayed in ESASky
 
 For details on the different flux density measurements provided by the catalogue, refer to the Explanatory Supplement. To access the full SPSC catalogue and its Explanatory Supplement, go to [this page](https://www.cosmos.esa.int/web/herschel/spire-point-source-catalogue).  
 
-planck catalogues
+## planck catalogues
 
 ESASky provides access to the following catalogues from the Planck mission: [PCCS2](#PCCS2), [Planck SZ2](#PSZ2), [PGCC](#PGCC)
 
 For a full description of the catalogues, go to [this page](http://wiki.cosmos.esa.int/planckpla2015/index.php/Catalogues) or to the reference papers cited below.
 
-second PLANCK CATALOGue OF COMPACT SOURCES (PCCS2)
+### second PLANCK CATALOGue OF COMPACT SOURCES (PCCS2)
 
 *   Release: 2.0 (2015)
+
 *   Date of observations: from 13th August 2009 to 3rd August 2013
+
 *   Source: [Planck Legacy Archive](http://pla.esac.esa.int/pla/#catalogues)
+
 *   Reference: [Planck-2015-A35](https://ui.adsabs.harvard.edu/#abs/2016A&A...594A..26P/abstract)
 
 The PCCS2 is a set of single-frequency source catalogues extracted from the Planck full-mission maps in intensity and polarization. These maps contain 48 months of data for the LFI channels, and 29 months of data for the HFI channels,  therefore the flux densities derived from these maps are an average of the source emission over these two periods of time. For the channels 30-353 GHz, the catalogues also contain polarization flux densities and polarization angles for sources with a significance in polarization >99.99%.
 
 The catalogue at 100 Ghz and above has been divided into two subcatalogues: the PCCS2, including all reliable detections (>80%), and PCCS2E, including sources located in sky regions where it was not possible to estimate their reliability.
 
-
 PCCS2 characteristics
-
 
 * 			Channel			Frequency (Ghz)			Wavelength (µm)			: Number of sources
   * 			30			28.4			10561			: 1,560
@@ -1821,9 +1822,7 @@ PCCS2 characteristics
   * 			857			857.0			350			: -
 
 
-
 PCCS2E characteristics
-
 
 * 			Channel			Frequency (Ghz)			Wavelength (µm)			: Number of sources
   * 			30			28.4			10561			: -
@@ -1869,9 +1868,7 @@ PCCS2E characteristics
 
 The following table summarises the columns from the catalogues displayed in ESASky:
 
-
 PCCS2 default columns displayed in ESASky
-
 
 * Column name: Name
   * Units: -
@@ -1898,7 +1895,6 @@ PCCS2 default columns displayed in ESASky
   * Units: -
   * Description: The highest reliability catalogue to which the source belongs. As the full catalogue reliability is >=80%, this is the lowest possible value in this column.
 
-
 ### SECOND planck sunyaev-zeldovitch catalogue (Psz2)
 
 *   Release: 2.0 (2015)
@@ -1914,7 +1910,6 @@ The union catalogue contains the coordinates of a detection, its signal-to-noise
 
 The table below shows the columns from this catalogue displayed in ESASky:
 
-
 PSZ2 default columns displayed in ESASky
 
 |Column name              |Units         |Description                           |
@@ -1927,12 +1922,14 @@ PSZ2 default columns displayed in ESASky
 |Sundyaev-Zeldovitch mass |1014 MSun     |Sundyaev-Zeldovitch mass proxy        |
 |Validation               |-             |External validation status            |
 
-
-### planck catalogUE of galactic cold clumps (PGCC)
+### PLANCK CATALOGUE OF GALACTIC COLD CLUMPS (PGCC)
 
 *   Release: 2.0 (2015)
+
 *   Date of observations: from 13th August 2009 to 3rd August 2013
+
 *   Source: [Planck Legacy Archive](http://pla.esac.esa.int/pla/#catalogues)
+
 *   Reference: [Planck-2015-A37](https://ui.adsabs.harvard.edu/#abs/2016A&A...594A..28P/abstract)
 
 The PGCC containes 13,188 Galactic sources and 54 sources located in the Magellanic Clouds, all of them identified as cold sources in Planck data (sources colder than their environment). The sources are extracted from the Planck HFI 857, 545 and 353 GHz maps and the 3 THz IRIS map. A detection requires SNR > 4 in pixels in all Planck bands and a minimum angular distance of 5 arcmin to other detections.
@@ -1941,9 +1938,7 @@ The derived physical properties of the PGCC sources are: temperature, column den
 
 These are the columns from the PGCC catalogue displayed in ESASky:
 
-
 PGCC default columns displayed in ESASky
-
 
 * Column name: Name
   * Units: -
@@ -1970,13 +1965,12 @@ PGCC default columns displayed in ESASky
   * Units: arcmin
   * Description: Error in the minor axis FWHM
 
-
-CATALOGUES FROM OTHER DATA PROVIDERS
-------------------------------------
+## CATALOGUES FROM OTHER DATA PROVIDERS
 
 ### 2WHSP: A multi-frequency selected catalogue of high energy and very high energy gamma-ray blazars and blazar candidates
 
 *   Release: 2.0 (2017)
+
 *   Reference: [Chang, D., et al., 2017, A&A, 598, 17](https://ui.adsabs.harvard.edu/abs/2017A%26A...598A..17C/abstract)
 
 A multi-frequency selected catalogue of high energy and very high energy gamma-ray blazars and blazar candidates (2WHSP). This catalogue contains the largest and most complete list of High Synchrotron Peaked blazars (HSPs) available to date (in 2017), which is an expansion of the 1WHSP catalog of gamma-ray source candidates off the Galactic plane. A number of multi-wavelength surveys (in the radio, infrared and X-ray bands) have been cross-matched and applied selection criteria based on the radio to IR and IR to X-ray spectral slopes.
@@ -1988,8 +1982,11 @@ Additional information can be found [here](https://ui.adsabs.harvard.edu/abs/201
 ### Akari IRC Point Source Catalogue
 
 *   Release: 1.0 (2010)
+
 *   Date of observations: from May 2006 to August 2007
+
 *   Source: [ISAS JAXA](http://darts.isas.jaxa.jp/astro/akari/data/AKARI-IRC_Catalogue_AllSky_PointSource_1.0.html)
+
 *   Reference: [Ishihara, D., et al., 2010, A&A, 514, A1](https://ui.adsabs.harvard.edu/abs/2010A%26A...514A...1I/abstract)
 
 The AKARI IRC Point Source Catalogue Version 1.0 provides positions and fluxes of 870,973 sources (844,649 sources in 9 micron band and 194,551 sources in 18 micron band) in the Mid-Infrared wavelengths.
@@ -1998,9 +1995,7 @@ The IRC scanned 96 / 97 percent of the entire sky in 9 / 18 micron band twice or
 
 The AKARI IRC Release Note documentation can be found [here](https://irsa.ipac.caltech.edu/data/AKARI/documentation/AKARI-IRC_PSC_V1_RN.pdf).
 
-
 AKARI IRC Point Source Catalogue default columns displayed in ESASky
-
 
 * Column name: Name
   * Units: -
@@ -2042,18 +2037,19 @@ AKARI IRC Point Source Catalogue default columns displayed in ESASky
   * Units: -
   * Description: Number of events contributing to FLUX L18W
 
-
 ### AllWISE SOURCE catalog
 
 *   Release: 1.0 (2013)
+
 *   Date of observations: from 2010  to 2011
+
 *   Source: [Infrared Processing and Analysis Center (IPAC)](http://irsa.ipac.caltech.edu/frontpage/)
+
 *   Reference: [Wright et al. 2010](https://ui.adsabs.harvard.edu/#abs/2010AJ....140.1868W/abstract), [Mainzer et al. 2011](https://ui.adsabs.harvard.edu/#abs/2011ApJ...731...53M/abstract)
 
 The AllWISE Source Catalog provides astrometry and mid-infrared photometry in four bands (3.4, 4.6, 12 and 22 microns) for 747,634,026 objects detected on the deep AllWISE Atlas Intensity Images. It improves the photometry of discrete sources in all four bands with respect to the WISE Catalog. In addition, improved source variability metrics have been computed. Astrometry has also been improved thanks to the correction of the proper motion of the reference 2MASS stars for the 11 years between the two surveys.
 
 The table below shows the columns of the AllWISE catalogue displayed by default in ESASky (more columns can be displayed via the settings button):
-
 
 AllWISE catalogue default columns displayed in ESASky
 
@@ -2073,21 +2069,21 @@ AllWISE catalogue default columns displayed in ESASky
 |W3 mag     |mag          |W3-band magnitude                |
 |ΔW4 mag    |mag          |Error in W4-band magnitude       |
 
-
 Refer to [this page](http://wise2.ipac.caltech.edu/docs/release/allwise/) for more information on the WISE survey and this catalog.
 
 ###  CHANDRA SOURCE CATALOG (CSC2)
 
 *   Release: 2.0 (2019)
+
 *   Date of observations: from 1999 to 2014
+
 *   Source: [Chandra X-Ray Center (CXC)](http://cxc.harvard.edu/csc/)
+
 *   Reference: [Evans et al. 2010, ApJS 189, 37](http://adsabs.harvard.edu/abs/2010ApJS..189...37E)
 
 The Chandra Source Catalog (CSC) is the definitive catalog of X-ray sources detected by the Chandra X-ray Observatory. By combining _Chandra_'s sub-arcsecond on-axis spatial resolution and low instrumental background with consistent data processing, the CSC delivers a wide variety of _uniformly calibrated_ properties and science ready data products for detected sources over four decades of flux. The second major release of the catalog, CSC 2.0, includes measured properties for 317,167 unique compact and extended X-ray sources in the sky, allowing statistical analysis of large samples, as well as individual source studies. Extracted properties are provided for 928,280 individual observation detections identified in 10,382 _Chandra_ ACIS and HRC-I imaging observations released publicly through the end of 2014. CSC 2.0 includes—as an "alpha" release—photometric properties for 1,299 highly extended (≳30″) sources, together with surface brightness polygons for several contour levels. All can be retrieved, together with the full list of parameters available in the full catalog for each source, using [CSCview](http://cda.cfa.harvard.edu/cscview/). Go [here](http://cxc.cfa.harvard.edu/csc/) for more information on the CSC.
 
-
 CSC2 default columns displayed in ESASky
-
 
 * Column name: Name
   * Units: -
@@ -2213,7 +2209,6 @@ CSC2 default columns displayed in ESASky
   * Units: seconds
   * Description: Total livetime for all HRC imaging observations contributing to the Master Sources Table record of the source (column also called hrc_time).
 
-
 ### eROSITA CATALOGUES
 
 The following catalogues from eROSITA are included in _ESASky_: [eFEDS main](#eFEDSmain), [eFEDS hard](#eFEDShard), [etaCha main](#etaChamain), [etaCha hard](#etaChahard).
@@ -2221,11 +2216,13 @@ The following catalogues from eROSITA are included in _ESASky_: [eFEDS main](#eF
 ### eFEDS main catalogue
 
 *   Release: EDR (2021)
+
 *   Date of observations: 3-7 November 2019
+
 *   Source: [eROSITA EDR catalogues](https://erosita.mpe.mpg.de/edr/eROSITAObservations/Catalogues/)
+
 *   Reference: [Brunner et. al. 2022, A&A, 661, 1](https://ui.adsabs.harvard.edu/abs/2022A%26A...661A...1B/abstract)
     
-
 The eROSITA X-ray telescope on board the Spectrum-Poentgen-Gamma (SPG) observatory combines a large field of view and a large collecting area in the energy range between ~0.2 and ~8.0 keV. This gives the telescope the capability to perform uniform scanning observations of large sky areas. SRG/eROSITA performed scanning observations of the ~140 square degree eROSITA Final Equatorial Depth Survey field (the eFEDS field) as part of its performance verification phase ahead of the planned four year of all-sky scanning operations. The observing time of eFEDS was chosen to slightly exceed the depth expected in an equatorial field after the completion of the all\-sky survey. While verifying the capability of eROSITA to perform large-area uniform surveys and saving as a test and training dataset to establish calibration and data analysis procedures, the eFEDS survey also constitutes the largest contiguous soft X-ray survey at this depth to date, supporting a range of early eROSITA survey science investigations. 
 
 The eFEDS main catalogue contains X-ray sources detected in the 0.2-2.3 keV band using eSASS adopting a detection likelihood threshold of 5. The sources with detection likelihood larger than 6 are selected as the main eFEDS catalog (27910 sources). For more information see [Brunner et. al. 2022](https://ui.adsabs.harvard.edu/abs/2022A%26A...661A...1B/abstract).
@@ -2233,8 +2230,11 @@ The eFEDS main catalogue contains X-ray sources detected in the 0.2-2.3 keV ban
 ### eFEDS hard catalogue
 
 *   Release: EDR (2021)
+
 *   Date of observations: 3-7 November 2019
+
 *   Source: [eROSITA EDR catalogues](https://erosita.mpe.mpg.de/edr/eROSITAObservations/Catalogues/)
+
 *   Reference: [Brunner et. al. 2022, A&A, 661, 1](https://ui.adsabs.harvard.edu/abs/2022A%26A...661A...1B/abstract)
     
 
@@ -2245,21 +2245,25 @@ The Hard X-ray selected eFEDS catalogue contains sources detected in three ba
 ### eta Chamaeleontis main catalogue
 
 *   Release: EDR (2021)
+
 *   Date of observations: 16-18 November 2019
+
 *   Source: [eROSITA EDR catalogues](https://erosita.mpe.mpg.de/edr/eROSITAObservations/Catalogues/)
+
 *   Reference: [Robrade et. al. 2022, A&A, 661, 34](https://ui.adsabs.harvard.edu/abs/2022A%26A...661A..34R/abstract)
     
-
 The eta Cha main catalogue is a catalogue of X-ray sources in the eta Chamaeleontis field scan observation (OBSID 300004). The nearby young open cluster eta Chamaeleontis was observed by eROSITA/SRG during its CalPV phase for 150 ks. The eROSITA data were taken in the field-scan mode, an observing mode of Spectrum-Roentgen-Gamma (SRG) that follows a rectangular grid-like pattern, here covering a 5x5 deg field with an exposure depth of about 5 ks. The known members were studied in X-rays and potential new members of the anticipated dispersed low-mass cluster population were searched for. For more information see [Robrade et. al. (2022).](https://ui.adsabs.harvard.edu/abs/2022A%26A...661A..34R/abstract)
 
 ### eta Chamaeleontis hard catalogue
 
 *   Release: EDR (2021)
+
 *   Date of observations: 16-18 November 2019
+
 *   Source: [eROSITA EDR catalogues](https://erosita.mpe.mpg.de/edr/eROSITAObservations/Catalogues/)
+
 *   Reference: [Robrade et. al. 2022, A&A, 661, 34](https://ui.adsabs.harvard.edu/abs/2022A%26A...661A..34R/abstract)
     
-
 The eta Cha hard catalogue is a catalogue of hard X-ray sources in the eta Chamaeleontis field scan observation (OBSID 300004). The nearby young open cluster eta Chamaeleontis was observed by eROSITA/SRG during its CalPV phase for 150 ks. The eROSITA data were taken in the field-scan mode, an observing mode of Spectrum-Roentgen-Gamma (SRG) that follows a rectangular grid-like pattern, here covering a 5x5 deg field with an exposure depth of about 5 ks. The known members were studied in X-rays and potential new members of the anticipated dispersed low-mass cluster population were searched for. For more information see [Robrade et. al. (2022).](https://ui.adsabs.harvard.edu/abs/2022A%26A...661A..34R/abstract)
 
 ### FERMI CATALOGUES
@@ -2269,38 +2273,47 @@ The following catalogues from the Fermi mission are included in _ESASky_: [4FGL
 ### fermi large area telescope FOURTH SOURCE CATALOG - DATA RELEASE 2 (4FGL-DR2)
 
 *   Release: 4FGL-DR2 (2020)
+
 *   Date of observations: From 4 August 2008 to 2 August 2018
+
 *   Source: [Fermi-LAT webpage](https://fermi.gsfc.nasa.gov/ssc/data/access/lat/10yr_catalog/)
+
 *   Reference: [Abdollahi et al. 2020](https://ui.adsabs.harvard.edu/abs/2020ApJS..247...33A/abstract), [Ballet et al. 2020](https://arxiv.org/pdf/2005.11208.pdf)
     
-
 The Large Area Telescope (LAT) on board NASA's _Fermi_ Gamma-ray Space Telescope  was launched in June 2008 and surveys the entire sky every day. The Fermi Large Area Telescope Fourth Source Catalog (4FGL-DR2) presents 5,064 sources in the 50 MeV-1 TeV energy range. For more information go to the paper above or visit the [Fermi-LAT webpage](https://fermi.gsfc.nasa.gov/ssc/data/access/lat/10yr_catalog/).
 
 ### THIRD FERMI-LAT CATALOG OF HIGH-ENERGY SOURCES (3FHL)
 
 *   Release: 3FHL (2017)
+
 *   Date of observations: 2008 to 2015
+
 *   Source: [Fermi-LAT webpage](https://fermi.gsfc.nasa.gov/ssc/data/access/lat/3FHL/)
+
 *   Reference: [Fermi-LAT collaboration 2017](https://arxiv.org/abs/1702.00664)
     
-
 The Third Catalog of Hard Fermi-LAT Sources (3FHL) reports the locations and spectra of sources significantly detected in the 10 GeV – 2 TeV energy range during the first 7 years of the Fermi mission using the Pass 8 event-level analysis. It contains 1556 objects characterized in the 10 GeV - 2 TeV energy range. For more information go to the paper above or visit the [Fermi-LAT webpage](https://fermi.gsfc.nasa.gov/ssc/data/access/lat/3FHL/).
 
 ### Fourth Catalog of Active Galactic Nuclei detected by the LAT - data release 2 (4lac-dr2)
 
 *   Release: 4LAC-DR2 (2020)
+
 *   Date of observations: From 4 August 2008 to 2 August 2018
+
 *   Source: [Fermi-LAT webpage](https://fermi.gsfc.nasa.gov/ssc/data/access/lat/4LACDR2/)
+
 *   Reference: [Ajello et al. 2020](https://iopscience.iop.org/article/10.3847/1538-4357/ab791e), [Lott et al. 2020](https://arxiv.org/pdf/2010.08406.pdf)
     
-
 The fourth catalog of active galactic nuclei (AGNs) detected by the Fermi Gamma-ray Space Telescope Large Area Telescope (4LAC) contains 2863 objects located at high Galactic latitudes derived from the 4FGL catalog.
 
 ### GLADE+ Galaxy Catalog
 
 *   Release: GLADE+ (2022)
+
 *   Date of observations: from  ###24 October 2011 to 27 May 2020
+
 *   Source: [GLADE+](https://glade.elte.hu/index.html)
+
 *   Reference: [Dálya et. al. (2022) MNRAS, 514, 1403](https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.1403D/abstract)
 
 GLADE+ is an extended version of the GLADE galaxy catalog for multimessenger searches with advanced gravitational-wave detectors. GLADE+ combines data from six separate but not independent astronomical catalogues: the GWGC, 2MPZ, 2MASS XSC, HyperLEDA, and WISExSCOSPZ galaxy catalogues, and the SDSS-DR16Q quasar catalogue. GLADE+ contains ~22.5 million galaxies and ~750,000 quasars. GLADE+ is complete up to a luminosity distance of ~44 Mpc in terms of the cumulative B-band luminosity of galaxies, and contains all of the brightest galaxies giving half of the total B-band luminosity up to ~95 Mpc. Considering the brightest galaxies giving half of the total luminosity in the W1-band, GLADE+ has nearly 90% completeness at even ~500 Mpc. Stellar masses and binary neutron star mergers for galaxies with W1 magnitudes have been derived. These parameters can help to rank the galaxies in a given gravitational wave localization volume, thereby possibly reducing the number of pointings and the total integration time needed to find the electromagnetic counterpart. The codes used for the stellar mass and and merger rate calculations can be found on [Github](https://github.com/MariaPalfi/Stellar_masses_for_GLADE). For more information see [Dálya et. al. (2022)](https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.1403D/abstract) and the [GLADE+](https://glade.elte.hu/index.html) website.
@@ -2308,20 +2321,22 @@ GLADE+ is an extended version of the GLADE galaxy catalog for multimessenger sea
 ### IceCube All-Sky Point-Source Events Catalog (2008 - 2018)
 
 *   Release: 1.0 (2021)
+
 *   Date of observations: from 2008 to 2018
+
 *   Source: [IceCube Neutrino Observatory](https://icecube.wisc.edu/)
+
 *   Reference: [https://arxiv.org/abs/2101.09836](https://arxiv.org/abs/2101.09836) and [IceCube collaboration 2020](https://ui.adsabs.harvard.edu/abs/2020PhRvL.124e1103A/abstract)
 
 IceCube has performed several searches for point-like sources of neutrinos. The events contained in the IceCube All-Sky Point-Source Events Catalog (2008 - 2018; Icecubepsc) make up the sample used in IceCube's 10-year time-integrated neutrino point source search. Events in the sample are track-like neutrino candidates detected by IceCube between April 2008 and July 2018.
 
 **IMPORTANT NOTE:** ESASky displays fewer events than those available in the [IceCube All-Sky Point-Source Events Catalog](http://doi.org/DOI:10.21234/sxvs-mt83) in order to show a less crowded display. An energy cut has been applied to the data to remove most of the lower energy events, therefore, ESASky display events with energies of E>104 GeV in the Northern hemisphere and events with energies of E>105.8 GeV in the Southern hemisphere (approximately the top 1% events in energy; 26706 neutrino candidate events). See the below figure from the Icecube Collaboration (2021) publication ([https://arxiv.org/abs/2101.09836](https://arxiv.org/abs/2101.09836)) showing the distribution of events as a function of reconstructed declination and event energy:
 
-![](https://www.cosmos.esa.int/documents/401090/1819298/Fig1IceCube.png/b6914640-682f-0da9-3823-99bc1689c512?t=1647275389956)
+#### IMG: https://www.cosmos.esa.int/documents/401090/1819298/Fig1IceCube.png/b6914640-682f-0da9-3823-99bc1689c512?t=1647275389956
 
 For more information on the IceCube All-Sky Point-Source Events Catalog and to download the whole catalog (1.1 million events) please go to [this page](https://doi.org/DOI:10.21234/sxvs-mt83).
 
 The table below shows the columns of the IceCube All-Sky Point-Source Events Catalog displayed by default in _ESASky_ (more columns can be displayed via the settings button):
-
 
 Icecubepsc default columns displayed in ESASky
 
@@ -2334,12 +2349,14 @@ Icecubepsc default columns displayed in ESASky
 |Event Time  | YYYY-MM-DD hh:mm:ss.ss |Date/Time of the event                          |
 |Event Energy| GeV                    |Reconstructed Energy of the Observed Muon Track |
 
-
 ### LAMOST GENERAL CATALOGS (LAMOST DR8)
 
 *   Release: 8.0 (2022)
+
 *   Date of observations: from 24 October 2011 to 27 May 2020
+
 *   Source: [LAMOST](http://www.lamost.org/dr8/)
+
 *   Reference: [LAMOST DR8 Release Note](http://www.lamost.org/dr8/v1.1/doc/release-note)
 
 The Large Sky Area Multi-Object Fiber Spectroscopic Telescope (LAMOST) is a Chinese national scientific research facility operated by the National Astronomical Observatories, Chinese Academy of Sciences. It is a special reflecting Schmidt telescope with 4000 fibers in a field of view of 20 degrees. The LAMOST survey provides flux - and wavelength-calibrated, sky-subtracted spectra in the wavelength range of 3700-9000 angstrom for many types of astronomical objects. Since October 2018, LAMOST started the second stage survey program containing both low- and medium-resolution spectroscopic surveys, and the medium-resolution spectroscopic survey includes two surveys, i.e., the time-domain and the non time-domain surveys.
@@ -2347,7 +2364,6 @@ The Large Sky Area Multi-Object Fiber Spectroscopic Telescope (LAMOST) is a Chin
 The eighth LAMOST data release (LAMOST DR8) includes observations until June 2020. The Low-Resolution spectroscopic survey (LRS) General Catalog contains 10,633,515 spectra, of which 10,336,752 are stars, 224,702 are galaxies, 72,061 are QSOs, and there are 9,563,115 spectra with g-band SNR or i-band SNR larger than 10. The Medium-Resolution spectroscopic survey (MRS) General Catalog contains 5,975,982 spectra, where there are 1,465,789 and 4,510,193 spectra for the non time-domain and time-domain surveys, respectively. (Note: This catalog contains in total 22,141,635 entries, which is different from the two statistics numbers above. For the number of the non-time-domain survey, we only count each of the coadded spectra as one of the 1,465,789 spectra, while for the time-domain survey, every single exposure of the B band plus R band were regarded as one of the 4,510,193 spectra.)
 
 The following columns have been included in _ESASky_:
-
 
 LAMOST LRS General Catalogue default columns in ESASky
 
@@ -2376,10 +2392,7 @@ LAMOST LRS General Catalogue default columns in ESASky
 |Mag 6         |mag         |Associated magnitude 6                   |
 |Mag 7         |mag         |Associated magnitude 7                   |
 
-
-
 LAMOST MRS General Catalogue default columns in ESASky
-
 
 * Column name: Name
   * Units: -
@@ -2409,12 +2422,12 @@ LAMOST MRS General Catalogue default columns in ESASky
   * Units: km/s
   * Description: Radial velocity of B band spectra measured with 483 selected KURUCZ synthetic templates
 
-
 In addition to the LRS and MRS General Catalogs, LAMOST DR8 provides many other catalogs, including stellar parameter catalogs, the Observed Plate Information Catalog, the Input Catalog and others. For now, these catalogs have not been integrated in ESASky. Refer to the [LRS](http://www.lamost.org/dr8/v1.1/doc/lr-data-production-description) and [MRS](http://www.lamost.org/dr8/v1.1/doc/mr-data-production-description) data product description pages for more information on this data release.
 
 ### open universe for blazars V2.0
 
 *   Release: 2.0 (2019)
+
 *   Reference: [Chang, Y. L. et al., 2020, A&C, 3000, 350](https://ui.adsabs.harvard.edu/abs/2020A%26C....3000350C/abstract), [Giommi, P.  et al., 2019, A&A, 631, 116](https://ui.adsabs.harvard.edu/abs/2019A%26A...631A.116G/abstract)
 
 Open Universe for Blazars relies on a master list of blazars. The second version of this list was assembled by combining the [5BZCAT](http://www.google.com/url?q=http%3A%2F%2Fwww.aracneeditrice.it%2Faracneweb%2Findex.php%2Fpubblicazione.html%3Fitem%3D9788854879188&sa=D&sntz=1&usg=AFQjCNG7EXtLQAm5c8Iw96lcqVQw49rFKg), the [3HSP](https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F1909.08279&sa=D&sntz=1&usg=AFQjCNGt9kNz-4NRFgHxilEtxQQWjs6G5w), and the Fermi [4LAC](https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F1905.10771&sa=D&sntz=1&usg=AFQjCNFiBVmSGpPT-Hixt3dBb6k4sXNukQ) catalogue.
@@ -2424,8 +2437,11 @@ For more information visit the Open Universe for Blazars [webpage](https://sites
 ### The second ROSAT all-sky survey source catalogue (2RXS)
 
 *   Release: 2.0 (2016)
+
 *   Date of observations: from June 1990 to August 1991
+
 *   Source: [Max Planck Institute for Extraterrestrial Physics](http://www.mpe.mpg.de/ROSAT/2RXS/)
+
 *   Reference: [Boller et al. 2016](https://ui.adsabs.harvard.edu/abs/2016A%26A...588A.103B/abstract)
 
 The second ROSAT all-sky survey source catalogue (2RXS) is the second publicly released ROSAT catalogue of point-like sources obtained from the ROSAT all-sky survey (RASS) observations performed with the position-sensitive proportional counter (PSPC) between June 1990 and August 1991, and is an extended and revised version of the bright and faint source catalogues. Utilizing the latest RASS processing, this catalog includes more than 135,000 X-ray detections in the 0.1-2.4 keV energy band down to a likelihood threshold of 6.5.
@@ -2435,14 +2451,16 @@ Additional information can be found [here](http://www.mpe.mpg.de/ROSAT/2RXS/).
 ### 2MASS All-sky catalog of point sources
 
 *   Release: All-sky (2003)
+
 *   Date of observations: from 1997 to 2001
+
 *   Source: [Infrared Processing and Analysis Center (IPAC)](http://irsa.ipac.caltech.edu/frontpage/)
+
 *   Reference: [Cutri et al. 2003](https://ui.adsabs.harvard.edu/?#abs/2003tmc..book.....C/abstract)
 
 The Two-Micron All Sky Survey (2MASS) covered 99.998% of the sky in three near-infrared bands, J, H and Ks. The 2MASS Point Source Catalog (PSC) contains positional and photometric information for 470,992,970 point sources. Sources in this catalogue are detected in at least one band with S/N higher than 7, or in all three bands with S/N higher than 5. In addition, the source position must fulfil some conditions to ensure it is not a spurious detection or there is confusion between sources.
 
 The table below shows the columns of the 2MASS catalogue displayed in _ESASky_ (more columns can be displayed via the settings button):
-
 
 2MASS catalogue default columns displayed in ESASky
 
@@ -2458,8 +2476,527 @@ The table below shows the columns of the 2MASS catalogue displayed in _ESASky_�
 |Ks mag     |mag          |Ks-band magnitude                |
 |ΔKs mag    |mag          |Error in Ks-band magnitude       |
 
-
 See the [IPAC 2MASS documentation](http://irsa.ipac.caltech.edu/Missions/2mass.html) for more details on this catalogue.
+
+### Legacy archive (HIPPARCOS):
+
+The Hipparcos Catalogue (118,218 stars with 1 milliarcsec level astrometry) and the Tycho Catalogue (more than one million stars with 20-30 milliarcsec astrometry and two-colour photometry) were completed in August 1996 and its data products were released in June 1997. Further improved catalogues were made available to the science community later. This Galaxy charter mission has produced four major catalogues referred to as the Hipparcos-1 Catalogue, the Tycho-1 Catalogue, the Hipparcos-2 Catalogue, and the Tycho-2 Catalogue.
+
+These are the 42 Hipparcos data products (catalogues and annexes) currently available via the [ESASky legacy TAP query](http://esaskylegacy.esac.esa.int/esasky-legacy-sl-tap/tap) as a self-standing catalogue collection, providing a single unified method of accessing all Hipparcos/Tycho data products and their successors.​​​​​​ You can access them using the [Topcat](http://www.star.bris.ac.uk/~mbt/topcat/) tool, selecting the option "Table Access Protocol (TAP) Query" in the VO menu, and introducing the TAP url in the "Select Service" pane.
+
+The summary of the 42 data products (or 59 tables) is shown in Table 1. Hipparcos-1 data products are complete except for identification charts and light-curve figures which can be found in the file Hip1-CDROMs-Volume17.zip in the HIPPARCOS\_PUBLIC\_DATA area on the ftp.cosmos.esa.int ftp server. Tycho-1 has been completed with the Epoch Photometry Annex B, and Hipparcos-2 and Tycho-2 with Intermediate Astrometry data products. The latter is considered an extension, as these data had never been published before. The Tycho Slit Response Functions (SRFs) that have been used in the Tycho-2 data processing can be found [here](https://www.cosmos.esa.int/documents/401090/401110/tycSRF.txt/c7a3383d-462a-eb5f-2420-f4195cf2d021?t=1639135291743) and are described [here](https://www.cosmos.esa.int/documents/401090/6118054/Tycho_SRF_ReadMe.txt/4ed9522d-e931-f39b-91ce-79902c1933ac?t=1639135332767).
+
+**Source:**
+
+Most tables have been obtained from the CDS/VizieR TAP service, where column labels and descriptions underwent curation by CDS/VizieR. The tables in boldface were downloaded from the VizieR ftp instead of TAP service. The data models for hipparcos1 tables #3-#6 were also obtained from the VizieR ftp (so they include CDS metadata curation), including as metadata descriptions both explanations and corresponding notes. For 14 tables, we constructed the corresponding data model from the original documentation, using the original Hipparcos column label naming convention and including as metadata descriptions the original Hipparcos explanations. 
+
+Since the Tycho-1 Epoch Photometry - Annex B data hosted at CDS/Vizier was severely corrupted, two tables in data product #32 marked with an asterisk) were recovered from original CD-ROMs kindly provided by Claus Fabricius, member of the Tycho consortium. Although still presenting a [partial loss of the original data](https://www.cosmos.esa.int/documents/401090/6118054/tyc_epo_ReadMe_28_June_2021.txt/7764a663-366a-5b90-ade9-edadef61530d?t=1624885489525), fewer data records are affected by corruption. 
+
+Data products #19, #21, #22, #23, #29, #30, #31 and #36 were tables originally stacked together in rows mixing header and data records. For the sake of database ingestion, these data products have been split in their basic table structures, and the legacy\_astro TAP serves them individually. Unique keys allow connecting the records back together.
+
+Hipparcos-2 data products #25-#29 are served in two versions: a CDS/VizieR version (namespace hipparcos2\_cds) and a Springer book DVD version (namespace hipparcos2\_dvd). Hipparcos-2 intermediate astrometry is only available on the DVD and it is important that these intermediate data are only used together with the astrometric reference parameters coming from the main tables from the same DVD. The raw contents of the DVD can be found in the file Hip2-DVD-Book.zip in the HIPPARCOS\_PUBLIC\_DATA area on the ftp.cosmos.esa.int ftp server.
+
+**Metadata:**
+
+*   Sky coordinates RAdeg, DEdeg are provided in ICRS system in units of degrees, with epoch J1991.25 (average observing time for the Hipparcos mission), except for the Tycho-2 Intermediate Astrometry (J1992.0) and the Double Star Catalogue and Supplement and the Two-colour Photometry for Components of Hipparcos Doubles Catalogue, at observation epoch J2000.0.
+    
+*   Currently, our Legacy Archive TAP server does not preserve the data precision for trailing zeroes. To retrieve the table precision information, please refer to the original table data model section and table number in [Hipparcos Vol 1: Introduction and Guide to the Data](https://www.cosmos.esa.int/documents/532822/552851/vol1_all.pdf/99adf6e3-6893-4824-8fc2-8d3c9cbba2b5), provided in column #8
+    
+*   Question marks in the table descriptions are equivalent to dagger in the table data model shown in the documentation, meaning blank for undefined values.
+    
+*   Asterisk at the beginning of the column description and numbers in brackets at the end of descriptions refer to Notes in the [Hipparcos Vol 1: Introduction and Guide to the Data](https://www.cosmos.esa.int/documents/532822/552851/vol1_all.pdf/99adf6e3-6893-4824-8fc2-8d3c9cbba2b5)
+    
+*   The original hipparcos1.hipoint and hipparcos1.hipjtran records have several occurrences of type overflow that have been replaced by "null" values.
+    
+*   For 6 Tycho tables, a Tycho identifier (ID) was created as an aggregate of the TYC numbers. It is constructed from the GSC region number (TYC1)\[1,9537\], the running number within the region (TYC2)\[1,12119\], and a component identifier (TYC3)\[1,4\], separated by a hyphen between them, e.g. TYC 1-13-1.
+    
+Hipparcos catalogues, data products and tables
+
+* 			Data product #			: 			1			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.hip_main			
+  * 			Title			: 			The Hipparcos Main Catalogue			
+  * 			Records			: 			118,218			
+  * 			Columns			: 			78			
+  * 			Data Model Reference			: 			S2.1, T2.1.1			
+* 			Data product #			: 			2			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.h_dm_com			
+  * 			Title			: 			Double and Multiples: Component solutions, Components			
+  * 			Records			: 			24,588			
+  * 			Columns			: 			38			
+  * 			Data Model Reference			: 			S2.3, T2.3.2a			
+* 			Data product #			: 			3			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.h_dm_cor			
+  * 			Title			: 			Double and Multiples: Component solutions, Correlations			
+  * 			Records			: 			12,591			
+  * 			Columns			: 			14			
+  * 			Data Model Reference			: 			S2.3, T2.3.2b			
+* 			Data product #			: 			4			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.hip_dm_g			
+  * 			Title			: 			Double and Multiples: Acceleration solutions			
+  * 			Records			: 			2,622			
+  * 			Columns			: 			15			
+  * 			Data Model Reference			: 			S2.3, T2.3.3			
+* 			Data product #			: 			5			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.hip_dm_v			
+  * 			Title			: 			Double and Multiples: Variability Induced (VIM) solutions			
+  * 			Records			: 			288			
+  * 			Columns			: 			14			
+  * 			Data Model Reference			: 			S2.3, T2.3.5			
+* 			Data product #			: 			6			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.hip_dm_x			
+  * 			Title			: 			Double and Multiples: Stochastic solutions			
+  * 			Records			: 			1,561			
+  * 			Columns			: 			5			
+  * 			Data Model Reference			: 			S2.3, T2.3.6			
+* 			Data product #			: 			7			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.him_dm_o			
+  * 			Title			: 			Double and Multiples: Orbital solutions			
+  * 			Records			: 			235			
+  * 			Columns			: 			19			
+  * 			Data Model Reference			: 			S2.3, T2.3.4a			
+* 			Data product #			: 			8			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.hip_va_1			
+  * 			Title			: 			Variability Annex: Periodic variables			
+  * 			Records			: 			2,712			
+  * 			Columns			: 			24			
+  * 			Data Model Reference			: 			S2.4, T2.4.2			
+* 			Data product #			: 			9			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.hip_va_2			
+  * 			Title			: 			Variability Annex: Unsolved variables			
+  * 			Records			: 			5,542			
+  * 			Columns			: 			22			
+  * 			Data Model Reference			: 			S2.4, T2.4.2			
+* 			Data product #			: 			10			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.solar_ha			
+  * 			Title			: 			Solar System Annex: Astrometric catalogue			
+  * 			Records			: 			5,609			
+  * 			Columns			: 			10			
+  * 			Data Model Reference			: 			S2.7, T2.7.5			
+* 			Data product #			: 			11			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.solar_hp			
+  * 			Title			: 			Solar System Annex: Photometric catalogue			
+  * 			Records			: 			2,639			
+  * 			Columns			: 			10			
+  * 			Data Model Reference			: 			S2.7, T2.7.6			
+* 			Data product #			: 			12			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.solar_t			
+  * 			Title			: 			Solar System Annex: Tycho astrometry/photometry			
+  * 			Records			: 			291			
+  * 			Columns			: 			16			
+  * 			Data Model Reference			: 			S2.7, T2.7.7			
+* 			Data product #			: 13
+  * 			Catalogue			: Hipparcos-1
+  * 			Table Name			: 			hipparcos1.hd_notes			
+  * 			Title			: Hipparcos notes: Double and multiple systems
+  * 			Records			: 2,622
+  * 			Columns			: 7
+  * 			Data Model Reference			: S2.11, T2.11.2
+* 			Data product #			: 14
+  * 			Catalogue			: Hipparcos-1
+  * 			Table Name			: 			hipparcos1.hg_notes			
+  * 			Title			: Hipparcos notes: General notes
+  * 			Records			: 3,898
+  * 			Columns			: 7
+  * 			Data Model Reference			: S2.11, T2.11.2
+* 			Data product #			: 15
+  * 			Catalogue			: Hipparcos-1
+  * 			Table Name			: 			hipparcos1.hp_notes			
+  * 			Title			: Hipparcos notes: Photometric notes
+  * 			Records			: 2,444
+  * 			Columns			: 7
+  * 			Data Model Reference			: S2.11, T2.11.2
+* 			Data product #			: 16
+  * 			Catalogue			: Hipparcos-1
+  * 			Table Name			: hipparcos1.hp_refs
+  * 			Title			: References Hipparcos stars
+  * 			Records			: 33,769
+  * 			Columns			: 5
+  * 			Data Model Reference			: S2.11, T2.11.2
+* 			Data product #			: 17
+  * 			Catalogue			: Hipparcos-1
+  * 			Table Name			: 			hipparcos1.hp_auth			
+  * 			Title			: References of hp_notes.doc
+  * 			Records			: 4,335
+  * 			Columns			: 3
+  * 			Data Model Reference			: S2.11, T2.11.2
+* 			Data product #			: 18
+  * 			Catalogue			: Hipparcos-1
+  * 			Table Name			: 			hipparcos1.dmsa_o			
+  * 			Title			: References of hip_dm_o.dat
+  * 			Records			: 118
+  * 			Columns			: 5
+  * 			Data Model Reference			: S2.3, T2.3.4b
+* 			Data product #			: 			19			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.hip_i			
+  * 			Title			: 			Hipparcos Intermediate Astrometry			
+  * 			Records			: 			118,204			
+  * 			Columns			: 			11			
+  * 			Data Model Reference			: 			S2.8, T2.8.2			
+* 			Data product #			: 			hipparcos1.hipabsc			
+  * 			Catalogue			: 			Hipparcos Intermediate Astrometry: Abcissa record			
+  * 			Table Name			: 			7,226,006			
+  * 			Title			: 			12			
+  * 			Records			: 			S2.8, T2.8.3			
+  * 			Columns			: 
+  * 			Data Model Reference			: 
+* 			Data product #			: 			20			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.hip_rgc			
+  * 			Title			: 			Hipparcos Intermediate Astrometry: Reference great circle			
+  * 			Records			: 			2,341			
+  * 			Columns			: 			8			
+  * 			Data Model Reference			: 			S2.8, T2.8.1			
+* 			Data product #			: 			21			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.hip_j			
+  * 			Title			: 			Hipparcos Transit Data			
+  * 			Records			: 			37,368			
+  * 			Columns			: 			15			
+  * 			Data Model Reference			: 			S2.9, T2.9.1			
+* 			Data product #			: 			hipparcos1.hipoint			
+  * 			Catalogue			: 			Hipparcos Transit Data: Pointing record			
+  * 			Table Name			: 			37,368			
+  * 			Title			: 			29			
+  * 			Records			: 			S2.9, T2.9.2			
+  * 			Columns			: 
+  * 			Data Model Reference			: 
+* 			Data product #			: 			hipparcos1.hipjtran			
+  * 			Catalogue			: 			Hipparcos Transit Data: Transit record			
+  * 			Table Name			: 			4,276,420			
+  * 			Title			: 			21			
+  * 			Records			: 			S2.9, T2.9.3			
+  * 			Columns			: 
+  * 			Data Model Reference			: 
+* 			Data product #			: 			22			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.hip_ep			
+  * 			Title			: 			Hipparcos Epoch Photometry Annex			
+  * 			Records			: 			118,204			
+  * 			Columns			: 			15			
+  * 			Data Model Reference			: 			S2.5, T2.5.1			
+* 			Data product #			: 			hipparcos1.hiptrans			
+  * 			Catalogue			: 			Hipparcos Epoch Photometry Annex: Transit record			
+  * 			Table Name			: 			13,724,288			
+  * 			Title			: 			6			
+  * 			Records			: 			S2.5, T2.5.2			
+  * 			Columns			: 
+  * 			Data Model Reference			: 
+* 			Data product #			: 			23			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.hip_ep_e			
+  * 			Title			: 			Hipparcos Epoch Photometry Annex Extension			
+  * 			Records			: 			118,204			
+  * 			Columns			: 			12			
+  * 			Data Model Reference			: 			S2.5, T2.5.3			
+* 			Data product #			: 			hipparcos1.hepetran			
+  * 			Catalogue			: 			Hipparcos Epoch Photometry Annex Extension: Transit record			
+  * 			Table Name			: 			13,724,288			
+  * 			Title			: 			10			
+  * 			Records			: 			S2.5, T2.5.4			
+  * 			Columns			: 
+  * 			Data Model Reference			: 
+* 			Data product #			: 			24			
+  * 			Catalogue			: 			Hipparcos-1			
+  * 			Table Name			: 			hipparcos1.hip_ep_c			
+  * 			Title			: 			Hipparcos Epoch Photometry Annex Extension: coincidence			
+  * 			Records			: 			105,233			
+  * 			Columns			: 			5			
+  * 			Data Model Reference			: 			S2.5, T2.5.5			
+* 			Data product #			: 			25			
+  * 			Catalogue			: 			Hipparcos-2			
+  * 			Table Name			: 			hipparcos2_cds.hip2			hipparcos2_dvd.hip2			
+  * 			Title			: 			The Hipparcos Main Catalogue			
+  * 			Records			: 			117,955			117,955			
+  * 			Columns			: 			27			
+  * 			Data Model Reference			: 			2007A&A...474..653V			
+* 			Data product #			: 			26			
+  * 			Catalogue			: 			Hipparcos-2			
+  * 			Table Name			: 			hipparcos2_cds.hip7p			hipparcos2_dvd.hip2_7p			
+  * 			Title			: 			Double and Multiples: Seven-parameter solutions			
+  * 			Records			: 			1,338			1,343			
+  * 			Columns			: 			7			
+  * 			Data Model Reference			: 			2007A&A...474..653V			
+* 			Data product #			: 			27			
+  * 			Catalogue			: 			Hipparcos-2			
+  * 			Table Name			: 			hipparcos2_cds.hip9p			hipparcos2_dvd.hip2_9p			
+  * 			Title			: 			Double and Multiples: Nine-parameter solutions			
+  * 			Records			: 			104			102			
+  * 			Columns			: 			11			
+  * 			Data Model Reference			: 			2007A&A...474..653V			
+* 			Data product #			: 			28			
+  * 			Catalogue			: 			Hipparcos-2			
+  * 			Table Name			: 			hipparcos2_cds.hipvim			hipparcos2_dvd.hip2_vim			
+  * 			Title			: 			Double and Multiples: Variability-induced (VIM) solutions			
+  * 			Records			: 			25			43			
+  * 			Columns			: 			7			
+  * 			Data Model Reference			: 			2007A&A...474..653V			
+* 			Data product #			: 29
+  * 			Catalogue			: Hipparcos-2
+  * 			Table Name			: hipparcos2_dvd.resrec_header
+  * 			Title			: Hipparcos Intermediate Astrometry - Abcissa residuals: Header records
+  * 			Records			: 117,955
+  * 			Columns			: 9
+  * 			Data Model Reference			: Table G.8 in Springer book (ReadMe)
+* 			Data product #			: hipparcos2_dvd.resrec_data
+  * 			Catalogue			: Hipparcos Intermediate Astrometry - Abcissa residuals: Data records
+  * 			Table Name			: 13,678,867
+  * 			Title			: 9
+  * 			Records			: Table G.8 in Springer book (ReadMe)
+  * 			Columns			: 
+  * 			Data Model Reference			: 
+* 			Data product #			: hipparcos2_dvd.absrec_header
+  * 			Catalogue			: Hipparcos Intermediate Astrometry - Field transit records: Header records
+  * 			Table Name			: 117,955
+  * 			Title			: 13
+  * 			Records			: Table G.9 in Springer book (ReadMe)
+  * 			Columns			: 
+  * 			Data Model Reference			: 
+* 			Data product #			: hipparcos2_dvd.absrec_data
+  * 			Catalogue			: Hipparcos Intermediate Astrometry - Field transit records: Data records
+  * 			Table Name			: 13,678,867
+  * 			Title			: 28
+  * 			Records			: Table G.9 in Springer book (ReadMe)
+  * 			Columns			: 
+  * 			Data Model Reference			: 
+* 			Data product #			: 			30			
+  * 			Catalogue			: 			Tycho-1			
+  * 			Table Name			: 			tycho1.tyc_main			
+  * 			Title			: 			The main part of Tycho Catalogue			
+  * 			Records			: 			1,058,332			
+  * 			Columns			: 			61			
+  * 			Data Model Reference			: 			S2.2, T2.2.1			
+* 			Data product #			: 			31			
+  * 			Catalogue			: 			Tycho-1			
+  * 			Table Name			: 			tycho1.tyc_ep_header			
+  * 			Title			: 			Tycho Epoch Photometry - Annex A: Header records			
+  * 			Records			: 			34,446			
+  * 			Columns			: 			18			
+  * 			Data Model Reference			: 			S2.6, T2.6.1 (Readme)			
+* 			Data product #			: 			tycho1.tyc_ep_data			
+  * 			Catalogue			: 			Tycho Epoch Photometry - Annex A: Individual transit records			
+  * 			Table Name			: 			6,760,543			
+  * 			Title			: 			18			
+  * 			Records			: 			S2.6, T2.6.2 (Readme)			
+  * 			Columns			: 
+  * 			Data Model Reference			: 
+* 			Data product #			: 32
+  * 			Catalogue			: Tycho-1
+  * 			Table Name			: tycho1.tyc_epo
+  * 			Title			: Tycho Epoch Photometry - Annex B
+  * 			Records			: 508,710
+  * 			Columns			: 6
+  * 			Data Model Reference			: I/239/ReadMe (Readme)
+* 			Data product #			: tycho1.tyc_epo_header*
+  * 			Catalogue			: Tycho Epoch Photometry - Annex B: Header records
+  * 			Table Name			: 458,089
+  * 			Title			: 18
+  * 			Records			: S2.6, T2.6.1 (Readme)
+  * 			Columns			: 
+  * 			Data Model Reference			: 
+* 			Data product #			: tycho1.tyc_epo_data*
+  * 			Catalogue			: Tycho Epoch Photometry - Annex B: Individual transit records
+  * 			Table Name			: 78,778,542
+  * 			Title			: 18
+  * 			Records			: S2.6, T2.6.2 (Readme)
+  * 			Columns			: 
+  * 			Data Model Reference			: 
+* 			Data product #			: 			33			
+  * 			Catalogue			: 			Tycho-2			
+  * 			Table Name			: 			tycho2.tyc2			
+  * 			Title			: 			The Tycho-2 Main Catalogue			
+  * 			Records			: 			2,539,913			
+  * 			Columns			: 			38			
+  * 			Data Model Reference			: 			2000A&A...355L..27H			
+* 			Data product #			: 			34			
+  * 			Catalogue			: 			Tycho-2			
+  * 			Table Name			: 			tycho2.suppl_1			
+  * 			Title			: 			Tycho-2 Supplement-1			
+  * 			Records			: 			17,588			
+  * 			Columns			: 			24			
+  * 			Data Model Reference			: 			2000A&A...355L..27H			
+* 			Data product #			: 			35			
+  * 			Catalogue			: 			Tycho-2			
+  * 			Table Name			: 			tycho2.suppl_2			
+  * 			Title			: 			Tycho-2 Supplement-2			
+  * 			Records			: 			1,146			
+  * 			Columns			: 			24			
+  * 			Data Model Reference			: 			2000A&A...355L..27H			
+* 			Data product #			: 36
+  * 			Catalogue			: Tycho-2
+  * 			Table Name			: tycho2.tyc_sc_header
+  * 			Title			: Tycho Intermediate Astrometry - Sorted Identified Counts: Header records
+  * 			Records			: 574,915,849
+  * 			Columns			: 8
+  * 			Data Model Reference			: Tycho2_SortedCounts_ReadMe.txt
+* 			Data product #			: tycho2.tyc_sc_para
+  * 			Catalogue			: Tycho Intermediate Astrometry - Sorted Identified Counts: Parasite records
+  * 			Table Name			: 574,915,849
+  * 			Title			: 15
+  * 			Records			: Tycho2_SortedCounts_ReadMe.txt
+  * 			Columns			: 
+  * 			Data Model Reference			: 
+* 			Data product #			: tycho2.tyc_sc_data
+  * 			Catalogue			: Tycho Intermediate Astrometry - Sorted Identified Counts: Counts records
+  * 			Table Name			: 574,915,849
+  * 			Title			: 7
+  * 			Records			: Tycho2_SortedCounts_ReadMe.txt
+  * 			Columns			: 
+  * 			Data Model Reference			: 
+* 			Data product #			: 			37			
+  * 			Catalogue			: 			Tycho-2			
+  * 			Table Name			: 			tycho2.tdsc_catalogue			
+  * 			Title			: 			Main Tycho Double Star Catalogue			
+  * 			Records			: 			98,482			
+  * 			Columns			: 			38			
+  * 			Data Model Reference			: 			2002A&A...384..180F			
+* 			Data product #			: 			38			
+  * 			Catalogue			: 			Tycho-2			
+  * 			Table Name			: 			tycho2.tdsc_supplem			
+  * 			Title			: 			Tycho Double Star Catalogue - Supplement			
+  * 			Records			: 			4,777			
+  * 			Columns			: 			38			
+  * 			Data Model Reference			: 			2002A&A...384..180F			
+* 			Data product #			: 			39			
+  * 			Catalogue			: 			Tycho-2			
+  * 			Table Name			: 			tycho2.tdsc_notes			
+  * 			Title			: 			Tycho Double Star Catalogue - Notes			
+  * 			Records			: 			149			
+  * 			Columns			: 			5			
+  * 			Data Model Reference			: 			2002A&A...384..180F			
+* 			Data product #			: 			40			
+  * 			Catalogue			: 			Tycho-2			
+  * 			Table Name			: 			tycho2.colorphotds_catalogue			
+  * 			Title			: 			Two-colour photometry for components of Hipparcos doubles			
+  * 			Records			: 			9,473			
+  * 			Columns			: 			15			
+  * 			Data Model Reference			: 			2000A&A...356..141F			
+* 			Data product #			: 41
+  * 			Catalogue			: Tycho-2
+  * 			Table Name			: tycho2.tic2
+  * 			Title			: 			Second Tycho Input Catalogue (TIC2)			
+  * 			Records			: 4,351,323
+  * 			Columns			: 26
+  * 			Data Model Reference			: TIC2_ReadMe.txt
+* 			Data product #			: 42
+  * 			Catalogue			: Tycho-2
+  * 			Table Name			: tycho2.tic2_lut
+  * 			Title			: Look-up table between Hipparcos/Tycho data products
+  * 			Records			: 3,332,290
+  * 			Columns			: 13
+  * 			Data Model Reference			: LUT_ReadMe.txt
+
+### Legacy archive (Cos-B): 
+
+ESA's satellite [Cos-B](https://www.esa.int/Science_Exploration/Space_Science/Cos-B_overview2) carried a single large experiment, the Gamma-Ray Telescope, which was the responsibility of a group of European research laboratories know as the Caravane Collaboration. Launched on the 9 August 1975, Cos-B was originally projected to last two years, but it operated successfully for 6 years and 8 months. It provided the first complete map of the Galaxy in gamma-rays, and a catalogue of gamma-ray sources, known as the 2CG catalogue.
+
+The Cos-B payload was conformed by two elements: 
+
+*   Magnetic-core, wire-matrix, spark chamber gamma-ray detector (~30 MeV-5 GeV), eff. area 50 cm2 at 400 MeV
+    
+*   a 2-12 keV proportional scintillation counter mounted on the side of the gamma-ray detector
+    
+The main scientific results produced by Cos-B were
+
+*   Extragalactic Gamma Rays
+    
+*   Resolved Galactic Sources
+    
+*   Gamma-Ray Pulsars
+    
+*   Binary Systems
+    
+*   Large Scale Galactic Emission
+    
+*   Localised Gamma-Ray Sources
+    
+
+**Operations and Performance:**
+
+The satellite was operated in a pointing mode with its spin axis directed towards fixed points in the sky for periods of four to five weeks early in the mission and up to 3 months in later observations. In total 64 observations (or pointings) were made. A broad band along the galactic equator was studied deeply, by means of repeated or overlapped observations. About 50% of the celestial sphere was covered and about one quarter of the time was devoted to observations at higher galactic latitudes, especially regions expected to contain extragalactic sources. The experiment operated for about 25 hours in each 37-hour orbit.
+
+Comparison of data from overlapping observation periods enabled the long-term sensitivity changes of Cos-B to be estimated. Until three years into the mission, the sensitivity was virtually stable, but a slow fall-off developed. From this monitoring, curves such as the empirical correction factors have been derived. However the level of the background component improved with time. This background was due largely to interactions of cosmic rays with the massive parts of the experiment and surrounding spacecraft subsystems. This was reduced significantly by the increasing modulation of the cosmic rays with the approach of the solar maximum. This effect served to counter-balance the reduction in detector sensitivity.
+
+**Catalogues and Data Products:**
+
+Hitherto, the High Energy Astrophysics Science Archive at HEASARC was the only facility hosting the Cos-B data products in its [Observatories (Past missions) archive](https://heasarc.gsfc.nasa.gov/docs/cosb/cosb.html). It served raw data (.evt), image (.gif) and exposure maps (.fits) from the gamma-ray detector, and the analysis package FADMAP, alongside with the calibration data. These data have been repatriated to the ESA Legacy Archive in 2021 and are accessible via the [ESASky legacy TAP query](http://esaskylegacy.esac.esa.int/esasky-legacy-sl-tap/tap).
+
+The ESA Legacy Archive includes two tables produced by the Cos-B mission. The provenance of these tables is the [HEASARC TAP](https://heasarc.gsfc.nasa.gov/xamin/vo/tap).
+
+The COSBMAP table is a log of the 63 x 6 available high level product files per energy range, rendering a total of 1,512 files available. The COSBRAW  table is a log of the 65 Cos-B observation intervals and contains target names, sky coordinates start times and other information taken from the final Cos-B database produced by ESA in 1985.
+
+
+Cos-B Catalogues
+
+
+* 			#			: 			1			
+  * 			Resource			: 			cosb			
+  * 			Catalogue			: 			cosb.cosbmaps			
+  * 			Records			: 			252			
+  * 			Columns			: 			20			
+  * 			Table Name			: 			Cos-B Map Product Catalog			
+  * 			Data Products			: 			datalink column (6 data products)			
+* 			#			: 			2			
+  * 			Resource			: 			cosb			
+  * 			Catalogue			: 			cosb.cosbraw			
+  * 			Records			: 			65			
+  * 			Columns			: 			20			
+  * 			Table Name			: 			Cos-B Photon Events Catalog			
+  * 			Data Products			: 			event link column (1 data product)			
+
+
+**High level Products****:** The Cos-B data products consist of maps obtained from the 65 Cos-B observations made during the entire mission. There are 4 sets of maps per observation, extracted over different energy ranges. These energy ranges are:
+
+*   "low" (70-150 MeV),
+*   "medium" (150-300 MeV),
+*   "high" (300-5000 MeV),
+*   and "full" (50-7800 MeV).
+
+Each set includes three maps: a "counts" map, an "exposure" map, and a "flux" map. The "flux" map was obtained by dividing the "counts" map for the "exposure" maps. Each observation, therefore, has 12 associated maps. These maps are provided via DataLink in FITS and GIF format.
+
+The Cos-B data products were created using the program [fadmap](https://heasarc.gsfc.nasa.gov/FTP/software/ftools/release/help/fadmap.txt). Each of the FITS maps are 120 x 120 pixels with 0.5 degrees per pixel. Header keywords record the parameter values used in fadmap (see below) to create the maps. The FITS images may be displayed using any standard package which accepts FITS images.
+
+The file\_image column corresponds to the name of the events file in the archive associated with each observation. Files are of the form cb\_hhmmVddP\*\*t\_b.xxx, where cb is the instrument (Cos-B), hhmm is the right ascension in degrees and minutes, V is N for positive declinations and S is for negative declination, dd is the declination in degrees, P is for 'Pointed' observations '\*\*' is the original observation number, from 00 to 64, t is the datafile 'type' (b for 'background', s for 'source'), b is the 'band' (l for 'low', m for 'medium', h for 'high', and t for 'total') and xxx is the FITS file 'type' (img for 'image', exp for 'exposure', flux for 'modified flux map' or gif for 'graphical image format'). There will be one GIF image for the source image, exposure map and flux map. These GIFs will have the form cb\_hhmmVddP\*\*t\_b\_X.gif, where all the values are the same as for the ordinary FITS maps, but the value 'X' will distinguish which file is represented in the GIF. 'X' will be 'i' (for image), 'e' (for exposure) and 'f' (for flux). An example filename would be cb\_1721s44p24s\_l\_i.gif. This file is a Cos-B point centered on RA=17h21m, DEC=-44, the original Cos-B point number 24, source image file in the 'low' energy band, in GIF format.
+
+The \* .img \*.exp and \*.flux maps associated to the cb\_0109s74p15.evt and cb\_1841n80p35.evt events were not generated because the original code only allows to build maps with declination between -65 deg to 65 deg. These two files are at -74 and +80, respectively.
+
+Raw data: The final reduction of the Cos\-B data, released by ESA in 1985, consisted of three basic datasets: \`OBSLI\`, describing each observation period (typically one month), \`OURLI\`, describing each uninterrupted observation interval (lasting between 10 minutes and 10 hours), and \`GAMLI\`, containing records for each accepted gamma-ray photon. These three data sets were combined into FITS format with an event layout at the HEASARC.
+
+Each event file contains three extensions: good time interval (EXTNAME = 'ALLGTI'), event (EXTNAME = 'EVENTS'), and housekeeping (EXTNAME = 'TSI'). The ALLGTI and TSI extensions contain the information stored in the \`OURLI\` and \`OBSLI\` datasets. The EVENTS extension contains data from the \`GAMLI\` dataset. There are, in total, 65 files, one for each \`OBSLI\` observation. Photon positions (RA and DEC) were converted to pixels within a 512 X 512 pixel pseudo-image array. Each pixel is 0.1 degrees so the image is 51.2 X 51.2 degrees.
+
+The program [fadmap](https://heasarc.gsfc.nasa.gov/FTP/software/ftools/release/help/fadmap.txt) can be used on the raw data files to generate maps with different parameter setups or different time selections from those used for the high level products.
+
+The COSBRAW  database consisted of three basic datasets: \`OBSLI\`, a dataset describing each observation period, typically a month; \`OURLI\`, a dataset describing each uninterrupted observation interval, lasting between 10 minutes and 10 hours; and \`GAMLI\`, a dataset containing records for each accepted gamma-ray photon. These three data sets were combined into FITS format images at NASA/GSFC. The images were formed by making the center pixel of a 1024 x 1024 pixel image correspond to the RA and DEC given in the \`OBSLI\` file. Each photon's RA and DEC was converted to a relative pixel in the image. This was done by using Aitoff projections. All the raw data from these three Cos-B files are now stored in 65 FITS files accessible via DataLink.
+
+The Cos-B event files naming convention is cb\_hhmmVddP\*\*.evt where  hhmm is the right ascension in degrees and minutes, V is N for positive declinations and S is for negative declination, dd is the declination in degrees, P is for 'Pointed' observations '\*\*' is the original observation number, from 00 to 64. (e.g CB2251S18P41.evt was the 42nd observation, and the source coordinates are RA 2251 DEC -18).
+
+
+
+
+
+******************
+
+# ESASky Legacy TAP: ESA Legacy Missions - ESDC - Cosmos
+
+ESASky legacy is a TAP ([Table Access Protocol](http://www.ivoa.net/documents/TAP/)) service to provide the community access to complete, self-standing catalogues and data collections from ESA astronomy legacy missions, ensuring their long-term preservation. This service, which is an [IVOA](http://www.ivoa.net/) standard for most modern science archives, is an entry point to data products and their successors that can be exposed by ESASky.
+
+The ESA Legacy Missions available in the [ESASky legacy TAP](http://esaskylegacy.esac.esa.int/esasky-legacy-sl-tap/tap) are:
+
+*   [Hipparcos](#Legacy:Hipparcos)
+*   [Cos-B](#Legacy:CosB)
+*   [CoRoT](#Legacy:CoRoT)
 
 ### Legacy archive (HIPPARCOS):
 
@@ -2970,129 +3507,15 @@ The COSBRAW  database consisted of three basic datasets: \`OBSLI\`, a dataset d
 
 The Cos-B event files naming convention is cb\_hhmmVddP\*\*.evt where  hhmm is the right ascension in degrees and minutes, V is N for positive declinations and S is for negative declination, dd is the declination in degrees, P is for 'Pointed' observations '\*\*' is the original observation number, from 00 to 64. (e.g CB2251S18P41.evt was the 42nd observation, and the source coordinates are RA 2251 DEC -18).
 
+### Legacy archive (CoRoT): 
 
+[CoRoT](https://sci.esa.int/web/corot/)(Convection, Rotation and planetary Transits) is the first space mission dedicated to exoplanetary research and designed for this purpose. The spacecraft was equipped with a 27 cm-diameter afocal telescope and a 4-CCD wide-field camera, was built around the PROTEUS spacecraft bus, and operated in a low-Earth orbit (LEO) of ~900 km (polar). Launched in December 2006 the mission had a nominal lifetime of 2.5 years. The scientific mission was officially ended the 20th of June 2013 and the satellite was de-orbited on 17 June 2014. During its observation phase, CoRoT continuously observed star fields in the Milky Way for periods of up to 6 months, recording the photometric light curve of about 150 distinct bright stars (with a visible magnitude between 5.8 and 8) using the bright stars channel (also known as the seismology channel) and more than 160 000 faint stars (with a visible magnitude between 10.5 and 16) using the faint stars channel (also known as the exoplanet channel. The project was led by CNES, with contributions from ESA, Austria, Belgium, Germany, Spain and Brazil.
 
+From a polar inertial circular orbit (90-degree inclination) at an altitude of 896 km, the CoRoT programme of observations was based on a yearly cycle of 4 runs. During the summer period from October to March, the telescope was pointed towards the anticentre of the Milky Way and during the winter period from April to September, in the opposite direction. Two observation runs (alternately 20 and 150 days) were achieved during each summer and winter period in general. Twice a year, when the Sun got closer to the orbit plane and was about to blind the telescope, the spacecraft performed a reversal attitude manoeuvre.
 
+Some of the features of the 26 CoRoT fields are extracted from [2018A&A...619A..97D](https://www.aanda.org/articles/aa/abs/2018/11/aa31068-17/aa31068-17.html)
 
-*   [Astrometric catalogues](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#ASTROMETRY): [Gaia DR3](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#GAIA), [Hipparcos-2](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#HIPPARCOS), [Tycho-2](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#TYCHO)
-*   [INTEGRAL IBIS/ISGRI Soft Gamma-Ray Source Catalog](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#INTEGRAL)
-*   ​[XMM-Newton catalogues](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#XMM):[4XMM-DR12](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#4XMM), [4XMM-DR12s](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#4XMMs), [XMMSL2](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#XMMSL), [XMM-SUSS5.0](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#SUSS)
-*   [Hubble Source Catalog (HSC) v3.1](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#HSC)
-*   [All-Sky PLATO Input Catalogue (asPIC1.1)](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#ASPIC)
-*   [Herschel mission catalogues:](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#HERSCHEL) [HPPSC](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#HPPSC), [HSPSC](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#HSPSC) 
-*   [Planck mission catalogues](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#PLANCK): [PCCS2](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#PCCS2), [Planck SZ2](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#PSZ2), [PGCC2](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#PGCC2)
-*   [Catalogues from other data providers](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#OTHER):
-    *   [2WHSP: A multi-frequency selected catalogue of high energy and very high energy gamma-ray blazars and blazar candidates](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#WHSP)
-    *   [Akari IRC Point Source Catalog](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#Akari)
-    *   [AllWISE Source Catalog](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#WISE)
-    *   [Chandra Source Catalog](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#Chandra)
-    *   [eROSITA catalogues:](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#eROSITA) [eFEDS main](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#eFEDSmain), [eFEDS hard](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#eFEDShard), [etaCha main](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#etaChamain), [etaCha hard](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#etaChahard)
-    *   [Fermi catalogues:](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#Fermi) [4FGL-DR2](#4FGL), [3FHL](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#3FHL), [4LAC-DR2](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#4LAC)
-    *   [GLADE+ Galaxy Catalog](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#GLADE)
-    *   [IceCube All-Sky Point Source Events Catalogue (2008-2018)](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#icecubepsc)
-    *   [LAMOST DR8 General Catalogs](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#LAMOST)
-    *   [Open Universe for Blazars v2.0](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#oublazars)
-    *   [The second ROSAT all-sky survey source catalogue (2RXS)](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#2RXS)
-    *   [Two-Micron All-Sky Survey (2MASS) Catalog of Point Sources](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#2MASS)
+[CoRoT](https://corot.cnes.fr/en/COROT/index.htm) produced nearly 6 years of data that are accessible online. The ["CoRoT Legacy Book"](https://www.edp-open.org/books/edp-open-books/320-the-corot-legacy-book) describes these [data](http://idoc-corot.ias.u-psud.fr/sitools/common/html/doc/cII_4_data.pdf) and their correction methods, the most recent highlights up to now, and the new space projects that inherit from CoRoT. The different scientific products levels were made available in various [science archives](https://www.edp-open.org/images/stories/books/contents/corot/cII_5.pdf).
 
-### [ESASKY LEGACY RESOURCES](https://www.cosmos.esa.int/web/esdc/legacy-tap-esa)
+The ESA Legacy TAP includes the last version (N2-4.4) of the Bright and Faint star catalogues produced by CoRoT. The provenance of these tables is the CDS/Vizier TAP.
 
-The following catalogues are also available through the _[ESASky Legacy TAP](http://esaskylegacy.esac.esa.int/esasky-legacy-sl-tap/tap):_
-
-*   [Hipparcos mission catalogues](https://www.cosmos.esa.int/web/esdc/legacy-tap-esa#Legacy:Hipparcos)
-*   [Cos-B mission catalogues](https://www.cosmos.esa.int/web/esdc/legacy-tap-esa#Legacy:CosB)
-*   [CoRoT mission catalogues](https://www.cosmos.esa.int/web/esdc/legacy-tap-esa#Legacy:CoRoT)
-
-The catalogues for the following EU-funded projects, based on ESA missions data, are available through the _[ESASky Legacy TAP](http://esaskylegacy.esac.esa.int/esasky-legacy-sl-tap/tap):_
-
-*   [Herschel Extragalactic Legacy Project catalogues](https://www.cosmos.esa.int/web/esdc/legacy-tap-eu#HELP)
-
-### [SKIES (HIPS) INFORMATION](https://www.cosmos.esa.int/web/esdc/esasky-skies)
-
-*   [INTEGRAL (IBIS)](https://www.cosmos.esa.int/web/esdc/esasky-skies#INTEGRAL)
-*   [XMM-Newton (EPIC & OM)](https://www.cosmos.esa.int/web/esdc/esasky-skies#XMM)
-*   [eROSITA (created by MPE)](https://www.cosmos.esa.int/web/esdc/esasky-skies#EROSITA)
-*   [EXOSAT (LE)](https://www.cosmos.esa.int/web/esdc/esasky-skies#EXOSAT)
-*   [HST (ACS, WFPC2, WFC3, NICMOS, FOC, WFPC)](https://www.cosmos.esa.int/web/esdc/esasky-skies#HST)
-*   [JWST (MIRI, NIRCam, NIRISS)](https://www.cosmos.esa.int/web/esdc/esasky-skies#JWST)
-*   [ISO (CAM)](https://www.cosmos.esa.int/web/esdc/esasky-skies#ISO)
-*   [AKARI (FIS)](https://www.cosmos.esa.int/web/esdc/esasky-skies#AKARI)
-*   [Spitzer (IRAC)](https://www.cosmos.esa.int/web/esdc/esasky-skies#SPITZER)
-*   [Herschel (PACS & SPIRE)](https://www.cosmos.esa.int/web/esdc/esasky-skies#HERSCHEL)
-*   [Planck (HFI & LFI)](https://www.cosmos.esa.int/web/esdc/esasky-skies#PLANCK)
-*   [Haslam 408 MHz](https://www.cosmos.esa.int/web/esdc/esasky-skies#Haslam)
-*   [Other surveys (available through external sites)](https://www.cosmos.esa.int/web/esdc/esasky-skies#OTHERS)
-
-[MULTI-MESSENGER EVENTS](https://www.cosmos.esa.int/web/esdc/esasky-multimessenger)
------------------------------------------------------------------------------------
-
-[ESA/HUBBLE OUTREACH IMAGES](https://www.cosmos.esa.int/web/esdc/esasky-outreach)
----------------------------------------------------------------------------------
-
-[ESA/WEBB OUTREACH IMAGES](https://www.cosmos.esa.int/web/esdc/esasky-webboutreach)
------------------------------------------------------------------------------------
-
-[CAVEATS](https://www.cosmos.esa.int/web/esdc/esasky-caveats)
--------------------------------------------------------------
-
-[CONTRIBUTING DATA TO ESASKY](https://www.cosmos.esa.int/web/esdc/esasky-contributing)
---------------------------------------------------------------------------------------
-
-If you want to make your data available through _ESASky_, please [contact us](https://support.cosmos.esa.int/esdc/). After mutual agreement, you will have to prepare your data according to these [instructions](http://www.cosmos.esa.int/web/esdc/esasky-contributing).
-
-CONTACT US
-----------
-
-Contact us either via [UserEcho](http://esdc.userecho.com/) or our [helpdesk](https://support.cosmos.esa.int/esdc/).
-
-Cookie Policy
--------------
-
-ESASky only uses a cookie if you check the "Don't show this message again" check box to remember your decision. The following information is collected:
-
-For further information please see the [ESDC cookies policy](https://www.cosmos.esa.int/web/esdc/cookie-policy). 
-
-[CREDITS](https://www.cosmos.esa.int/web/esdc/esasky-credits)
--------------------------------------------------------------
-
-[ESASKY FOR EDUCATION](https://www.cosmos.esa.int/web/esdc/esasky-for-education)
---------------------------------------------------------------------------------
-
-Some [educational activities](https://www.cosmos.esa.int/web/esdc/esasky-for-education) that make use of ESASky.
-
-[ESASky EVA Virtual Assistant](https://www.cosmos.esa.int/web/esdc/esasky-eva-help)
------------------------------------------------------------------------------------
-
-[ESASKY JAVASCRIPT API](http://www.cosmos.esa.int/web/esdc/esasky-javascript-api)
----------------------------------------------------------------------------------
-
-[PUBLICATIONS USING AND ABOUT ESASKY](http://www.cosmos.esa.int/web/esdc/esasky-publications)
----------------------------------------------------------------------------------------------
-
-[PYESASKY](http://www.cosmos.esa.int/web/esdc/pyesasky)
--------------------------------------------------------
-
-[RELEASE NOTES](https://www.cosmos.esa.int/web/esdc/esasky-release-notes)
--------------------------------------------------------------------------
-
-[UPCOMING FEATURES](https://www.cosmos.esa.int/web/esdc/upcoming-features)
---------------------------------------------------------------------------
-
-*   [INTEGRAL](http://www.cosmos.esa.int/web/esdc/esasky-skies#INTEGRAL)
-*   [XMM-Newton](http://www.cosmos.esa.int/web/esdc/esasky-skies#XMM)
-*   [EXOSAT](http://www.cosmos.esa.int/web/esdc/esasky-skies#EXOSAT)
-*   [HST](http://www.cosmos.esa.int/web/esdc/esasky-skies#HST)
-*   [JWST](http://www.cosmos.esa.int/web/esdc/esasky-skies#JWST)
-*   [ISO](http://www.cosmos.esa.int/web/esdc/esasky-skies#ISO)
-*   [Spitzer](https://www.cosmos.esa.int/web/esdc/esasky-skies#SPITZER)
-*   [AKARI](http://www.cosmos.esa.int/web/esdc/esasky-skies#AKARI)
-*   [Herschel](http://www.cosmos.esa.int/web/esdc/esasky-skies#HERSCHEL)
-*   [Planck](http://www.cosmos.esa.int/web/esdc/esasky-skies#PLANCK)
-*   [Haslam 408 MHz](http://www.cosmos.esa.int/web/esdc/esasky-skies#Haslam)
-*   [Other surveys](http://www.cosmos.esa.int/web/esdc/esasky-skies#OTHERS)
-
-*   [Of the data](http://www.cosmos.esa.int/web/esdc/esasky-caveats#DATA) 
-*   [Of the catalogues](http://www.cosmos.esa.int/web/esdc/esasky-caveats#CATS) 
-*   [Of the all-sky views (HiPS)](http://www.cosmos.esa.int/web/esdc/esasky-caveats#HIPS)
-
-*   Information in connection with your use of the website, such as information in server logs, including information on how the website was used by you and your search queries. This is collected and analysed in order to continue improving the application.
