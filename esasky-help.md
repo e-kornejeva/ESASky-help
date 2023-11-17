@@ -10,9 +10,265 @@ If you can not find the information you need within these help pages, please [c
 
 ESASky has been tested throughly with Chrome, Firefox and Safari web browsers. We recommend users to open ESASky in Chrome. 
 
-## GETTING STARTED - USE CASES (VIDEOS)
+## GETTING STARTED
 
-### How to use ESASky
+### USE CASES (VIDEOS)
+
+For the latest use case videos, please see our [How To](https://www.cosmos.esa.int/web/esdc/esasky-how-to) page.
+
+### INTERFACE DESCRIPTION 
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface
+
+*   [Modes and basic exploration functionalities](https://www.cosmos.esa.int/web/esdc/esasky-interface#MODES)
+*   [Search field description](https://www.cosmos.esa.int/web/esdc/esasky-interface#search)
+*   [Skies menu description](https://www.cosmos.esa.int/web/esdc/esasky-interface#skies)
+*   [Data panel (Imaging, Catalogue and Spectra search) description](https://www.cosmos.esa.int/web/esdc/esasky-interface#datapanel)
+*   [Solar System Objects search feature](https://www.cosmos.esa.int/web/esdc/esasky-interface#SSO)
+*   [Multi-messenger events](https://www.cosmos.esa.int/web/esdc/esasky-interface#MultiM)
+*   [Scientific Publications search](https://www.cosmos.esa.int/web/esdc/esasky-interface#publications)
+*   [External TAP search](https://www.cosmos.esa.int/web/esdc/esasky-interface#EXTTAP)
+*   [Target list feature](https://www.cosmos.esa.int/web/esdc/esasky-interface#list)
+*   [Observations Planning tool](https://www.cosmos.esa.int/web/esdc/esasky-interface#planning)
+*   [ESA/Hubble Outreach Images](https://www.cosmos.esa.int/web/esdc/esasky-outreach)
+*   [ESA/Webb Outreach Images](https://www.cosmos.esa.int/web/esdc/esasky-webboutreach)
+*   [Snapshot feature](https://www.cosmos.esa.int/web/esdc/esasky-interface#snapshot)
+*   [Selection tool](https://www.cosmos.esa.int/web/esdc/esasky-interface#seltool)
+*   [Explore random targets feature](https://www.cosmos.esa.int/web/esdc/esasky-interface#random)
+*   [Bookmark / sharing feature](https://www.cosmos.esa.int/web/esdc/esasky-interface#BOOKMARKS)
+*   [Additional information and help menus](https://www.cosmos.esa.int/web/esdc/esasky-interface#HELP)
+*   [Save an ESASky session](https://www.cosmos.esa.int/web/esdc/esasky-interface#SAVE)
+
+### ESASKY ASTROQUERY MODULE
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-astroquery-module
+
+It is possible to query ESASky using [a dedicated python Astroquery module](https://www.cosmos.esa.int/web/esdc/esasky-astroquery-module).
+
+### EDDIE CUTOUT SERVICE
+
+This is a [tool](http://sky.esa.int/hipsCutout/index.html) to generate images from a given sky map (HiPS), a field of view and a specific projection. Click [here](https://www.cosmos.esa.int/web/esdc/cutout-service) for information.
+
+## OBSERVATIONAL INFORMATION
+
+### OBSERVATIONAL DATA
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-observations
+
+*   [INTEGRAL observations](http://www.cosmos.esa.int/web/esdc/esasky-observations#INTEGRAL)
+
+*   [XMM-Newton observations](https://www.cosmos.esa.int/web/esdc/esasky-observations#XMM-Newton-OBS)
+
+*   [IUE observations](http://www.cosmos.esa.int/web/esdc/esasky-observations#IUE)
+
+*   [HST observations](http://www.cosmos.esa.int/web/esdc/esasky-observations#HST-OBS)
+
+*   [CHEOPS observations](https://www.cosmos.esa.int/web/esdc/esasky-observations#CHEOPS)
+
+*   [ISO observations](http://www.cosmos.esa.int/web/esdc/esasky-observations#ISO-OBS)
+
+*   [JWST observations](http://www.cosmos.esa.int/web/esdc/esasky-observations#JWST)
+
+*   [Herschel observations](http://www.cosmos.esa.int/web/esdc/esasky-observations#HERSCHEL-OBS)
+
+*   [AKARI observations](https://www.cosmos.esa.int/web/esdc/esasky-observations#AKARI-OBS)
+
+*   [ALMA observations](https://www.cosmos.esa.int/web/esdc/esasky-observations#ALMA-OBS)
+
+*   [Chandra observations](https://www.cosmos.esa.int/web/esdc/esasky-observations#Chandra-OBS)
+
+*   [eROSITA observations](https://www.cosmos.esa.int/web/esdc/esasky-observations#eROSITA)
+
+*   [LAMOST observations](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#LAMOST)
+
+*   [Spitzer observations](https://www.cosmos.esa.int/web/esdc/esasky-observations#SPITZER-OBS)
+
+*   [Suzaku observations](http://www.cosmos.esa.int/web/esdc/esasky-observations#SUZAKU-OBS)
+
+### CATALOGUES INFORMATION
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-catalogues
+
+*   [Astrometric catalogues](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#ASTROMETRY): [Gaia DR3](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#GAIA), [Hipparcos-2](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#HIPPARCOS), [Tycho-2](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#TYCHO)
+
+*   [INTEGRAL IBIS/ISGRI Soft Gamma-Ray Source Catalog](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#INTEGRAL)
+
+*   ​[XMM-Newton catalogues](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#XMM):[4XMM-DR12](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#4XMM), [4XMM-DR12s](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#4XMMs), [XMMSL2](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#XMMSL), [XMM-SUSS5.0](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#SUSS)
+
+*   [Hubble Source Catalog (HSC) v3.1](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#HSC)
+
+*   [All-Sky PLATO Input Catalogue (asPIC1.1)](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#ASPIC)
+
+*   [Herschel mission catalogues:](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#HERSCHEL) [HPPSC](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#HPPSC), [HSPSC](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#HSPSC) 
+
+*   [Planck mission catalogues](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#PLANCK): [PCCS2](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#PCCS2), [Planck SZ2](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#PSZ2), [PGCC2](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#PGCC2)
+
+*   [Catalogues from other data providers](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#OTHER):
+
+    *   [2WHSP: A multi-frequency selected catalogue of high energy and very high energy gamma-ray blazars and blazar candidates](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#WHSP)
+
+    *   [Akari IRC Point Source Catalog](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#Akari)
+
+    *   [AllWISE Source Catalog](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#WISE)
+
+    *   [Chandra Source Catalog](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#Chandra)
+
+    *   [eROSITA catalogues:](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#eROSITA) [eFEDS main](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#eFEDSmain), [eFEDS hard](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#eFEDShard), [etaCha main](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#etaChamain), [etaCha hard](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#etaChahard)
+
+    *   [Fermi catalogues:](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#Fermi) [4FGL-DR2](#4FGL), [3FHL](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#3FHL), [4LAC-DR2](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#4LAC)
+
+    *   [GLADE+ Galaxy Catalog](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#GLADE)
+
+    *   [IceCube All-Sky Point Source Events Catalogue (2008-2018)](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#icecubepsc)
+
+    *   [LAMOST DR8 General Catalogs](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#LAMOST)
+
+    *   [Open Universe for Blazars v2.0](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#oublazars)
+
+    *   [The second ROSAT all-sky survey source catalogue (2RXS)](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#2RXS)
+
+    *   [Two-Micron All-Sky Survey (2MASS) Catalog of Point Sources](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#2MASS)
+
+### ESASKY LEGACY RESOURCES
+#### URL: https://www.cosmos.esa.int/web/esdc/legacy-tap-esa
+
+The following catalogues are also available through the _[ESASky Legacy TAP](http://esaskylegacy.esac.esa.int/esasky-legacy-sl-tap/tap):_
+
+*   [Hipparcos mission catalogues](https://www.cosmos.esa.int/web/esdc/legacy-tap-esa#Legacy:Hipparcos)
+
+*   [Cos-B mission catalogues](https://www.cosmos.esa.int/web/esdc/legacy-tap-esa#Legacy:CosB)
+
+*   [CoRoT mission catalogues](https://www.cosmos.esa.int/web/esdc/legacy-tap-esa#Legacy:CoRoT)
+
+The catalogues for the following EU-funded projects, based on ESA missions data, are available through the _[ESASky Legacy TAP](http://esaskylegacy.esac.esa.int/esasky-legacy-sl-tap/tap):_
+
+*   [Herschel Extragalactic Legacy Project catalogues](https://www.cosmos.esa.int/web/esdc/legacy-tap-eu#HELP)
+
+### SKIES (HIPS) INFORMATION
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-skies
+
+*   [INTEGRAL (IBIS)](https://www.cosmos.esa.int/web/esdc/esasky-skies#INTEGRAL)
+
+*   [XMM-Newton (EPIC & OM)](https://www.cosmos.esa.int/web/esdc/esasky-skies#XMM)
+
+*   [eROSITA (created by MPE)](https://www.cosmos.esa.int/web/esdc/esasky-skies#EROSITA)
+
+*   [EXOSAT (LE)](https://www.cosmos.esa.int/web/esdc/esasky-skies#EXOSAT)
+
+*   [HST (ACS, WFPC2, WFC3, NICMOS, FOC, WFPC)](https://www.cosmos.esa.int/web/esdc/esasky-skies#HST)
+
+*   [JWST (MIRI, NIRCam, NIRISS)](https://www.cosmos.esa.int/web/esdc/esasky-skies#JWST)
+
+*   [ISO (CAM)](https://www.cosmos.esa.int/web/esdc/esasky-skies#ISO)
+
+*   [AKARI (FIS)](https://www.cosmos.esa.int/web/esdc/esasky-skies#AKARI)
+
+*   [Spitzer (IRAC)](https://www.cosmos.esa.int/web/esdc/esasky-skies#SPITZER)
+
+*   [Herschel (PACS & SPIRE)](https://www.cosmos.esa.int/web/esdc/esasky-skies#HERSCHEL)
+
+
+*   [Planck (HFI & LFI)](https://www.cosmos.esa.int/web/esdc/esasky-skies#PLANCK)
+
+*   [Haslam 408 MHz](https://www.cosmos.esa.int/web/esdc/esasky-skies#Haslam)
+
+*   [Other surveys (available through external sites)](https://www.cosmos.esa.int/web/esdc/esasky-skies#OTHERS)
+
+## MULTI-MESSENGER EVENTS
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-multimessenger
+
+## ESA/HUBBLE OUTREACH IMAGES
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-outreach 
+
+## ESA/WEBB OUTREACH IMAGES
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-webboutreach
+
+## CAVEATS
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-caveats
+
+
+## CONTRIBUTING DATA TO ESASKY
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-contributing
+
+
+If you want to make your data available through _ESASky_, please [contact us](https://support.cosmos.esa.int/esdc/). After mutual agreement, you will have to prepare your data according to these [instructions](http://www.cosmos.esa.int/web/esdc/esasky-contributing).
+
+## CONTACT US
+
+Contact us either via [UserEcho](http://esdc.userecho.com/) or our [helpdesk](https://support.cosmos.esa.int/esdc/).
+
+## Cookie Policy
+
+ESASky only uses a cookie if you check the "Don't show this message again" check box to remember your decision. The following information is collected:
+
+For further information please see the [ESDC cookies policy](https://www.cosmos.esa.int/web/esdc/cookie-policy). 
+
+## CREDITS
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-credits)
+
+## ESASKY FOR EDUCATION
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-for-education
+
+Some [educational activities](https://www.cosmos.esa.int/web/esdc/esasky-for-education) that make use of ESASky.
+
+## ESASky EVA Virtual Assistant
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-eva-help
+
+## ESASKY JAVASCRIPT API
+
+#### URL: http://www.cosmos.esa.int/web/esdc/esasky-javascript-api
+
+## PUBLICATIONS USING AND ABOUT ESASKY
+
+#### URL: http://www.cosmos.esa.int/web/esdc/esasky-publications
+
+## PYESASKY
+
+#### URL: http://www.cosmos.esa.int/web/esdc/pyesasky
+
+## RELEASE NOTES
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-release-notes
+
+## UPCOMING FEATURES
+
+#### URL: https://www.cosmos.esa.int/web/esdc/upcoming-features
+
+*   [INTEGRAL](http://www.cosmos.esa.int/web/esdc/esasky-skies#INTEGRAL)
+
+*   [XMM-Newton](http://www.cosmos.esa.int/web/esdc/esasky-skies#XMM)
+
+*   [EXOSAT](http://www.cosmos.esa.int/web/esdc/esasky-skies#EXOSAT)
+
+*   [HST](http://www.cosmos.esa.int/web/esdc/esasky-skies#HST)
+
+*   [JWST](http://www.cosmos.esa.int/web/esdc/esasky-skies#JWST)
+
+*   [ISO](http://www.cosmos.esa.int/web/esdc/esasky-skies#ISO)
+
+*   [Spitzer](https://www.cosmos.esa.int/web/esdc/esasky-skies#SPITZER)
+
+*   [AKARI](http://www.cosmos.esa.int/web/esdc/esasky-skies#AKARI)
+
+*   [Herschel](http://www.cosmos.esa.int/web/esdc/esasky-skies#HERSCHEL)
+
+*   [Planck](http://www.cosmos.esa.int/web/esdc/esasky-skies#PLANCK)
+
+*   [Haslam 408 MHz](http://www.cosmos.esa.int/web/esdc/esasky-skies#Haslam)
+
+*   [Other surveys](http://www.cosmos.esa.int/web/esdc/esasky-skies#OTHERS)
+
+*   [Of the data](http://www.cosmos.esa.int/web/esdc/esasky-caveats#DATA) 
+
+*   [Of the catalogues](http://www.cosmos.esa.int/web/esdc/esasky-caveats#CATS) 
+
+*   [Of the all-sky views (HiPS)](http://www.cosmos.esa.int/web/esdc/esasky-caveats#HIPS)
+
+*   Information in connection with your use of the website, such as information in server logs, including information on how the website was used by you and your search queries. This is collected and analysed in order to continue improving the application.
+
+# How to use ESASky
 
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-how-to
 #### Madara???: te varētu likt video, bet no tiem šī sadaļa sastāv - tad būtu vairāk par 20 saīsnēm, bez nosaukumiem. otrs variants - kā šajā - tālāk aprakstīts, trešais variants - katram video savs nosaukums kā nosaukums ar resti un tad metainformācijā videosaite.
@@ -69,48 +325,7 @@ HOW TO QUERY ESASKY WITH A PYTHON SCRIPT USING ASTROQUERY: SINGLE OBJECT Link to
 
 EVEN CATS LIKE ESASKY Link to video: https://youtu.be/kulZvW1bFoQ
 
-### GETTING STARTED - INTERFACE DESCRIPTION (Madara - šo nelienu dziļāk, dublējas ar Inesi)
-
-#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface
-
-*   [Modes and basic exploration functionalities](https://www.cosmos.esa.int/web/esdc/esasky-interface#MODES)
-
-*   [Search field description](https://www.cosmos.esa.int/web/esdc/esasky-interface#search)
-
-*   [Skies menu description](https://www.cosmos.esa.int/web/esdc/esasky-interface#skies)
-
-*   [Data panel (Imaging, Catalogue and Spectra search) description](https://www.cosmos.esa.int/web/esdc/esasky-interface#datapanel)
-
-*   [Solar System Objects search feature](https://www.cosmos.esa.int/web/esdc/esasky-interface#SSO)
-
-*   [Multi-messenger events](https://www.cosmos.esa.int/web/esdc/esasky-interface#MultiM)
-
-*   [Scientific Publications search](https://www.cosmos.esa.int/web/esdc/esasky-interface#publications)
-
-*   [External TAP search](https://www.cosmos.esa.int/web/esdc/esasky-interface#EXTTAP)
-
-*   [Target list feature](https://www.cosmos.esa.int/web/esdc/esasky-interface#list)
-
-*   [Observations Planning tool](https://www.cosmos.esa.int/web/esdc/esasky-interface#planning)
-
-*   [ESA/Hubble Outreach Images](https://www.cosmos.esa.int/web/esdc/esasky-outreach)
-
-*   [ESA/Webb Outreach Images](https://www.cosmos.esa.int/web/esdc/esasky-webboutreach)
-
-*   [Snapshot feature](https://www.cosmos.esa.int/web/esdc/esasky-interface#snapshot)
-
-*   [Selection tool](https://www.cosmos.esa.int/web/esdc/esasky-interface#seltool)
-
-*   [Explore random targets feature](https://www.cosmos.esa.int/web/esdc/esasky-interface#random)
-
-*   [Bookmark / sharing feature](https://www.cosmos.esa.int/web/esdc/esasky-interface#BOOKMARKS)
-
-*   [Additional information and help menus](https://www.cosmos.esa.int/web/esdc/esasky-interface#HELP)
-
-*   [Save an ESASky session](https://www.cosmos.esa.int/web/esdc/esasky-interface#SAVE)
-
-### [ESASKY ASTROQUERY MODULE](https://www.cosmos.esa.int/web/esdc/esasky-astroquery-module) Madara -neesmu izvērsusi saites atsevišķi tekstā no šejienes sākot
-
+# ESASKY ASTROQUERY MODULE
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-astroquery-module
 
 It is possible to query ESASky using [a dedicated python Astroquery module](https://www.cosmos.esa.int/web/esdc/esasky-astroquery-module).
@@ -128,14 +343,17 @@ The documentation for the module can be found [here](https://astroquery.readthe
 The following Jupyter notebooks are available:
 
 *   [Access ESASky Products with astroquery.esasky](https://www.cosmos.esa.int/documents/401090/0/ESASky_astroquery_use_cases+%281%29.ipynb/e1f86106-979e-9c55-ac5c-0f47b1f5e0aa?t=1629788658314) - This Jupyter notebook presents some very simple use cases ([click here](https://www.cosmos.esa.int/documents/401090/0/ESASky_astroquery_use_cases+%281%29.html/be123a80-755a-9c70-5745-e1fced2c4f8b?t=1629788736823) for an HTML version of the notebook).
+
 *   [Advanced use case](https://www.cosmos.esa.int/documents/401090/0/ESASky_astroquery_advanced_use_case+%282%29.ipynb/10d48452-6334-5b48-a3eb-0d133b6d7f53?t=1629788760154) - An example of a more advanced use case, loading XMM-Newton, Herschel and Planck data ([click here](https://www.cosmos.esa.int/documents/401090/0/ESASky_astroquery_advanced_use_case+%281%29.html/31ae4602-2bd9-e7e4-102d-451e7416f578?t=1629788806391) for an HTML version).
+
 *   [Herschel SPIRE Aperture Photometry for Point Sources](https://www.cosmos.esa.int/documents/401090/0/Herschel_SPIRE_aperture_photometry_of_point_sources.ipynb/dc110414-d7d9-84ee-fd79-c76d9d0cfe64?t=1629788834722) - An advanced use case performing aperture photometry of Herschel SPIRE images downloaded from astroquery.esasky ([click here](https://www.cosmos.esa.int/documents/401090/0/Herschel_SPIRE_aperture_photometry_of_point_sources.html/6c298f58-25cc-8622-278f-1082d10536bf?t=1629788949850) for an HTML version).
+
 *   [Cluster Analysis](https://www.cosmos.esa.int/documents/401090/0/Cluster_Analysis_example+%281%29.ipynb/2e824675-e7d9-fbda-2997-288583c1c4ea?t=1629788981014) - Advanced use case to perform a cluster analysis around the Herbig AeBe star HD 200775 using the Gaia and VizieR astroquery modules ([click here](https://www.cosmos.esa.int/documents/401090/0/Cluster_Analysis_example.html/2124bae3-1dc2-5843-106a-41c3ca304e7f?t=1629789047440) for an HTML version).
 
 Access all the notebooks, and others, on [GitHub](https://github.com/esdc-esac-esa-int/notebooks).
 
-### EDDIE CUTOUT SERVICE
-#### URL: https://www.cosmos.esa.int/web/esdc/cutout-service (Madara - atstāju bildes pa vidu tekstam šajā apakšnodaļā, bet lieku ar ####)
+# EDDIE CUTOUT SERVICE
+#### URL: https://www.cosmos.esa.int/web/esdc/cutout-service
 
 This is a [tool](http://sky.esa.int/hipsCutout/index.html) to generate images from a given sky map (HiPS), a field of view and a specific projection. Click [here](https://www.cosmos.esa.int/web/esdc/cutout-service) for information.
 
@@ -155,7 +373,7 @@ You can access the service [here](http://sky.esa.int/hipsCutout/index.html).
 
 Go to [this page](http://sky.esa.int/hipsCutout/help.html) to read the full documentation, and to [](http://sky.esa.int/hipsCutout/adsHelp.html)[this page](http://sky.esa.int/hipsCutout/adsHelp.html) for the ADS thumbnails documentation.
 
-# OBSERVATIONAL INFORMATION - OBSERVATIONAL DATA
+# OBSERVATIONAL DATA
 
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-observations
 
@@ -166,9 +384,9 @@ Currently _ESASky_ provides access to data from the following ESA missions:
 *   [INTEGRAL: IBIS](#INTEGRAL) (science windows)
   
 *   [XMM-Newton](#XMM-Newton-OBS): [EPIC](#EPIC-OBS) (images), [OM](#OM-OBS) (images), [RGS](#RGS) (spectra)
-*   
+   
 *   [IUE:](#IUE) [LWP](#)[,](#IUE) [LWR](#)[,](#IUE) [SWP](#) (spectra)
-*   
+    
 *   [HST](#HST-OBS)[: ACS, COS, FOC, FOS, HRS, NICMOS, STIS, WFPC, WFPC2, WFC3](#HST-OBS) (images & spectra)
   
 *   [CHEOPS](#CHEOPS) (light-curves)
