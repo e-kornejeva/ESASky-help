@@ -17,6 +17,7 @@ ESASky has been tested throughly with Chrome, Firefox and Safari web browsers. W
 For the latest use case videos, please see our [How To](https://www.cosmos.esa.int/web/esdc/esasky-how-to) page.
 
 ### INTERFACE DESCRIPTION 
+
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface
 
 *   [Modes and basic exploration functionalities](https://www.cosmos.esa.int/web/esdc/esasky-interface#MODES)
@@ -39,6 +40,7 @@ For the latest use case videos, please see our [How To](https://www.cosmos.esa.i
 *   [Save an ESASky session](https://www.cosmos.esa.int/web/esdc/esasky-interface#SAVE)
 
 ### ESASKY ASTROQUERY MODULE
+
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-astroquery-module
 
 It is possible to query ESASky using [a dedicated python Astroquery module](https://www.cosmos.esa.int/web/esdc/esasky-astroquery-module).
@@ -50,6 +52,7 @@ This is a [tool](http://sky.esa.int/hipsCutout/index.html) to generate images fr
 ## OBSERVATIONAL INFORMATION
 
 ### OBSERVATIONAL DATA
+
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-observations
 
 *   [INTEGRAL observations](http://www.cosmos.esa.int/web/esdc/esasky-observations#INTEGRAL)
@@ -83,6 +86,7 @@ This is a [tool](http://sky.esa.int/hipsCutout/index.html) to generate images fr
 *   [Suzaku observations](http://www.cosmos.esa.int/web/esdc/esasky-observations#SUZAKU-OBS)
 
 ### CATALOGUES INFORMATION
+
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-catalogues
 
 *   [Astrometric catalogues](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#ASTROMETRY): [Gaia DR3](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#GAIA), [Hipparcos-2](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#HIPPARCOS), [Tycho-2](http://www.cosmos.esa.int/web/esdc/esasky-catalogues#TYCHO)
@@ -126,6 +130,7 @@ This is a [tool](http://sky.esa.int/hipsCutout/index.html) to generate images fr
     *   [Two-Micron All-Sky Survey (2MASS) Catalog of Point Sources](https://www.cosmos.esa.int/web/esdc/esasky-catalogues#2MASS)
 
 ### ESASKY LEGACY RESOURCES
+
 #### URL: https://www.cosmos.esa.int/web/esdc/legacy-tap-esa
 
 The following catalogues are also available through the _[ESASky Legacy TAP](http://esaskylegacy.esac.esa.int/esasky-legacy-sl-tap/tap):_
@@ -141,6 +146,7 @@ The catalogues for the following EU-funded projects, based on ESA missions data,
 *   [Herschel Extragalactic Legacy Project catalogues](https://www.cosmos.esa.int/web/esdc/legacy-tap-eu#HELP)
 
 ### SKIES (HIPS) INFORMATION
+
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-skies
 
 *   [INTEGRAL (IBIS)](https://www.cosmos.esa.int/web/esdc/esasky-skies#INTEGRAL)
@@ -183,10 +189,12 @@ The catalogues for the following EU-funded projects, based on ESA missions data,
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-webboutreach
 
 ## CAVEATS
+
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-caveats
 
 
 ## CONTRIBUTING DATA TO ESASKY
+
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-contributing
 
 
@@ -326,6 +334,7 @@ HOW TO QUERY ESASKY WITH A PYTHON SCRIPT USING ASTROQUERY: SINGLE OBJECT Link to
 EVEN CATS LIKE ESASKY Link to video: https://youtu.be/kulZvW1bFoQ
 
 # ESASKY ASTROQUERY MODULE
+
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-astroquery-module
 
 It is possible to query ESASky using [a dedicated python Astroquery module](https://www.cosmos.esa.int/web/esdc/esasky-astroquery-module).
@@ -2982,12 +2991,6 @@ The COSBRAW  database consisted of three basic datasets: \`OBSLI\`, a dataset d
 
 The Cos-B event files naming convention is cb\_hhmmVddP\*\*.evt where  hhmm is the right ascension in degrees and minutes, V is N for positive declinations and S is for negative declination, dd is the declination in degrees, P is for 'Pointed' observations '\*\*' is the original observation number, from 00 to 64. (e.g CB2251S18P41.evt was the 42nd observation, and the source coordinates are RA 2251 DEC -18).
 
-
-
-
-
-******************
-
 # ESASky Legacy TAP: ESA Legacy Missions - ESDC - Cosmos
 
 ESASky legacy is a TAP ([Table Access Protocol](http://www.ivoa.net/documents/TAP/)) service to provide the community access to complete, self-standing catalogues and data collections from ESA astronomy legacy missions, ensuring their long-term preservation. This service, which is an [IVOA](http://www.ivoa.net/) standard for most modern science archives, is an entry point to data products and their successors that can be exposed by ESASky.
@@ -2995,7 +2998,9 @@ ESASky legacy is a TAP ([Table Access Protocol](http://www.ivoa.net/documents/TA
 The ESA Legacy Missions available in the [ESASky legacy TAP](http://esaskylegacy.esac.esa.int/esasky-legacy-sl-tap/tap) are:
 
 *   [Hipparcos](#Legacy:Hipparcos)
+
 *   [Cos-B](#Legacy:CosB)
+
 *   [CoRoT](#Legacy:CoRoT)
 
 ### Legacy archive (HIPPARCOS):
@@ -3421,7 +3426,6 @@ Hipparcos catalogues, data products and tables
   * 			Columns			: 13
   * 			Data Model Reference			: LUT_ReadMe.txt
 
-
 ### Legacy archive (Cos-B): 
 
 ESA's satellite [Cos-B](https://www.esa.int/Science_Exploration/Space_Science/Cos-B_overview2) carried a single large experiment, the Gamma-Ray Telescope, which was the responsibility of a group of European research laboratories know as the Caravane Collaboration. Launched on the 9 August 1975, Cos-B was originally projected to last two years, but it operated successfully for 6 years and 8 months. It provided the first complete map of the Galaxy in gamma-rays, and a catalogue of gamma-ray sources, known as the 2CG catalogue.
@@ -3432,7 +3436,6 @@ The Cos-B payload was conformed by two elements: 
     
 *   a 2-12 keV proportional scintillation counter mounted on the side of the gamma-ray detector
     
-
 The main scientific results produced by Cos-B were
 
 *   Extragalactic Gamma Rays
@@ -3447,7 +3450,6 @@ The main scientific results produced by Cos-B were
     
 *   Localised Gamma-Ray Sources
     
-
 **Operations and Performance:**
 
 The satellite was operated in a pointing mode with its spin axis directed towards fixed points in the sky for periods of four to five weeks early in the mission and up to 3 months in later observations. In total 64 observations (or pointings) were made. A broad band along the galactic equator was studied deeply, by means of repeated or overlapped observations. About 50% of the celestial sphere was covered and about one quarter of the time was devoted to observations at higher galactic latitudes, especially regions expected to contain extragalactic sources. The experiment operated for about 25 hours in each 37-hour orbit.
@@ -3461,7 +3463,6 @@ Hitherto, the High Energy Astrophysics Science Archive at HEASARC was the only f
 The ESA Legacy Archive includes two tables produced by the Cos-B mission. The provenance of these tables is the [HEASARC TAP](https://heasarc.gsfc.nasa.gov/xamin/vo/tap).
 
 The COSBMAP table is a log of the 63 x 6 available high level product files per energy range, rendering a total of 1,512 files available. The COSBRAW  table is a log of the 65 Cos-B observation intervals and contains target names, sky coordinates start times and other information taken from the final Cos-B database produced by ESA in 1985.
-
 
 Cos-B Catalogues
 
@@ -3518,4 +3519,8 @@ Some of the features of the 26 CoRoT fields are extracted from [2018A&A...619A..
 [CoRoT](https://corot.cnes.fr/en/COROT/index.htm) produced nearly 6 years of data that are accessible online. The ["CoRoT Legacy Book"](https://www.edp-open.org/books/edp-open-books/320-the-corot-legacy-book) describes these [data](http://idoc-corot.ias.u-psud.fr/sitools/common/html/doc/cII_4_data.pdf) and their correction methods, the most recent highlights up to now, and the new space projects that inherit from CoRoT. The different scientific products levels were made available in various [science archives](https://www.edp-open.org/images/stories/books/contents/corot/cII_5.pdf).
 
 The ESA Legacy TAP includes the last version (N2-4.4) of the Bright and Faint star catalogues produced by CoRoT. The provenance of these tables is the CDS/Vizier TAP.
+
+
+
+******************
 
