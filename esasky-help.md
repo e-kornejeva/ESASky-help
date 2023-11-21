@@ -3733,8 +3733,8 @@ The ESA Legacy TAP includes the last version (N2-4.4) of the Bright and Faint st
 
 CoRoT Catalogues
 
-| # | Resource | Catalogue    | Records | Columns | Table Name                                                                         | Data Products                     |
-
+| \# | Resource | Catalogue    | Records | Columns | Table Name                                                                         | Data Products                     |
+|---|----------|--------------|---------|---------|------------------------------------------------------------------------------------|-----------------------------------|
 | 1 | corot    | corot.exo    | 177,382 | 38      | Stars observed in the faint star mode with E(B-V) ( CoRoT team) with data products | datalink column (9 data products) |
 | 2 | corot    | corot.astero | 171     | 24      | Stars observed in the bright star mode (CoRoT team) with data products             | datalink column (4 data products) |
 
