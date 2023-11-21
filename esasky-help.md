@@ -3733,10 +3733,9 @@ The ESA Legacy TAP includes the last version (N2-4.4) of the Bright and Faint st
 
 CoRoT Catalogues
 
-|\#| Resource| Catalogue| Records| Columns| Table Name| Data Products
+| # | Resource | Catalogue    | Records | Columns | Table Name                                                                         | Data Products                     |
 
-| 1 | corot | corot.exo | 177,382 | 38 | Stars observed in the faint star mode with E(B-V) ( CoRoT team) with data products | datalink column (9 data products) |
-
-| 2 | corot | corot.astero | 171 | 24 | Stars observed in the bright star mode (CoRoT team) with data products | datalink column (4 data products) |
+| 1 | corot    | corot.exo    | 177,382 | 38      | Stars observed in the faint star mode with E(B-V) ( CoRoT team) with data products | datalink column (9 data products) |
+| 2 | corot    | corot.astero | 171     | 24      | Stars observed in the bright star mode (CoRoT team) with data products             | datalink column (4 data products) |
 
 These catalogues are complemented via DataLink with a download service of science-ready data products such as light curves (variations in star brightness over time) and full images, with their respective previews, as well as windescriptors. A fullimage is the image of the full CDD recorded at the beginning of the run during 3 orbits with no SAA crossing. In the beginning of each run, the flight software needs to be reconfigured in order to put in place the photometric apertures so as to optimize the signal-to-noise ratio of the measured light curves. The CoRoT EXOWIN software was dedicated to work with a trio of full frame images, from where the stars would be identified and a basket of around 6,000 stars per CCD would be assigned to a photometric aperture in the exostar channel. Windescriptors describe the windows and the masks defined to observe the targets.
