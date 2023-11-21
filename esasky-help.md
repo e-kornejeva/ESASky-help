@@ -1822,7 +1822,18 @@ The PCCS2 is a set of single-frequency source catalogues extracted from the Plan
 The catalogue at 100 Ghz and above has been divided into two subcatalogues: the PCCS2, including all reliable detections (>80%), and PCCS2E, including sources located in sky regions where it was not possible to estimate their reliability.
 
   PCCS2 characteristics
-  
+
+  *   	Channel  	Frequency (Ghz)  	Wavelength (µm)  	: Number of sources
+      30  	28.4  	10561  	: 1,560
+   	44  	44.1  	6807  	: 934
+   	70  	70.4  	4260  	: 1,296
+   	100  	100.0  	3000  	: 1,742
+   	143  	143.0  	2098  	: 2,160
+   	217  	217.0  	13.82  	: 2,135
+   	353  	353.0  	850  	: 1,344
+  	545  	545.0  	550  	: 1,694
+  	857  	857.0  	350  	: 4,891
+      	
 *   	Channel  	Frequency (Ghz)  	Wavelength (µm)  	: Number of sources
           *   	30  	28.4  	10561  	: 1,560
           *   	44  	44.1  	6807  	: 934
