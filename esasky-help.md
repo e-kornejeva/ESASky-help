@@ -1054,16 +1054,16 @@ Gaia DR3 catalogue default columns displayed on ESASky
 
 
 *   Column name: Designation
-  * Units       : -
-  * Description: Unique source designation (unique across all Data Releases)
+      * Units       : -
+      * Description: Unique source designation (unique across all Data Releases)
     
 * 	Column name: RA (J2016.0)
-  * Units       : degrees     
-  * Description: Right ascension of source (J2016.0) 
+      * Units       : degrees     
+      * Description: Right ascension of source (J2016.0) 
 
 * 	Column name: Dec (J2016.0)
-  * Units       : degrees
-  * Description: Declination of source (J2016.0)
+      * Units       : degrees
+      * Description: Declination of source (J2016.0)
 * Column name: Parallax
   * Units       : mas
   * Description: Parallax of source
