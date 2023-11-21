@@ -3040,25 +3040,23 @@ The ESA Legacy Archive includes two tables produced by the Cos-B mission. The pr
 
 The COSBMAP table is a log of the 63 x 6 available high level product files per energy range, rendering a total of 1,512 files available. The COSBRAW  table is a log of the 65 Cos-B observation intervals and contains target names, sky coordinates start times and other information taken from the final Cos-B database produced by ESA in 1985.
 
-
 Cos-B Catalogues
 
+*  \# :  1 
+	*  Resource :  cosb 
+	*  Catalogue :  cosb.cosbmaps 
+	*  Records :  252 
+	*  Columns :  20 
+	*  Table Name :  Cos-B Map Product Catalog 
+	*  Data Products :  datalink column (6 data products) 
 
-* 			#			: 			1			
-  * 			Resource			: 			cosb			
-  * 			Catalogue			: 			cosb.cosbmaps			
-  * 			Records			: 			252			
-  * 			Columns			: 			20			
-  * 			Table Name			: 			Cos-B Map Product Catalog			
-  * 			Data Products			: 			datalink column (6 data products)			
-* 			#			: 			2			
-  * 			Resource			: 			cosb			
-  * 			Catalogue			: 			cosb.cosbraw			
-  * 			Records			: 			65			
-  * 			Columns			: 			20			
-  * 			Table Name			: 			Cos-B Photon Events Catalog			
-  * 			Data Products			: 			event link column (1 data product)			
-
+*  \# :  2 
+	*  Resource :  cosb 
+	*  Catalogue :  cosb.cosbraw 
+	*  Records :  65 
+	*  Columns :  20 
+	*  Table Name :  Cos-B Photon Events Catalog 
+	*  Data Products :  event link column (1 data product)			
 
 **High level Products****:** The Cos-B data products consist of maps obtained from the 65 Cos-B observations made during the entire mission. There are 4 sets of maps per observation, extracted over different energy ranges. These energy ranges are:
 
