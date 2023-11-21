@@ -1821,92 +1821,97 @@ The PCCS2 is a set of single-frequency source catalogues extracted from the Plan
 
 The catalogue at 100 Ghz and above has been divided into two subcatalogues: the PCCS2, including all reliable detections (>80%), and PCCS2E, including sources located in sky regions where it was not possible to estimate their reliability.
 
-PCCS2 characteristics
+  PCCS2 characteristics
+  
+*  Channel Frequency (Ghz) Wavelength (µm) : Number of sources
+  *  30 28.4 10561 : 1,560
+  *  44 44.1 6807 : 934
+  *  70 70.4 4260 : 1,296
+  *  100 100.0 3000 : 1,742
+  *  143 143.0 2098 : 2,160
+  *  217 217.0 13.82 : 2,135
+  *  353 353.0 850 : 1,344
+  *  545 545.0 550 : 1,694
+  *  857 857.0 350 : 4,891
 
-* 			Channel			Frequency (Ghz)			Wavelength (µm)			: Number of sources
-  * 			30			28.4			10561			: 1,560
-  * 			44			44.1			6807			: 934
-  * 			70			70.4			4260			: 1,296
-  * 			100			100.0			3000			: 1,742
-  * 			143			143.0			2098			: 2,160
-  * 			217			217.0			13.82			: 2,135
-  * 			353			353.0			850			: 1,344
-  * 			545			545.0			550			: 1,694
-  * 			857			857.0			350			: 4,891
-* 			Channel			Frequency (Ghz)			Wavelength (µm)			: Number of significantly polarized sources
-  * 			30			28.4			10561			: 122
-  * 			44			44.1			6807			: 30
-  * 			70			70.4			4260			: 34
-  * 			100			100.0			3000			: 20
-  * 			143			143.0			2098			: 25
-  * 			217			217.0			13.82			: 11
-  * 			353			353.0			850			: 1
-  * 			545			545.0			550			: -
-  * 			857			857.0			350			: -
-* 			Channel			Frequency (Ghz)			Wavelength (µm)			: Minimum polarized flux density (mJy)
-  * 			30			28.4			10561			: 117
-  * 			44			44.1			6807			: 181
-  * 			70			70.4			4260			: 284
-  * 			100			100.0			3000			: 138
-  * 			143			143.0			2098			: 148
-  * 			217			217.0			13.82			: 166
-  * 			353			353.0			850			: 453
-  * 			545			545.0			550			: -
-  * 			857			857.0			350			: -
-* 			Channel			Frequency (Ghz)			Wavelength (µm)			: Polarized flux density uncertainty (mJy)
-  * 			30			28.4			10561			: 46
-  * 			44			44.1			6807			: 88
-  * 			70			70.4			4260			: 91
-  * 			100			100.0			3000			: 30
-  * 			143			143.0			2098			: 26
-  * 			217			217.0			13.82			: 30
-  * 			353			353.0			850			: 81
-  * 			545			545.0			550			: -
-  * 			857			857.0			350			: -
+*  Channel Frequency (Ghz) Wavelength (µm) : Number of significantly polarized sources
+  *  30 28.4 10561 : 122
+  *  44 44.1 6807 : 30
+  *  70 70.4 4260 : 34
+  *  100 100.0 3000 : 20
+  *  143 143.0 2098 : 25
+  *  217 217.0 13.82 : 11
+  *  353 353.0 850 : 1
+  *  545 545.0 550 : -
+  *  857 857.0 350 : -
 
+*  Channel Frequency (Ghz) Wavelength (µm) : Minimum polarized flux density (mJy)
+  *  30 28.4 10561 : 117
+  *  44 44.1 6807 : 181
+  *  70 70.4 4260 : 284
+  *  100 100.0 3000 : 138
+  *  143 143.0 2098 : 148
+  *  217 217.0 13.82 : 166
+  *  353 353.0 850 : 453
+  *  545 545.0 550 : -
+  *  857 857.0 350 : -
 
-PCCS2E characteristics
+*  Channel Frequency (Ghz) Wavelength (µm) : Polarized flux density uncertainty (mJy)
+  *  30 28.4 10561 : 46
+  *  44 44.1 6807 : 88
+  *  70 70.4 4260 : 91
+  *  100 100.0 3000 : 30
+  *  143 143.0 2098 : 26
+  *  217 217.0 13.82 : 30
+  *  353 353.0 850 : 81
+  *  545 545.0 550 : -
+  *  857 857.0 350 : -
+  
+  PCCS2E characteristics
 
-* 			Channel			Frequency (Ghz)			Wavelength (µm)			: Number of sources
-  * 			30			28.4			10561			: -
-  * 			44			44.1			6807			: -
-  * 			70			70.4			4260			: -
-  * 			100			100.0			3000			: 2,487
-  * 			143			143.0			2098			: 4,139
-  * 			217			217.0			13.82			: 16,842
-  * 			353			353.0			850			: 22,665
-  * 			545			545.0			550			: 31,068
-  * 			857			857.0			350			: 43,290
-* 			Channel			Frequency (Ghz)			Wavelength (µm)			: Number of significantly polarized sources
-  * 			30			28.4			10561			: -
-  * 			44			44.1			6807			: -
-  * 			70			70.4			4260			: -
-  * 			100			100.0			3000			: 43
-  * 			143			143.0			2098			: 111
-  * 			217			217.0			13.82			: 325
-  * 			353			353.0			850			: 666
-  * 			545			545.0			550			: -
-  * 			857			857.0			350			: -
-* 			Channel			Frequency (Ghz)			Wavelength (µm)			: Minimum polarized flux density (mJy)
-  * 			30			28.4			10561			: -
-  * 			44			44.1			6807			: -
-  * 			70			70.4			4260			: -
-  * 			100			100.0			3000			: 121
-  * 			143			143.0			2098			: 87
-  * 			217			217.0			13.82			: 114
-  * 			353			353.0			850			: 348
-  * 			545			545.0			550			: -
-  * 			857			857.0			350			: -
-* 			Channel			Frequency (Ghz)			Wavelength (µm)			: Polarized flux density uncertainty (mJy)
-  * 			30			28.4			10561			: -
-  * 			44			44.1			6807			: -
-  * 			70			70.4			4260			: -
-  * 			100			100.0			3000			: 52
-  * 			143			143.0			2098			: 44
-  * 			217			217.0			13.82			: 55
-  * 			353			353.0			850			: 178
-  * 			545			545.0			550			: -
-  * 			857			857.0			350			: -
+*  Channel Frequency (Ghz) Wavelength (µm) : Number of sources
+  *  30 28.4 10561 : -
+  *  44 44.1 6807 : -
+  *  70 70.4 4260 : -
+  *  100 100.0 3000 : 2,487
+  *  143 143.0 2098 : 4,139
+  *  217 217.0 13.82 : 16,842
+  *  353 353.0 850 : 22,665
+  *  545 545.0 550 : 31,068
+  *  857 857.0 350 : 43,290
+
+*  Channel Frequency (Ghz) Wavelength (µm) : Number of significantly polarized sources
+  *  30 28.4 10561 : -
+  *  44 44.1 6807 : -
+  *  70 70.4 4260 : -
+  *  100 100.0 3000 : 43
+  *  143 143.0 2098 : 111
+  *  217 217.0 13.82 : 325
+  *  353 353.0 850 : 666
+  *  545 545.0 550 : -
+  *  857 857.0 350 : -
+
+*  Channel Frequency (Ghz) Wavelength (µm) : Minimum polarized flux density (mJy)
+  *  30 28.4 10561 : -
+  *  44 44.1 6807 : -
+  *  70 70.4 4260 : -
+  *  100 100.0 3000 : 121
+  *  143 143.0 2098 : 87
+  *  217 217.0 13.82 : 114
+  *  353 353.0 850 : 348
+  *  545 545.0 550 : -
+  *  857 857.0 350 : -
+
+*  Channel Frequency (Ghz) Wavelength (µm) : Polarized flux density uncertainty (mJy)
+  *  30 28.4 10561 : -
+  *  44 44.1 6807 : -
+  *  70 70.4 4260 : -
+  *  100 100.0 3000 : 52
+  *  143 143.0 2098 : 44
+  *  217 217.0 13.82 : 55
+  *  353 353.0 850 : 178
+  *  545 545.0 550 : -
+  *  857 857.0 350 : -
 
 
 The following table summarises the columns from the catalogues displayed in ESASky:
