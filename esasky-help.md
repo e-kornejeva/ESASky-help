@@ -1259,7 +1259,7 @@ Gaia FPR catalogue default columns displayed in ESASky
       * Units       : mag
       * Description: Gaia mean G-magnitude (column also called phot_g_mean_mag)
 
-HIPPARCOS-2 CATALOGUE
+### HIPPARCOS-2 CATALOGUE
 
 *   Release: 2.0 (2007)
 
@@ -1273,9 +1273,7 @@ HIPPARCOS-2 CATALOGUE
 
 _ESASky_ displays the following columns from the Hipparcos-2 catalogue:
 
-
 Hipparcos-2 catalogue default columns displayed in ESASky
-
 
 * Column name: Name
   * Units: -
