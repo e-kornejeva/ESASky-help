@@ -1213,43 +1213,51 @@ ESASky displays the Gaia FPR Crowded Field Source catalogue (called crowded\_fie
 
 _ESASky_ displays the following default columns from the Gaia FPR catalogue (note: more columns are available via the settings button or by right clicking in the ESASky data panel):
 
-
 Gaia FPR catalogue default columns displayed in ESASky
 
+*	Column name: Designation
+      * Units       : -
+      * Description: Unique Source designation 
 
-* 																		Column name: Designation
-  * Units       : -
-  * Description: Unique Source designation 
-* 																		Column name: Source ID
-  * Units       : -
-  * Description: Unique Source identifier
-* 																		Column name: RA 
-  * Units       : degrees     
-  * Description: Right ascension of source (J2017.5) 
-* 																		Column name: Dec 
-  * Units       : degrees
-  * Description: Declination of source (J2017.5)
-* 																		Column name: Parallax
-  * Units       : mas
-  * Description: Parallax of source
-* 																		Column name: Parallax Error
-  * Units       : mas
-  * Description: Parallax error of source
-* 																		Column name: Proper motion in RA
-  * Units       : mas/yr
-  * Description: Proper motion of source in the right ascension direction * COS(declination)
-* 																		Column name: PM in RA Error
-  * Units       : mas/yr
-  * Description: Proper motion error of source in the right ascension direction * COS(declination)
-* 																		Column name: Proper motion in DEC 
-  * Units       : mas/yr
-  * Description: Proper motion of source in the declination direction
-* 																		Column name: PM in DEC Error
-  * Units       : mas/yr
-  * Description: Proper motion error of source in the declination direction
-* 																		Column name: G magnitude
-  * Units       : mag
-  * Description: Gaia mean G-magnitude (column also called phot_g_mean_mag)
+*	Column name: Source ID
+      * Units       : -
+      * Description: Unique Source identifier
+
+*	Column name: RA 
+      * Units       : degrees     
+      * Description: Right ascension of source (J2017.5) 
+
+*	Column name: Dec 
+      * Units       : degrees
+      * Description: Declination of source (J2017.5)
+
+*	Column name: Parallax
+      * Units       : mas
+      * Description: Parallax of source
+
+*	Column name: Parallax Error
+      * Units       : mas
+      * Description: Parallax error of source
+
+*	Column name: Proper motion in RA
+      * Units       : mas/yr
+      * Description: Proper motion of source in the right ascension direction * COS(declination)
+
+*	Column name: PM in RA Error
+      * Units       : mas/yr
+      * Description: Proper motion error of source in the right ascension direction * COS(declination)
+
+*	Column name: Proper motion in DEC 
+      * Units       : mas/yr
+      * Description: Proper motion of source in the declination direction
+
+*	Column name: PM in DEC Error
+      * Units       : mas/yr
+      * Description: Proper motion error of source in the declination direction
+
+*	Column name: G magnitude
+      * Units       : mag
+      * Description: Gaia mean G-magnitude (column also called phot_g_mean_mag)
 
 HIPPARCOS-2 CATALOGUE
 
