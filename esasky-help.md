@@ -2561,6 +2561,13 @@ Hipparcos-2 data products #25-#29 are served in two versions: a CDS/VizieR versi
     
 Hipparcos catalogues, data products and tables
 
+* Data product # :  1 
+	*  Catalogue :  Hipparcos-1	
+	* Table Name: hipparcos1.hip_main
+	* Title: The Hipparcos Main Catalogue
+	* Records: 118,218
+	* Columns: 78
+	* Data Model Reference: S2.1, T2.1.1
 
 	* Data product # :  1 
 		*  Catalogue :  Hipparcos-1	
