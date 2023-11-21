@@ -279,7 +279,6 @@ Some [educational activities](https://www.cosmos.esa.int/web/esdc/esasky-for-ed
 # How to use ESASky
 
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-how-to
-#### Madara???: te varētu likt video, bet no tiem šī sadaļa sastāv - tad būtu vairāk par 20 saīsnēm, bez nosaukumiem. otrs variants - kā šajā - tālāk aprakstīts, trešais variants - katram video savs nosaukums kā nosaukums ar resti un tad metainformācijā videosaite.
 
 For the latest use case videos, please see our [How To](https://www.cosmos.esa.int/web/esdc/esasky-how-to) page. The link to "How to" page with videos is https://www.cosmos.esa.int/web/esdc/esasky-how-to.
 
@@ -690,7 +689,7 @@ Grating mode, in which only the grating was used, provided moderate spectral res
 
 ### sws (spectroscopy)
 
-The Short Wavelength Spectrometer (SWS) provided medium and high spectral resolution in the wavelength region 2.38-45.2 micron. Its two largely independent grating spectrometers had a spectral resolution of R~1000-2000, corresponding to a velocity resolution of approximately 150-300 km/s. By inserting Fabry-Pérot (FP) filters, one for the range 15-26 micron (with capability down to 11.4 micron at reduced resolution) and the other for the region 26-35 micron (with capability to 44.5 micron at reduced sensitivity), the resolution could be increased to R~30,000, or approximately 10 km/s.
+The Short Wavelength Spectrometer (SWS) provided medium and high spectral resolution in the wavelength region 2.38-45.2 micron. Its two largely independent grating spectrometers had a spectral resolution of R\~1000-2000, corresponding to a velocity resolution of approximately 150-300 km/s. By inserting Fabry-Pérot (FP) filters, one for the range 15-26 micron (with capability down to 11.4 micron at reduced resolution) and the other for the region 26-35 micron (with capability to 44.5 micron at reduced sensitivity), the resolution could be increased to R\~30,000, or approximately 10 km/s.
 
 *   Data type(s): S01, S02, S06, S07 (Scientifically validated)
 
@@ -1054,19 +1053,19 @@ Madarai tabula sākas, ko darām...****************************************te es
 Gaia DR3 catalogue default columns displayed on ESASky
 
 
-* 																		Column name: Designation
+* 	Column name: Designation
   * Units       : -
   * Description: Unique source designation (unique across all Data Releases)
-* 																		Column name: RA (J2016.0)
+* 	Column name: RA (J2016.0)
   * Units       : degrees     
   * Description: Right ascension of source (J2016.0) 
-* 																		Column name: Dec (J2016.0)
+* 	Column name: Dec (J2016.0)
   * Units       : degrees
   * Description: Declination of source (J2016.0)
-* 																		Column name: Parallax
+* Column name: Parallax
   * Units       : mas
   * Description: Parallax of source
-* 																		Column name: Parallax Error
+* Column name: Parallax Error
   * Units       : mas
   * Description: Parallax error of source
 * 																		Column name: Proper motion in RA
