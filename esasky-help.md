@@ -3672,59 +3672,36 @@ Some of the features of the 26 CoRoT fields are extracted from [2018A&A...619A..
 Summary of the CoRoT runs
 
 | Field | CCD | Start date | Duration | Overlap     | Targets |
-
+|-------|-----|------------|----------|-------------|---------|
+|       |     | (dd/mm/aa) | (days)   |             |         |
 | IRa01 | 2   | 06/02/2007 | 54.3     | LRa01/LRa06 | 9,921   |
-
 | LRa01 | 2   | 23/10/2007 | 131.5    | IRa01/LRa06 | 11,448  |
-
 | SRa01 | 2   | 21/03/2008 | 23.4     | SRa05       | 8,190   |
-
 | SRa02 | 2   | 11/10/2008 | 31.8     | LRa07       | 10,305  |
-
 | LRa02 | 2   | 16/11/2008 | 114.7    |             | 11,448  |
-
 | LRa03 | 1   | 03/10/2009 | 148.3    |             | 5,329   |
-
 | SRa03 | 1   | 05/03/2010 | 24.3     |             | 4,169   |
-
 | LRa04 | 1   | 29/09/2010 | 77.6     |             | 4,262   |
-
 | LRa05 | 1   | 21/12/2010 | 90.5     |             | 4,648   |
-
 | SRa04 | 1   | 07/10/2011 | 52.3     |             | 5,588   |
-
 | SRa05 | 1   | 01/12/2011 | 38.7     | SRa01       | 4,213   |
-
 | LRa06 | 1   | 12/01/2012 | 76.7     | LRa01/IRa01 | 5,724   |
-
 | LRa07 | 1   | 04/10/2012 | 29.3     | SRa02       | 4,844   |
-
+|       |     |            |          |             |         |
 | SRc01 | 2   | 13/04/2007 | 25.6     | –           | 7,015   |
-
 | LRc01 | 2   | 16/05/2007 | 142.1    |             | 11,448  |
-
 | LRc02 | 2   | 15/04/2008 | 145      | LRc06/LRc05 | 11,448  |
-
 | SRc02 | 2   | 15/09/2008 | 20.9     |             | 11,448  |
-
 | LRc03 | 1   | 03/04/2009 | 89.2     |             | 5,724   |
-
 | LRc04 | 1   | 07/07/2009 | 84.2     | LRc10       | 5,724   |
-
 | LRc05 | 1   | 08/04/2010 | 87.3     | LRc06       | 5,724   |
-
 | LRc06 | 1   | 08/07/2010 | 77.4     | LRc02/LRc05 | 5,724   |
-
 | LRc07 | 1   | 08/04/2011 | 81.3     | LRc08/LRc10 | 5,724   |
-
 | SRc03 | 1   | 01/07/2011 | 20.9     | LRc02/LRc06 | 652     |
-
 | LRc08 | 1   | 08/07/2011 | 83.6     | LRc07/LRc10 | 5,724   |
-
 | LRc09 | 1   | 12/04/2012 | 83.6     |             | 5,724   |
-
 | LRc10 | 1   | 09/07/2012 | 83.5     | LRc04/LRc07 | 5,286   |
-
+|       |     |            |          |             |         |
 | Total |     |            |          |             | 163,665 |
 
 [CoRoT](https://corot.cnes.fr/en/COROT/index.htm) produced nearly 6 years of data that are accessible online. The ["CoRoT Legacy Book"](https://www.edp-open.org/books/edp-open-books/320-the-corot-legacy-book) describes these [data](http://idoc-corot.ias.u-psud.fr/sitools/common/html/doc/cII_4_data.pdf) and their correction methods, the most recent highlights up to now, and the new space projects that inherit from CoRoT. The different scientific products levels were made available in various [science archives](https://www.edp-open.org/images/stories/books/contents/corot/cII_5.pdf).
