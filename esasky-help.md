@@ -3716,3 +3716,106 @@ CoRoT Catalogues
 | 2 | corot    | corot.astero | 171     | 24      | Stars observed in the bright star mode (CoRoT team) with data products             | datalink column (4 data products) |
 
 These catalogues are complemented via DataLink with a download service of science-ready data products such as light curves (variations in star brightness over time) and full images, with their respective previews, as well as windescriptors. A fullimage is the image of the full CDD recorded at the beginning of the run during 3 orbits with no SAA crossing. In the beginning of each run, the flight software needs to be reconfigured in order to put in place the photometric apertures so as to optimize the signal-to-noise ratio of the measured light curves. The CoRoT EXOWIN software was dedicated to work with a trio of full frame images, from where the stars would be identified and a basket of around 6,000 stars per CCD would be assigned to a photometric aperture in the exostar channel. Windescriptors describe the windows and the masks defined to observe the targets.
+
+# ESASky Legacy TAP: EU-funded Projects - ESDC - Cosmos
+
+ESASky legacy is a TAP ([Table Access Protocol](http://www.ivoa.net/documents/TAP/)) service to provide the community access to complete, self-standing catalogues and data collections from ESA astronomy legacy missions, ensuring their long-term preservation. This service, which is an [IVOA](http://www.ivoa.net/) standard for most modern science archives, is an entry point to data products and their successors that can be exposed by ESASky.
+
+The [European Commission Research Executive Agency](https://ec.europa.eu/info/departments/research-executive-agency_en)) (H2020 and FP7) projects available in the [ESASky legacy TAP](http://esaskylegacy.esac.esa.int/esasky-legacy-sl-tap/tap) are:
+
+*   [Herschel Extragalactic Legacy Project  -  HELP](#HELP)
+
+*   [Exoplanet Athmosphere New Emission Transmission Spectra Analysis  -  Exoplanets-A](#Exoplanets-A)
+
+*   [Gaia and Herschel study into the formation and evolution of massive stars and their natal clusters  -  StarFormMapper](#StarFormMapper)
+
+### Herschel Extragalactic Legacy Project (HELP):
+
+#### URL: https://www.cosmos.esa.int/web/esdc/legacy-tap-eu#HELP
+
+The Herschel Extragalactic Legacy Project (\[HELP\] [http://www.herschel.sussex.ac.uk](http://www.herschel.sussex.ac.uk/)) is a European Commission Research Executive Agency funded programme specifically targeted to analysing the far infrared extragalactic observations made with the [ESA Observatory Herschel](https://www.cosmos.esa.int/web/herschel). This project collates, curates, homogenises, and creates derived data products for most of the premium multi-wavelength extragalactic data sets. The sky boundaries for the first data release (DR1) cover 1270 deg2 defined by the Herschel SPIRE extragalactic survey fields; notably the Herschel Multi-tiered Extragalactic Survey ([HerMES](http://herschel.esac.esa.int/Docs/GTKP/KPGT_accepted.html#KPGT_soliver_1)) and the Herschel Atlas survey ([H-ATLAS](http://herschel.esac.esa.int/Docs/KPOT/KPOT_accepted.html#KPOT_seales01_2)), Herschel Guaranteed and Open Time Key Programmes, respectively.
+
+The 23 HELP fields are described in the following table:
+
+Herschel Extragalactic Legacy Programme fields
+
+| Name               | R.A. (deg) | Dec (deg) | Area (deg2) | Records Main Catalogue | SED fit objects |
+|--------------------|------------|-----------|-------------|------------------------|-----------------|
+| AKARI-NEP          | 270        | 66.6      | 9.2         | 531,746                | 1,239           |
+| AKARI-SEP          | 70.8       | −53.9     | 8.7         | 844,172                | 566             |
+| Bootes             | 218.1      | 34.2      | 11.4        | 3,481,661              | 38,980          |
+| CDFS-SWIRE         | 53.1       | −28.2     | 13          | 2,171,051              | 9,308           |
+| COSMOS             | 150.1      | 2.2       | 5.1         | 2,599,374              | 15,747          |
+| EGS                | 215        | 52.7      | 3.6         | 1,412,613              | 4,159           |
+| ELAIS-N1           | 242.9      | 55.1      | 13.5        | 4,026,292              | 49,986          |
+| ELAIS-N2           | 249.2      | 41.1      | 9.2         | 1,783,240              | 6,798           |
+| ELAIS-S1           | 8.8        | −43.6     | 9           | 1,655,564              | 25,393          |
+| GAMA-09            | 134.7      | 0.5       | 62          | 12,937,982             | 130,293         |
+| GAMA-12            | 179.8      | −0.5      | 62.7        | 12,369,415             | 108,139         |
+| GAMA-15            | 217.6      | 0.5       | 61.7        | 14,232,880             | 159,022         |
+| HDF-N              | 189.2      | 62.2      | 0.67        | 130,679                | 1,483           |
+| Herschel-Stripe-82 | 14.3       | 0         | 363.4       | 50,196,455             | 250,644         |
+| Lockman-SWIRE      | 161.2      | 58.1      | 22.4        | 4,366,298              | 46,719          |
+| HATLAS-NGP         | 199.5      | 29.2      | 177.7       | 6,759,591              | 185,290         |
+| SA13               | 198        | 42.7      | 0.27        | 9,799                  | 120             |
+| HATLAS-SGP         | 1.5        | −32.7     | 294.6       | 29,790,690             | 352,804         |
+| SPIRE-NEP          | 265        | 69        | 0.6         | 2,674                  | 71              |
+| SSDF               | −8.1       | −55.1     | 110.4       | 12,661,903             | 305,576         |
+| xFLS               | 259        | 59.4      | 7.4         | 977,148                | 5,944           |
+| XMM–13hr           | 203.6      | 37.9      | 0.76        | 38,629                 | 670             |
+| XMM–LSS            | 35.1       | −4.5      | 21.8        | 8,705,837              | 61,892          |
+
+
+This new data set includes far-infrared photometry, photometric redshifts, and derived physical properties estimated from modelling the spectral energy distributions over the full HELP sky. The most relevant highly processed data products from HELP have been included as part of the ESASky [TAP-based Legacy Archive](https://esaskylegacy.esac.esa.int/esasky-legacy-sl-tap/tap), namely the catalogues with a total of 172 million photometric measurements from optical to far-infrared (herschelhelp_XXX) with a master table (herschelhelp) that includes the links and datalinks to the best fit SEDs provided by the CIGALE tool, the global catalogue of blind sources from Matched Filtered (MF) SPIRE maps (spire_blind_matched), and the HiPS SPIRE RGB map that may be inspected via ESASky linked via the url http://skies.esac.esa.int/Herschel/help_spire_rgb/.
+
+[Shirley et al. 2021](https://ui.adsabs.harvard.edu/abs/2021MNRAS.507..129S/abstract) is the publication that presents the Herschel Extragalactic Legacy Project (HELP) Data Release 1 (DR1) and details the pipelines and methods used to tackle the challenges of complexity and volume size inherent to collating large, deep heterogeneous survey data.
+
+HELP is designed to create a framework for wide-area multi-wavelength studies that can be continuously updated with new observations. The scope for Data Release 1, DR1, is to curate object catalogues and photometry at near-IR and optical wavelengths that have been provided by the survey teams from images at mid to far-IR wavelengths alongside spectroscopic redshifts. To that extent, HELP has various [example Jupyter Notebooks](https://github.com/H-E-L-P/dmu_products/tree/master/dmu31/dmu31_Examples) that may be adapted to learn about the exploitation of these data sets in combination with other ESASky data sets.
+
+### EXOPLANETS-A:
+
+#### URL: https://www.cosmos.esa.int/web/esdc/legacy-tap-eu#Exoplanets-A
+ 
+[Exoplanets-A](https://www.explore-exoplanets.eu/) is a Horizon 2020 project in the field of extra solar planets. It focuses on the characterization of exoplanet atmospheres, a new field of research, including photometric and spectroscopic observations and spanning the wavelength range from X-rays to the IR. At stake are the molecular composition of giant exoplanet atmospheres, tracing their formation and evolution, as well as the atmosphere of rocky exoplanets and the potential presence of biosignature gases. Yet, these observations are challenging because the signal is often embedded in instrumental and telescope systematic noise.
+
+Part of the Exoplanets-A project concerns the development of new data calibration, spectral extraction and retrieval tools. They all aim to exploit archival data from both international space missions and ground-based facilities to produce a consistent and reliable characterization of exoplanet atmospheres as well as to study the influence of host stars on them.
+
+The properties of the exoplanet host stars are key factors to understanding the environment within which the exoplanet lies and estimating the energy inputs into its atmosphere. This influence comes by two different ways: the basic properties of the star have an obvious effect on the planet and in particular, X-ray and UV luminosity affect the formation and the atmospheric properties of the planets. The primary online archival databases used are XMM-Newton, Chandra and ROSAT catalogues while primary databases in UV are HST (for UV spectra) and GALEX (for UV photometry) catalogues. Optical observations provide extreme-precision stellar parameters such as its luminosity, effective temperature and radius, which in turn have an impact in the retrieval process of the planetary-atmosphere properties. All targets have been identified from the Gaia/DR2 data in order to extract key values about astrometric properties, such as proper motions and distances of host stars. The variability information of host stars is derived from different projects (mainly Kepler and Kepler K2). The characterization of exoplanet atmospheres is studied with spectroscopy at infrared wavelengths using Hubble Space Telescope (HST) and Spitzer archived space data. Soon, two future space mission will enrich the spectroscopic data with unprecedented sensitivity: James Webb Space Telescope (JWST) and Ariel.
+
+The [exoplanets & Host stars catalogue](https://www.explore-exoplanets.eu/resource/exoplanets-host-stars/) is a coherent and uniform database of the relevant properties from International Space Science archives (e.g. HST, XMM, Gaia, Spitzer, Kepler), combined with ground-based data and publications. Exoplanet and host star properties are accompanied/interpreted with results from the Exoplanets-A project. The catalogue includes all the exoplanetary systems being studied by the Exoplanets-A project: It contains information for 205 exoplanets and 113 host-stars.
+
+The [star-planet interaction catalogue](https://www.explore-exoplanets.eu/resource/star-planet-interactions/) provides a list of parameters that can be used to assess the strength of these interactions: X and UV stellar flux, plasma conditions at the planetary orbit, tidal dissipation coefficients, among others. The majority of these parameters were estimated thanks to cutting-edge models at the forefront of the research on exoplanetary science.
+
+Exoplanets-A Catalogues
+
+| \# | Resource   | Catalogue                  | Records | Columns | Table Name                                      | Data Products |
+|---|------------|----------------------------|---------|---------|-------------------------------------------------|---------------|
+| 1 | exoplaneta | exoplaneta.exostars        | 205     | 766     | Exoplanet-A Exoplanets and host stars Catalogue |               |
+| 2 | exoplaneta | exoplaneta.starplanetinter | 149     | 83      | Exoplanet-A Star-planet interaction Catalogue   |               |
+
+### STARFORMMAPPER:
+
+#### URL: https://www.cosmos.esa.int/web/esdc/legacy-tap-eu#StarFormMapper
+
+[StarFormMapper](https://starformmapper.org/) (European H2020 RIA project with [DOI:10.3030/687528](https://cordis.europa.eu/project/id/687528)) is a scientific study into the formation and evolution of massive stars and their natal clusters. The key aim of the project is to combine data from two of ESA major space missions, Gaia and Herschel, together with ground based facilities, to constrain the mechanisms that underlie both how massive stars themselves form, but more fundamentally, how their natal clusters evolve around them. The combination of the data from two ESA missions enables the study of clusters and associations of stars when they are very young (much less than 1 Myr old), when the structures we see are a better match to the initial conditions. These novel data and the complexity of the combined datasets required the development of new analysis and visualization tools. In particular, we statistically compared hybrid large scale N-body + SPH models with the combined 6-dimensional Gaia plus Herschel and gas kinematical data.
+
+The StarFormMapper project explored optimal methods of detecting substructure in both dust/molecular gas maps (including radial velocity information for the gas), as well as in the stellar component of young clusters. Hence, it produced catalogues of subclusters as well as catalogues of compact and extended molecular cloud components (molecular cores and clumps).
+
+Four catalogues of the significant substructure found in four star-forming regions are described in González et al., 2021. The S2D2 (Small Significant DBSCAN Detection) method was applied to catalogues of YSO members of Taurus (Luhman, 2018), IC348 (Luhman et al., 2016), Upper Scorpius (Luhman et al., 2018) and Carina (Kuhn et al., 2014) to produce a catalogue of local, compact substructures in each star-forming region.
+
+Nony T., Robitaille J.-F., Motte F., et al., 2021 characterized the structure of the NGC 2264 molecular cloud and compared the populations of clumps and young stellar objects (YSOs). This work separated the Herschel column density map of NGC 2264 into three subregions and compared their cloud power spectra using a multiscale segmentation technique. They extracted compact cloud fragments from the column density image, measured their basic properties, and studied their spatial and mass distributions. These results are published as a catalogue in [CDS/Vizier](https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/645/A94).
+
+StarFormMapper Catalogues
+
+| #  | Resource | Catalogue                    | Records | Columns | Table Name                                                                                              | Data Products |
+|----|----------|------------------------------|---------|---------|---------------------------------------------------------------------------------------------------------|---------------|
+| 1  | sfm      | sfm.nh2clumps_ngc_2264       | 256     | 20      | Column density and information for the 256 clumps found in NGC 2264                                     |               |
+| 2  | sfm      | sfm.s2d2                     | 8       | 7       | Result Summary of S2D2 applied to four star forming regions: Taurus, IC 348, Upper Scorpius, and Carina |               |
+| 3  | sfm      | sfm.s2d2_carina_nests        | 21      | 4       | Significant Substructure (NESTS) Catalogue in the Carina region                                         |               |
+| 4  | sfm      | sfm.s2d2_carina_yso          | 2,782   | 4       | Young Stellar Object catalogue in the Carina region                                                     |               |
+| 5  | sfm      | sfm.s2d2_ic348_nests         | 6       | 4       | Significant Substructure (NESTS) Catalogue in the region IC 348                                         |               |
+| 6  | sfm      | sfm.s2d2_ic348_yso           | 465     | 4       | Young Stellar Object catalogue in the IC 348 region                                                     |               |
+| 7  | sfm      | sfm.s2d2_taurus_nests        | 21      | 4       | Significant Substructure (NESTS) Catalogue in the Taurus region                                         |               |
+| 8  | sfm      | sfm.s2d2_taurus_yso          | 405     | 4       | Young Stellar Object catalogue in the Taurus region                                                     |               |
+| 9  | sfm      | sfm.s2d2_upperscorpius_nests | 25      | 4       | Significant Substructure (NESTS) Catalogue in the Upper Scorpius region                                 |               |
+| 10 | sfm      | sfm.s2d2_upperscorpius_yso   | 1,611   | 4       | Young Stellar Object catalogue in the Upper Scorpius region                                             |               |
