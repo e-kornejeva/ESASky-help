@@ -1,10 +1,4 @@
-# TITLE 1
-## TITLE 1.1
-### TITLE 1.1.1.
-
-#### IMG: https://www.cosmos.esa.int/web/esdc/esasky-interface
-
-[Links](https://www.cosmos.esa.int/web/esdc/esasky-interface)
+[ESA Interface](https://www.cosmos.esa.int/web/esdc/esasky-interface)
 
 # INTERFACE DESCRIPTION
 
