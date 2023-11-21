@@ -2,6 +2,9 @@
 
 # INTERFACE DESCRIPTION
 
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface
+
+
 ESASky is an exploration style interface where the entire sky is available to search and explore. Its functionalities are described below:
 
 [ESASky modes and basic exploration functionalities](https://www.cosmos.esa.int/web/esdc/esasky-interface#MODES)
@@ -45,14 +48,12 @@ ESASky is an exploration style interface where the entire sky is available to se
 
  
 # ESASKY MODES AND BASIC EXPLORATION FUNCTIONALITIES
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#MODES
+
 New to version 3.0, you can select the mode in which you want to work: Science mode or Explorer Mode. This can be done in the welcome dialog window or with the switch on the top bar:
 
 #### IMG: https://www.cosmos.esa.int/documents/401090/1819298/esasky30_switch.png/8d1a27d7-df33-8439-802a-2e92487b45e7?t=1542278599466
-
- 
- 
- 
- 
  
 
 Science mode includes all access to science ready data, skies, publications and the observations planning tool whilst the Explorer mode allows users to explore the sky in different wavelengths, explore example target lists and roll the dice to explore different astronomical objects.
@@ -79,7 +80,7 @@ Right clicking anywhere in the sky will bring up the below menu, where you can s
  
 
 # SEARCH FIELD
-
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#search
 
 The search field is located in the top right of the interface and accepts coordinates or an object name that can be resolved by SIMBAD. Both equatorial or galactic coordinates are accepted. By default the search is in the equatorial (J2000) system; to input galactic coordinates, the 'galactic' frame must be selected in the top-left corner of the application. Simply type the name, or coordinates, and ESASky centres on this region of the sky. The region displayed is chosen by taking the size of the object from SIMBAD.
 
@@ -102,6 +103,7 @@ To search in an arbitrary shape on the sky, select the polygon search icon. Clic
 #### IMG: https://www.cosmos.esa.int/documents/401090/1819298/ESASkyConev4.1.gif/8e068aee-8eb5-efd1-cba5-07a686757ef3?t=1647960317899
 
 # SKIES MENU
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#skies
 The top left of the interface shows the coordinates of the cursor, the coordinate system, Equatorial (J2000) or Galactic, the field of view (FoV), the sky that is currently being displayed, and below this, a line of buttons. The first to the left is the skies icon:
 
 #### IMG: https://www.cosmos.esa.int/documents/401090/1819298/esasky30_skies_button.png
@@ -134,6 +136,9 @@ Since version 3.2, you can also move between skies using the slider:
  
 
 # DATA PANEL (IMAGING, CATALOGUE AND SPECTRA SEARCH)
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#datapanel
+
 To search for imaging, catalogues or spectral data (and to open the data panel) click on the respective imaging, catalogue and spectra icons in the left menu. The numbers correspond to the number of imaging data, catalogue sources and spectral data that are available for the region of the sky displayed in the browser (not just for the searched target):
 
 #### IMG: https://www.cosmos.esa.int/documents/401090/1819298/esasky30_data_buttons.png/9b5e9f9e-1508-598a-271b-98406b8cb033?t=1542293194878
@@ -206,6 +211,9 @@ The image below shows coverage maps for XMM-Newton X-ray (imaging; purple), Chan
  
 
 # SOLAR SYSTEM OBJECTS SEARCH FEATURE
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#SSO
+
 In ESASky, you can search for any planet, satellite or comet observed by HST, Herschel and XMM-Newton (targeted or serendipitous images). Type the name or ID number of the object in the search box and a selection of suggested targets will be given:
 
 #### IMG: https://www.cosmos.esa.int/documents/401090/1819298/esasky_sso_search.png/dd5cd26c-cd75-e340-4176-43e7244559eb?t=1542293841818
@@ -229,6 +237,9 @@ This short [movie](https://www.youtube.com/watch?v=ct53j7EuokA) shows the SSO fe
  
 
 # MULTI-MESSENGER EVENTS
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#MultiM
+
 This tool shows public multi-messenger events from gravitational waves and neutrinos, displays their probability footprints on the sky and provides access to the data. Click on the multi-messenger icon to open the window:
 
 #### IMG: https://www.cosmos.esa.int/documents/401090/1819298/multim.png/1f97d876-17ee-b65d-6eff-7fa83495f1db?t=1641926581649
@@ -271,6 +282,10 @@ It is also possible to search for publications by author or bibcode, simply ente
  
 
 # EXTERNAL DATA CENTRE (TAP) SEARCH
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#EXTTAP
+
+
 In ESASky, it is possible to query data from external data centres via their [Table Access Protocol (TAP)](http://www.ivoa.net/documents/TAP/) services compliant with [Virtual Observatory (VO)](https://ivoa.net/) standards. Since version 5.0 of ESASky, this functionality has been expanded to include data from any external TAP of the user's choice. The dashboard functionality of the tool includes the data prov0ided by the [European Southern Observatory (ESO)](https://www.eso.org/, the [Canadian Astronomy Data Centre (CADC)](http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/), the [Mikulski Archive for Space Telescopes (MAST)](https://archive.stsci.edu/), the [High Energy Astrophysics Science Archive Research Center (HEASARC)](https://heasarc.gsfc.nasa.gov/docs/archive.html) and the [Netherlands Institute for Radio Astronomy (ASTRON)](https://www.astron.nl/) in their TAP servers, including images, spectra, data cubes and time series data. Any other TAP with an [ObsCore](https://www.ivoa.net/documents/ObsCore/20170509/index.html0 table can also be added to the dashboard (see below for details).
 
 Additionally, access to the [VizieR Astronomical Catalogue Service](https://vizier.unistra.fr/) from the [Strasbourg Astronomical Data Center (CDS)](https://cdsweb.u-strasbg.fr/) and access to ESA TAPs are conveniently provided from their own tabs, and the TAP Registry tab allows users to search and load metadata from any TAP registered in the VO. Any TAP tables can now be loaded into ESASky (with a limit of 10000 rows). The column metadata for each table can also be loaded and tables can be queried using the [Astronomical Data Querying Language (ADQL)](https://www.ivoa.net/documents/latest/ADQL.html), again with a limit of returning 10000 rows. The main reason this limit is applied is to not overload the browser's memory and affect the performance of the tool. Users can toggle the field of view (FoV) button on or off, to obtain data within the FoV displayed in ESASky, or data from the whole sky, including entire catalogues. Continue reading below to learn how to use these new functionalities!
@@ -371,6 +386,9 @@ See also the following video: [Announcing ESASky version 5.0: Access to VizieR a
  
 
 # TARGET LISTS
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#list
+
 The 'upload target list' icon can be found in the search field, and in explorer mode it is also one of the top left icons: 
 
 #### IMG: https://www.cosmos.esa.int/documents/401090/442498/TargetListv2.1.png
@@ -386,6 +404,9 @@ or you can upload you own text file containing your list of targets, either name
  
 
 # OBSERVATIONS PLANNING TOOL
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#planning
+
 The observations planning tool icon lies in the top left menu, next to the Multi-Messenger icon:
 
 #### IMG: https://www.cosmos.esa.int/documents/401090/442498/ESASky_ObsIcon.png
@@ -423,6 +444,9 @@ See also the following video: [How to plan future JWST observations](https://you
 
  
 # ESA/HUBBLE OUTREACH IMAGES
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#hubbleout
+
 ESA/Hubble Outreach images are available in Explorer mode, via the hubble icon: 
 
 #### IMG: https://www.cosmos.esa.int/documents/401090/1819298/HubbleIcon.png/f72afb46-dab8-bb06-77d1-b5d2e85cf3da?t=1665060593220
@@ -437,6 +461,8 @@ IMPORTANT: These images are created for outreach purposes and they are not inten
  
 # ESA/WEBB OUTREACH IMAGES
 
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#webbout
+
 ESA/Webb Outreach images are available in Explorer mode, via the hubble icon: 
 
 #### IMG: https://www.cosmos.esa.int/documents/401090/1819298/WebbIcon.png
@@ -448,6 +474,9 @@ Clicking on the icon displays a list of outreach images released by the ESA/Webb
  
 
 # SNAPSHOTS
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#snapshot
+
 In the top menu, on the right, lies the snapshot icon: 
 
 #### IMG: https://www.cosmos.esa.int/documents/401090/1819298/esasky30_snapshot.png/ad06952d-c2eb-d2e7-bd6b-3d7e0845441f?t=1542294824168
@@ -458,6 +487,9 @@ Click on this icon to take a screenshot of your displayed ESASky screen (includi
 
  
 # SELECTION TOOL
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#seltool
+
 New to version 3.9, when opening an image/catalogue/spectra the selection tool is automatically displayed in the middle right part of the screen. This tool allows the selection of sources/footprints within a selected area. 
 
 
@@ -470,6 +502,8 @@ There are three shapes available: square, circle and polygon. For the square and
 
 # EXPLORE RANDOM TARGETS FEATURE
 
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#random
+
 #### IMG: https://www.cosmos.esa.int/documents/401090/442498/Dicev2.1.png
 
 Roll the dice and take a tour through the cosmos! In explorer mode, click on our explore random target icon (dice icon) and enjoy discovering and reading about different types of astronomical objects in the sky.
@@ -479,6 +513,8 @@ Found your own amazing sources in ESASky? Tell us here and we'll add them to the
  
 
 # BOOKMARK / SHARING
+
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#BOOKMARKS
 
 #### IMG: https://www.cosmos.esa.int/documents/401090/1819298/esasky30_share.png/c9ebaf6b-472d-9ced-5a06-906ca33248cb?t=1542294858646
 
@@ -501,6 +537,8 @@ The sky (HiPS) name must be the one appearing in the ESASky skies menu. The targ
 
 # ADDITIONAL INFORMATION AND HELP MENUS
 
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#HELP
+
 #### IMG: https://www.cosmos.esa.int/documents/401090/1819298/esasky30_help.png/b5c19399-7ce2-19f9-d595-d66dd2cfbfed?t=1542294898363
 
 There are two buttons on the top bar for help and additional information: The first, a question mark, links directly to the 'How to' page. The second, "Feedback", gives access to the ESASky Userecho community. The last button on the right corner brings up a menu with other help and information resources, as well as a link to the World Wide Telescope. 
@@ -508,6 +546,8 @@ There are two buttons on the top bar for help and additional information: The fi
  
 
 # SAVE AN ESASKY SESSION
+
+#### URL: [https://www.cosmos.esa.int/web/esdc/esasky-interface#HELP](https://www.cosmos.esa.int/web/esdc/esasky-interface#SAVE)
 
 #### IMG: https://www.cosmos.esa.int/documents/401090/1819298/save.png/2361f39f-f22f-ca21-9e43-6b0c5de4e72d?t=1647946730488
 
