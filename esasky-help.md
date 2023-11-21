@@ -1049,9 +1049,7 @@ ESASky displays the Gaia DR3 main source catalogue (called gaia\_source in the [
 
 _ESASky_ displays the following default columns from the Gaia DR3 catalogue (note: more columns are available via the settings button or by right clicking in the ESASky data panel):
 
-Madarai tabula sākas, ko darām...****************************************te esmu
 Gaia DR3 catalogue default columns displayed on ESASky
-
 
 *   Column name: Designation
       * Units       : -
@@ -1065,124 +1063,125 @@ Gaia DR3 catalogue default columns displayed on ESASky
       * Units       : degrees
       * Description: Declination of source (J2016.0)
         
-* Column name: Parallax
-        * Units       : mas
-        * Description: Parallax of source
+*	Column name: Parallax
+      * Units       : mas
+      * Description: Parallax of source
 
-* Column name: Parallax Error
-        * Units       : mas
-        * Description: Parallax error of source
+*	Column name: Parallax Error
+      * Units       : mas
+      * Description: Parallax error of source
 
-* 	Column name: Proper motion in RA
-        * Units       : mas/yr
-        * Description: Proper motion of source in the right ascension direction * COS(declination)
+*	Column name: Proper motion in RA
+      * Units       : mas/yr
+      * Description: Proper motion of source in the right ascension direction * COS(declination)
 
-* Column name: PM in RA Error
-        * Units       : mas/yr
-        * Description: Proper motion error of source in the right ascension direction * COS(declination)
+*	Column name: PM in RA Error
+      * Units       : mas/yr
+      * Description: Proper motion error of source in the right ascension direction * COS(declination)
 
 * 	Column name: Proper motion in DEC 
-        * Units       : mas/yr
-        * Description: Proper motion of source in the declination direction
+      * Units       : mas/yr
+      * Description: Proper motion of source in the declination direction
 
 * 	Column name: PM in DEC Error
-        * Units       : mas/yr
-        * Description: Proper motion error of source in the declination direction
-  	
+      * Units       : mas/yr
+      * Description: Proper motion error of source in the declination direction
+
 * 	Column name: G magnitude
-        * Units       : mag
-        * Description: Gaia mean G-magnitude (column also called phot_g_mean_mag)
-  	
-* 		Column name: Integrated GBP mean mag
-        * Units       : mag
-        * Description: Integrated GBP mean magnitude (column also called phot_bp_mean_mag)
-  		
+      * Units       : mag
+      * Description: Gaia mean G-magnitude (column also called phot_g_mean_mag)
+
+* 	Column name: Integrated GBP mean mag
+      * Units       : mag
+      * Description: Integrated GBP mean magnitude (column also called phot_bp_mean_mag)
+
 * 	Column name: Integrated GRP mean mag
-        * Units       : mag
-        * Description: Integrated GRP mean magnitude (column also called phot_rp_mean_mag)
-  	
+      * Units       : mag
+      * Description: Integrated GRP mean magnitude (column also called phot_rp_mean_mag)
+
 * 	Column name: GBP-GRP colour
-        * Units       : mag
-        * Description: Gaia mean GBP-GRP colour
-  	
-* Column name: GBP-G colour
-        * Units       : mag
-        * Description: Gaia mean GBP-G colour
-  
-*Column name: G-GRP colour
-        * Units       : mag
-        * Description: Gaia mean G-GRP colour
-        
-* Column name: Radial velocity
-        * Units       : km/s
-        * Description: Radial velocity of source
-  
-* Column name: Radial velocity error
-        * Units       : km/s
-        * Description: Radial velocity error
-  
+      * Units       : mag
+      * Description: Gaia mean GBP-GRP colour
+
+* 	Column name: GBP-G colour
+      * Units       : mag
+      * Description: Gaia mean GBP-G colour
+
+*	Column name: G-GRP colour
+      * Units       : mag
+      * Description: Gaia mean G-GRP colour
+
+* 	Column name: Radial velocity
+      * Units       : km/s
+      * Description: Radial velocity of source
+
+* 	Column name: Radial velocity error
+      * Units       : km/s
+      * Description: Radial velocity error
+
 * 	Column name: RUWE
-        * Units       : -
-        * Description: Renormalised unit weight error (RUWE)
-  	
-* Column name: Photometric Variability Flag
-        * Units       : -
-        * Description: Flag indicating if variability was identified in the photometric data: 'NOT_AVAILABLE': source not processed and/or exported to catalogue; 'CONSTANT': Source not identified as variable; 'VARIABLE': source identified and processed as variable.
-  
-* Column name: Non-Single Star Flag
-        * Units       : -
-        * Description: Flag indicating the availability of additional information in the various Non-Single Star tables.
-  
+      * Units       : -
+      * Description: Renormalised unit weight error (RUWE)
+
+* 	Column name: Photometric Variability Flag
+      * Units       : -
+      * Description: Flag indicating if variability was identified in the photometric data: 'NOT_AVAILABLE': source not processed and/or exported to catalogue; 'CONSTANT': Source not identified as variable; 'VARIABLE': source identified and processed as variable.
+
+* 	Column name: Non-Single Star Flag
+      * Units       : -
+      * Description: Flag indicating the availability of additional information in the various Non-Single Star tables.
+
 * 	Column name: Has Continuous BP/RP Spectrum
-        * Units       : -
-        * Description: Flag indicating the availability of a mean BP/RP spectrum in continuous representation for this source.
-  	
-* Column name: Has Sampled BP/RP Spectrum
-        * Units       : -
-        * Description: Flag indicating the availability of a mean BP/RP spectrum in sampled form for this source.
-  
+      * Units       : -
+      * Description: Flag indicating the availability of a mean BP/RP spectrum in continuous representation for this source.
+
+* 	Column name: Has Sampled BP/RP Spectrum
+      * Units       : -
+      * Description: Flag indicating the availability of a mean BP/RP spectrum in sampled form for this source.
+
 * 	Column name: Has RVS Spectrum
-        * Units       : -
-        * Description: 						Flag indicating the availability of a mean RVS spectrum for this source.
-  	 						
-* Column name: Has Epoch Photometry
-        * Units       : -
-        * Description: 						Flag indicating the availability of epoch photometry for this source. Epoch photometry always contains G band integrated photometry, together with BP and/or RP integrated photometry when available.						
-* Column name: Has GSP-Phot MCMC samples
-        * Units       : -
-        * Description: Flag indicating the availability of GSP-Phot (General Stellar Parametrizer from Photometry) Monte-Carlo Markov Chain (MCMC) samples for this source. 
+      * Units       : -
+      * Description: Flag indicating the availability of a mean RVS spectrum for this source.
+
+* 	Column name: Has Epoch Photometry
+      * Units       : -
+      * Description: Flag indicating the availability of epoch photometry for this source. Epoch photometry always contains G band integrated photometry, together with BP and/or RP integrated photometry when available.						
+
+* 	Column name: Has GSP-Phot MCMC samples
+       * Units       : -
+      * Description: Flag indicating the availability of GSP-Phot (General Stellar Parametrizer from Photometry) Monte-Carlo Markov Chain (MCMC) samples for this source. 
 
 * 	Column name: Has MSC MCMC samples
-        * Units       : -
-        * Description: Flag indicating the availability of Multiple Star Classifier (MSC) Monte-Carlo Markov Chain (MCMC) samples for this source.
-  	
+      * Units       : -
+      * Description: Flag indicating the availability of Multiple Star Classifier (MSC) Monte-Carlo Markov Chain (MCMC) samples for this source.
+
 * 	Column name: Effective temperature
-        * Units       : K
-        * Description: Effective temperature (assuming source is a single star) inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax.
-  	
+      * Units       : K
+      * Description: Effective temperature (assuming source is a single star) inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax.
+
 * 	Column name: Surface gravity
-        * Units       : log(cm·s-2)  
-        * Description: 						Surface gravity (assuming source is a single star) inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax.
-  						
-* Column name: Iron Abundance
-        * Units       : dex
-        * Description: Decimal logarithm of the ratio of the number abundance of iron to the number abundance of hydrogen relative to the same ratio of solar abundances inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax, assuming source is a single star.
-  
+      * Units       : log(cm·s-2)  
+      * Description: Surface gravity (assuming source is a single star) inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax.
+
+* 	Column name: Iron Abundance
+      * Units       : dex
+      * Description: Decimal logarithm of the ratio of the number abundance of iron to the number abundance of hydrogen relative to the same ratio of solar abundances inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax, assuming source is a single star.
+
 * 	Column name: Distance
-        * Units       : pc
-        * Description: Distance (assuming source is a single star) inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax.
-  	
-* Column name: Extinction, A0 at 547.7nm
-        * Units       : mag
-        * Description: Monochromatic extinction A0 at 547.7 nm (assuming source is a single star) inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax.
-  
-* Column name: Extinction in G band
-        * Units       : mag
-        * Description: Broadband extinction in G band (assuming source is a single star) inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax.
-  
+      * Units       : pc
+      * Description: Distance (assuming source is a single star) inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax.
+
+* 	Column name: Extinction, A0 at 547.7nm
+      * Units       : mag
+      * Description: Monochromatic extinction A0 at 547.7 nm (assuming source is a single star) inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax.
+
+* 	Column name: Extinction in G band
+      * Units       : mag
+      * Description: Broadband extinction in G band (assuming source is a single star) inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax.
+
 * 	Column name: Reddening E(GBP - GRP)
-        * Units       : mag
-        * Description: Reddening E(GBP - GRP) (assuming source is a single star) inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax. 
+      * Units       : mag
+      * Description: Reddening E(GBP - GRP) (assuming source is a single star) inferred by GSP-Phot Aeneas from BP/RP spectra, apparent G magnitude and parallax. 
 
 ### GAIA FOCUSED PRODUCT RELEASE (Crowded Field Source catalogue)
 
