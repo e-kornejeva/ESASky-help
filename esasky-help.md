@@ -3085,6 +3085,8 @@ The Cos-B event files naming convention is cb\_hhmmVddP\*\*.evt where  hhmm is 
 
 # ESASky Legacy TAP: ESA Legacy Missions - ESDC - Cosmos
 
+#### URL: https://www.cosmos.esa.int/web/esdc/legacy-tap-esa
+
 ESASky legacy is a TAP ([Table Access Protocol](http://www.ivoa.net/documents/TAP/)) service to provide the community access to complete, self-standing catalogues and data collections from ESA astronomy legacy missions, ensuring their long-term preservation. This service, which is an [IVOA](http://www.ivoa.net/) standard for most modern science archives, is an entry point to data products and their successors that can be exposed by ESASky.
 
 The ESA Legacy Missions available in the [ESASky legacy TAP](http://esaskylegacy.esac.esa.int/esasky-legacy-sl-tap/tap) are:
@@ -3096,6 +3098,8 @@ The ESA Legacy Missions available in the [ESASky legacy TAP](http://esaskylegacy
 *   [CoRoT](#Legacy:CoRoT)
 
 ### Legacy archive (HIPPARCOS):
+
+#### URL: https://www.cosmos.esa.int/web/esdc/legacy-tap-esa#Legacy:Hipparcos
 
 The Hipparcos Catalogue (118,218 stars with 1 milliarcsec level astrometry) and the Tycho Catalogue (more than one million stars with 20-30 milliarcsec astrometry and two-colour photometry) were completed in August 1996 and its data products were released in June 1997. Further improved catalogues were made available to the science community later. This Galaxy charter mission has produced four major catalogues referred to as the Hipparcos-1 Catalogue, the Tycho-1 Catalogue, the Hipparcos-2 Catalogue, and the Tycho-2 Catalogue.
 
@@ -3571,6 +3575,8 @@ Hipparcos catalogues, data products and tables
 
 ### Legacy archive (Cos-B): 
 
+#### URL: https://www.cosmos.esa.int/web/esdc/legacy-tap-esa#Legacy:CosB
+
 ESA's satellite [Cos-B](https://www.esa.int/Science_Exploration/Space_Science/Cos-B_overview2) carried a single large experiment, the Gamma-Ray Telescope, which was the responsibility of a group of European research laboratories know as the Caravane Collaboration. Launched on the 9 August 1975, Cos-B was originally projected to last two years, but it operated successfully for 6 years and 8 months. It provided the first complete map of the Galaxy in gamma-rays, and a catalogue of gamma-ray sources, known as the 2CG catalogue.
 
 The Cos-B payload was conformed by two elements: 
@@ -3609,28 +3615,30 @@ The COSBMAP table is a log of the 63 x 6 available high level product files per 
 
 Cos-B Catalogues
 
+*  \# :  1 
+	*  Resource :  cosb 
+	*  Catalogue :  cosb.cosbmaps 
+	*  Records :  252 
+	*  Columns :  20 
+	*  Table Name :  Cos-B Map Product Catalog 
+	*  Data Products :  datalink column (6 data products)
 
-* 			#			: 			1			
-  * 			Resource			: 			cosb			
-  * 			Catalogue			: 			cosb.cosbmaps			
-  * 			Records			: 			252			
-  * 			Columns			: 			20			
-  * 			Table Name			: 			Cos-B Map Product Catalog			
-  * 			Data Products			: 			datalink column (6 data products)			
-* 			#			: 			2			
-  * 			Resource			: 			cosb			
-  * 			Catalogue			: 			cosb.cosbraw			
-  * 			Records			: 			65			
-  * 			Columns			: 			20			
-  * 			Table Name			: 			Cos-B Photon Events Catalog			
-  * 			Data Products			: 			event link column (1 data product)			
-
+*  \# :  2 
+	*Resource: cosb 
+	*Catalogue: cosb.cosbraw 
+	*Records: 65 
+	*Columns: 20 
+	*Table Name: Cos-B Photon Events Catalog 
+	*Data Products: event link column (1 data product)			
 
 **High level Products****:** The Cos-B data products consist of maps obtained from the 65 Cos-B observations made during the entire mission. There are 4 sets of maps per observation, extracted over different energy ranges. These energy ranges are:
 
 *   "low" (70-150 MeV),
+
 *   "medium" (150-300 MeV),
+
 *   "high" (300-5000 MeV),
+
 *   and "full" (50-7800 MeV).
 
 Each set includes three maps: a "counts" map, an "exposure" map, and a "flux" map. The "flux" map was obtained by dividing the "counts" map for the "exposure" maps. Each observation, therefore, has 12 associated maps. These maps are provided via DataLink in FITS and GIF format.
@@ -3653,17 +3661,82 @@ The Cos-B event files naming convention is cb\_hhmmVddP\*\*.evt where  hhmm is 
 
 ### Legacy archive (CoRoT): 
 
+#### URL: https://www.cosmos.esa.int/web/esdc/legacy-tap-esa#Legacy:CoRoT
+
 [CoRoT](https://sci.esa.int/web/corot/)(Convection, Rotation and planetary Transits) is the first space mission dedicated to exoplanetary research and designed for this purpose. The spacecraft was equipped with a 27 cm-diameter afocal telescope and a 4-CCD wide-field camera, was built around the PROTEUS spacecraft bus, and operated in a low-Earth orbit (LEO) of ~900 km (polar). Launched in December 2006 the mission had a nominal lifetime of 2.5 years. The scientific mission was officially ended the 20th of June 2013 and the satellite was de-orbited on 17 June 2014. During its observation phase, CoRoT continuously observed star fields in the Milky Way for periods of up to 6 months, recording the photometric light curve of about 150 distinct bright stars (with a visible magnitude between 5.8 and 8) using the bright stars channel (also known as the seismology channel) and more than 160 000 faint stars (with a visible magnitude between 10.5 and 16) using the faint stars channel (also known as the exoplanet channel. The project was led by CNES, with contributions from ESA, Austria, Belgium, Germany, Spain and Brazil.
 
 From a polar inertial circular orbit (90-degree inclination) at an altitude of 896 km, the CoRoT programme of observations was based on a yearly cycle of 4 runs. During the summer period from October to March, the telescope was pointed towards the anticentre of the Milky Way and during the winter period from April to September, in the opposite direction. Two observation runs (alternately 20 and 150 days) were achieved during each summer and winter period in general. Twice a year, when the Sun got closer to the orbit plane and was about to blind the telescope, the spacecraft performed a reversal attitude manoeuvre.
 
 Some of the features of the 26 CoRoT fields are extracted from [2018A&A...619A..97D](https://www.aanda.org/articles/aa/abs/2018/11/aa31068-17/aa31068-17.html)
 
+Summary of the CoRoT runs
+
+| Field | CCD | Start date | Duration | Overlap     | Targets |
+
+| IRa01 | 2   | 06/02/2007 | 54.3     | LRa01/LRa06 | 9,921   |
+
+| LRa01 | 2   | 23/10/2007 | 131.5    | IRa01/LRa06 | 11,448  |
+
+| SRa01 | 2   | 21/03/2008 | 23.4     | SRa05       | 8,190   |
+
+| SRa02 | 2   | 11/10/2008 | 31.8     | LRa07       | 10,305  |
+
+| LRa02 | 2   | 16/11/2008 | 114.7    |             | 11,448  |
+
+| LRa03 | 1   | 03/10/2009 | 148.3    |             | 5,329   |
+
+| SRa03 | 1   | 05/03/2010 | 24.3     |             | 4,169   |
+
+| LRa04 | 1   | 29/09/2010 | 77.6     |             | 4,262   |
+
+| LRa05 | 1   | 21/12/2010 | 90.5     |             | 4,648   |
+
+| SRa04 | 1   | 07/10/2011 | 52.3     |             | 5,588   |
+
+| SRa05 | 1   | 01/12/2011 | 38.7     | SRa01       | 4,213   |
+
+| LRa06 | 1   | 12/01/2012 | 76.7     | LRa01/IRa01 | 5,724   |
+
+| LRa07 | 1   | 04/10/2012 | 29.3     | SRa02       | 4,844   |
+
+| SRc01 | 2   | 13/04/2007 | 25.6     | –           | 7,015   |
+
+| LRc01 | 2   | 16/05/2007 | 142.1    |             | 11,448  |
+
+| LRc02 | 2   | 15/04/2008 | 145      | LRc06/LRc05 | 11,448  |
+
+| SRc02 | 2   | 15/09/2008 | 20.9     |             | 11,448  |
+
+| LRc03 | 1   | 03/04/2009 | 89.2     |             | 5,724   |
+
+| LRc04 | 1   | 07/07/2009 | 84.2     | LRc10       | 5,724   |
+
+| LRc05 | 1   | 08/04/2010 | 87.3     | LRc06       | 5,724   |
+
+| LRc06 | 1   | 08/07/2010 | 77.4     | LRc02/LRc05 | 5,724   |
+
+| LRc07 | 1   | 08/04/2011 | 81.3     | LRc08/LRc10 | 5,724   |
+
+| SRc03 | 1   | 01/07/2011 | 20.9     | LRc02/LRc06 | 652     |
+
+| LRc08 | 1   | 08/07/2011 | 83.6     | LRc07/LRc10 | 5,724   |
+
+| LRc09 | 1   | 12/04/2012 | 83.6     |             | 5,724   |
+
+| LRc10 | 1   | 09/07/2012 | 83.5     | LRc04/LRc07 | 5,286   |
+
+| Total |     |            |          |             | 163,665 |
+
 [CoRoT](https://corot.cnes.fr/en/COROT/index.htm) produced nearly 6 years of data that are accessible online. The ["CoRoT Legacy Book"](https://www.edp-open.org/books/edp-open-books/320-the-corot-legacy-book) describes these [data](http://idoc-corot.ias.u-psud.fr/sitools/common/html/doc/cII_4_data.pdf) and their correction methods, the most recent highlights up to now, and the new space projects that inherit from CoRoT. The different scientific products levels were made available in various [science archives](https://www.edp-open.org/images/stories/books/contents/corot/cII_5.pdf).
 
 The ESA Legacy TAP includes the last version (N2-4.4) of the Bright and Faint star catalogues produced by CoRoT. The provenance of these tables is the CDS/Vizier TAP.
 
+CoRoT Catalogues
 
+|\#| Resource| Catalogue| Records| Columns| Table Name| Data Products
 
-******************
+| 1 | corot | corot.exo | 177,382 | 38 | Stars observed in the faint star mode with E(B-V) ( CoRoT team) with data products | datalink column (9 data products) |
 
+| 2 | corot | corot.astero | 171 | 24 | Stars observed in the bright star mode (CoRoT team) with data products | datalink column (4 data products) |
+
+These catalogues are complemented via DataLink with a download service of science-ready data products such as light curves (variations in star brightness over time) and full images, with their respective previews, as well as windescriptors. A fullimage is the image of the full CDD recorded at the beginning of the run during 3 orbits with no SAA crossing. In the beginning of each run, the flight software needs to be reconfigured in order to put in place the photometric apertures so as to optimize the signal-to-noise ratio of the measured light curves. The CoRoT EXOWIN software was dedicated to work with a trio of full frame images, from where the stars would be identified and a basket of around 6,000 stars per CCD would be assigned to a photometric aperture in the exostar channel. Windescriptors describe the windows and the masks defined to observe the targets.
