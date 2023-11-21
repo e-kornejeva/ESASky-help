@@ -2569,446 +2569,437 @@ Hipparcos catalogues, data products and tables
 	* Columns: 78
 	* Data Model Reference: S2.1, T2.1.1
 
-	* Data product # :  1 
-		*  Catalogue :  Hipparcos-1	
-		* Table Name: hipparcos1.hip_main
-		* Title: The Hipparcos Main Catalogue
-		* Records: 118,218
-		* Columns: 78
-		* Data Model Reference: S2.1, T2.1.1
+* Data product #: 2
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.h_dm_com 
+	*    Title :  Double and Multiples: Component solutions, Components 
+	*    Records :  24,588 
+	*    Columns :  38 
+	*    Data Model Reference :  S2.3, T2.3.2a 
 
-* 			Data product #: 2
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.h_dm_com 
-		*  Title :  Double and Multiples: Component solutions, Components 
-		*  Records :  24,588 
-		*  Columns :  38 
-		*  Data Model Reference :  S2.3, T2.3.2a 
+* Data product # :  3 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.h_dm_cor 
+	*    Title :  Double and Multiples: Component solutions, Correlations 
+	*    Records :  12,591 
+	*    Columns :  14 
+	*    Data Model Reference :  S2.3, T2.3.2b 
 
-* 			Data product # :  3 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.h_dm_cor 
-		*  Title :  Double and Multiples: Component solutions, Correlations 
-		*  Records :  12,591 
-		*  Columns :  14 
-		*  Data Model Reference :  S2.3, T2.3.2b 
+* Data product # :  4 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.hip_dm_g 
+	*    Title :  Double and Multiples: Acceleration solutions 
+	*    Records :  2,622 
+	*    Columns :  15 
+	*    Data Model Reference :  S2.3, T2.3.3 
 
-* 			Data product # :  4 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.hip_dm_g 
-		*  Title :  Double and Multiples: Acceleration solutions 
-		*  Records :  2,622 
-		*  Columns :  15 
-		*  Data Model Reference :  S2.3, T2.3.3 
+* Data product # :  5 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.hip_dm_v 
+	*    Title :  Double and Multiples: Variability Induced (VIM) solutions 
+	*    Records :  288 
+	*    Columns :  14 
+	*    Data Model Reference :  S2.3, T2.3.5 
 
-* 			Data product # :  5 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.hip_dm_v 
-		*  Title :  Double and Multiples: Variability Induced (VIM) solutions 
-		*  Records :  288 
-		*  Columns :  14 
-		*  Data Model Reference :  S2.3, T2.3.5 
+* Data product # :  6 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.hip_dm_x 
+	*    Title :  Double and Multiples: Stochastic solutions 
+	*    Records :  1,561 
+	*    Columns :  5 
+	*    Data Model Reference :  S2.3, T2.3.6 
 
-* 			Data product # :  6 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.hip_dm_x 
-		*  Title :  Double and Multiples: Stochastic solutions 
-		*  Records :  1,561 
-		*  Columns :  5 
-		*  Data Model Reference :  S2.3, T2.3.6 
+* Data product # :  7 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.him_dm_o 
+	*    Title :  Double and Multiples: Orbital solutions 
+	*    Records :  235 
+	*    Columns :  19 
+	*    Data Model Reference :  S2.3, T2.3.4a 
 
-* 			Data product # :  7 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.him_dm_o 
-		*  Title :  Double and Multiples: Orbital solutions 
-		*  Records :  235 
-		*  Columns :  19 
-		*  Data Model Reference :  S2.3, T2.3.4a 
+* Data product # :  8 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.hip_va_1 
+	*    Title :  Variability Annex: Periodic variables 
+	*    Records :  2,712 
+	*    Columns :  24 
+	*    Data Model Reference :  S2.4, T2.4.2 
 
-* 			Data product # :  8 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.hip_va_1 
-		*  Title :  Variability Annex: Periodic variables 
-		*  Records :  2,712 
-		*  Columns :  24 
-		*  Data Model Reference :  S2.4, T2.4.2 
+* Data product # :  9 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.hip_va_2 
+	*    Title :  Variability Annex: Unsolved variables 
+	*    Records :  5,542 
+	*    Columns :  22 
+	*    Data Model Reference :  S2.4, T2.4.2 
 
-* 			Data product # :  9 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.hip_va_2 
-		*  Title :  Variability Annex: Unsolved variables 
-		*  Records :  5,542 
-		*  Columns :  22 
-		*  Data Model Reference :  S2.4, T2.4.2 
+* Data product # :  10 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.solar_ha 
+	*    Title :  Solar System Annex: Astrometric catalogue 
+	*    Records :  5,609 
+	*    Columns :  10 
+	*    Data Model Reference :  S2.7, T2.7.5 
 
-* 			Data product # :  10 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.solar_ha 
-		*  Title :  Solar System Annex: Astrometric catalogue 
-		*  Records :  5,609 
-		*  Columns :  10 
-		*  Data Model Reference :  S2.7, T2.7.5 
+* Data product # :  11 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.solar_hp 
+	*    Title :  Solar System Annex: Photometric catalogue 
+	*    Records :  2,639 
+	*    Columns :  10 
+	*    Data Model Reference :  S2.7, T2.7.6 
 
-* 			Data product # :  11 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.solar_hp 
-		*  Title :  Solar System Annex: Photometric catalogue 
-		*  Records :  2,639 
-		*  Columns :  10 
-		*  Data Model Reference :  S2.7, T2.7.6 
+* Data product # :  12 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.solar_t 
+	*    Title :  Solar System Annex: Tycho astrometry/photometry 
+	*    Records :  291 
+	*    Columns :  16 
+	*    Data Model Reference :  S2.7, T2.7.7 
 
-* 			Data product # :  12 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.solar_t 
-		*  Title :  Solar System Annex: Tycho astrometry/photometry 
-		*  Records :  291 
-		*  Columns :  16 
-		*  Data Model Reference :  S2.7, T2.7.7 
+* Data product # : 13
+	*    Catalogue : Hipparcos-1
+	*    Table Name :  hipparcos1.hd_notes 
+	*    Title : Hipparcos notes: Double and multiple systems
+	*    Records : 2,622
+	*    Columns : 7
+	*    Data Model Reference : S2.11, T2.11.2
 
-* 			Data product # : 13
-		*  Catalogue : Hipparcos-1
-		*  Table Name :  hipparcos1.hd_notes 
-		*  Title : Hipparcos notes: Double and multiple systems
-		*  Records : 2,622
-		*  Columns : 7
-		*  Data Model Reference : S2.11, T2.11.2
+* Data product # : 14
+	*    Catalogue : Hipparcos-1
+	*    Table Name :  hipparcos1.hg_notes 
+	*    Title : Hipparcos notes: General notes
+	*    Records : 3,898
+	*    Columns : 7
+	*    Data Model Reference : S2.11, T2.11.2
 
-* 			Data product # : 14
-		*  Catalogue : Hipparcos-1
-		*  Table Name :  hipparcos1.hg_notes 
-		*  Title : Hipparcos notes: General notes
-		*  Records : 3,898
-		*  Columns : 7
-		*  Data Model Reference : S2.11, T2.11.2
+* Data product # : 15
+	*    Catalogue : Hipparcos-1
+	*    Table Name :  hipparcos1.hp_notes 
+	*    Title : Hipparcos notes: Photometric notes
+	*    Records : 2,444
+	*    Columns : 7
+	*    Data Model Reference : S2.11, T2.11.2
 
-* 			Data product # : 15
-		*  Catalogue : Hipparcos-1
-		*  Table Name :  hipparcos1.hp_notes 
-		*  Title : Hipparcos notes: Photometric notes
-		*  Records : 2,444
-		*  Columns : 7
-		*  Data Model Reference : S2.11, T2.11.2
+* Data product # : 16
+	*    Catalogue : Hipparcos-1
+	*    Table Name : hipparcos1.hp_refs
+	*    Title : References Hipparcos stars
+	*    Records : 33,769
+	*    Columns : 5
+	*    Data Model Reference : S2.11, T2.11.2
 
-* 			Data product # : 16
-		*  Catalogue : Hipparcos-1
-		*  Table Name : hipparcos1.hp_refs
-		*  Title : References Hipparcos stars
-		*  Records : 33,769
-		*  Columns : 5
-		*  Data Model Reference : S2.11, T2.11.2
+* Data product # : 17
+	*    Catalogue : Hipparcos-1
+	*    Table Name :  hipparcos1.hp_auth 
+	*    Title : References of hp_notes.doc
+	*    Records : 4,335
+	*    Columns : 3
+	*    Data Model Reference : S2.11, T2.11.2
 
-* 			Data product # : 17
-		*  Catalogue : Hipparcos-1
-		*  Table Name :  hipparcos1.hp_auth 
-		*  Title : References of hp_notes.doc
-		*  Records : 4,335
-		*  Columns : 3
-		*  Data Model Reference : S2.11, T2.11.2
+* Data product # : 18
+	*    Catalogue : Hipparcos-1
+	*    Table Name :  hipparcos1.dmsa_o 
+	*    Title : References of hip_dm_o.dat
+	*    Records : 118
+	*    Columns : 5
+	*    Data Model Reference : S2.3, T2.3.4b
 
-* 			Data product # : 18
-		*  Catalogue : Hipparcos-1
-		*  Table Name :  hipparcos1.dmsa_o 
-		*  Title : References of hip_dm_o.dat
-		*  Records : 118
-		*  Columns : 5
-		*  Data Model Reference : S2.3, T2.3.4b
+* Data product # :  19 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.hip_i 
+	*    Title :  Hipparcos Intermediate Astrometry 
+	*    Records :  118,204 
+	*    Columns :  11 
+	*    Data Model Reference :  S2.8, T2.8.2 
 
-* 			Data product # :  19 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.hip_i 
-		*  Title :  Hipparcos Intermediate Astrometry 
-		*  Records :  118,204 
-		*  Columns :  11 
-		*  Data Model Reference :  S2.8, T2.8.2 
+* Data product # :  hipparcos1.hipabsc 
+	*    Catalogue :  Hipparcos Intermediate Astrometry: Abcissa record 
+	*    Table Name :  7,226,006 
+	*    Title :  12 
+	*    Records :  S2.8, T2.8.3 
+	*    Columns : 
+	*    Data Model Reference : 
 
-* 			Data product # :  hipparcos1.hipabsc 
-		*  Catalogue :  Hipparcos Intermediate Astrometry: Abcissa record 
-		*  Table Name :  7,226,006 
-		*  Title :  12 
-		*  Records :  S2.8, T2.8.3 
-		*  Columns : 
-		*  Data Model Reference : 
+* Data product # :  20 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.hip_rgc 
+	*    Title :  Hipparcos Intermediate Astrometry: Reference great circle 
+	*    Records :  2,341 
+	*    Columns :  8 
+	*    Data Model Reference :  S2.8, T2.8.1 
 
-* 			Data product # :  20 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.hip_rgc 
-		*  Title :  Hipparcos Intermediate Astrometry: Reference great circle 
-		*  Records :  2,341 
-		*  Columns :  8 
-		*  Data Model Reference :  S2.8, T2.8.1 
+* Data product # :  21 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.hip_j 
+	*    Title :  Hipparcos Transit Data 
+	*    Records :  37,368 
+	*    Columns :  15 
+	*    Data Model Reference :  S2.9, T2.9.1 
 
-* 			Data product # :  21 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.hip_j 
-		*  Title :  Hipparcos Transit Data 
-		*  Records :  37,368 
-		*  Columns :  15 
-		*  Data Model Reference :  S2.9, T2.9.1 
+* Data product # :  hipparcos1.hipoint 
+	*    Catalogue :  Hipparcos Transit Data: Pointing record 
+	*    Table Name :  37,368 
+	*    Title :  29 
+	*    Records :  S2.9, T2.9.2 
+	*    Columns : 
+	*    Data Model Reference : 
 
-* 			Data product # :  hipparcos1.hipoint 
-		*  Catalogue :  Hipparcos Transit Data: Pointing record 
-		*  Table Name :  37,368 
-		*  Title :  29 
-		*  Records :  S2.9, T2.9.2 
-		*  Columns : 
-		*  Data Model Reference : 
+* Data product # :  hipparcos1.hipjtran 
+	*    Catalogue :  Hipparcos Transit Data: Transit record 
+	*    Table Name :  4,276,420 
+	*    Title :  21 
+	*    Records :  S2.9, T2.9.3 
+	*    Columns : 
+	*    Data Model Reference : 
 
-* 			Data product # :  hipparcos1.hipjtran 
-		*  Catalogue :  Hipparcos Transit Data: Transit record 
-		*  Table Name :  4,276,420 
-		*  Title :  21 
-		*  Records :  S2.9, T2.9.3 
-		*  Columns : 
-		*  Data Model Reference : 
+* Data product # :  22 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.hip_ep 
+	*    Title :  Hipparcos Epoch Photometry Annex 
+	*    Records :  118,204 
+	*    Columns :  15 
+	*    Data Model Reference :  S2.5, T2.5.1 
 
-* 			Data product # :  22 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.hip_ep 
-		*  Title :  Hipparcos Epoch Photometry Annex 
-		*  Records :  118,204 
-		*  Columns :  15 
-		*  Data Model Reference :  S2.5, T2.5.1 
+* Data product # :  hipparcos1.hiptrans 
+	*    Catalogue :  Hipparcos Epoch Photometry Annex: Transit record 
+	*    Table Name :  13,724,288 
+	*    Title :  6 
+	*    Records :  S2.5, T2.5.2 
+	*    Columns : 
+	*    Data Model Reference : 
 
-* 			Data product # :  hipparcos1.hiptrans 
-		*  Catalogue :  Hipparcos Epoch Photometry Annex: Transit record 
-		*  Table Name :  13,724,288 
-		*  Title :  6 
-		*  Records :  S2.5, T2.5.2 
-		*  Columns : 
-		*  Data Model Reference : 
+* Data product # :  23 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.hip_ep_e 
+	*    Title :  Hipparcos Epoch Photometry Annex Extension 
+	*    Records :  118,204 
+	*    Columns :  12 
+	*    Data Model Reference :  S2.5, T2.5.3 
 
-* 			Data product # :  23 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.hip_ep_e 
-		*  Title :  Hipparcos Epoch Photometry Annex Extension 
-		*  Records :  118,204 
-		*  Columns :  12 
-		*  Data Model Reference :  S2.5, T2.5.3 
+* Data product # :  hipparcos1.hepetran 
+	*    Catalogue :  Hipparcos Epoch Photometry Annex Extension: Transit record 
+	*    Table Name :  13,724,288 
+	*    Title :  10 
+	*    Records :  S2.5, T2.5.4 
+	*    Columns : 
+	*    Data Model Reference : 
 
-* 			Data product # :  hipparcos1.hepetran 
-		*  Catalogue :  Hipparcos Epoch Photometry Annex Extension: Transit record 
-		*  Table Name :  13,724,288 
-		*  Title :  10 
-		*  Records :  S2.5, T2.5.4 
-		*  Columns : 
-		*  Data Model Reference : 
+* Data product # :  24 
+	*    Catalogue :  Hipparcos-1 
+	*    Table Name :  hipparcos1.hip_ep_c 
+	*    Title :  Hipparcos Epoch Photometry Annex Extension: coincidence 
+	*    Records :  105,233 
+	*    Columns :  5 
+	*    Data Model Reference :  S2.5, T2.5.5 
 
-* 			Data product # :  24 
-		*  Catalogue :  Hipparcos-1 
-		*  Table Name :  hipparcos1.hip_ep_c 
-		*  Title :  Hipparcos Epoch Photometry Annex Extension: coincidence 
-		*  Records :  105,233 
-		*  Columns :  5 
-		*  Data Model Reference :  S2.5, T2.5.5 
+* Data product # :  25 
+	*    Catalogue :  Hipparcos-2 
+	*    Table Name :  hipparcos2_cds.hip2 hipparcos2_dvd.hip2 
+	*    Title :  The Hipparcos Main Catalogue 
+	*    Records :  117,955 117,955 
+	*    Columns :  27 
+	*    Data Model Reference :  2007A&A...474..653V 
 
-* 			Data product # :  25 
-		*  Catalogue :  Hipparcos-2 
-		*  Table Name :  hipparcos2_cds.hip2 hipparcos2_dvd.hip2 
-		*  Title :  The Hipparcos Main Catalogue 
-		*  Records :  117,955 117,955 
-		*  Columns :  27 
-		*  Data Model Reference :  2007A&A...474..653V 
+* Data product # :  26 
+	*    Catalogue :  Hipparcos-2 
+	*    Table Name :  hipparcos2_cds.hip7p hipparcos2_dvd.hip2_7p 
+	*    Title :  Double and Multiples: Seven-parameter solutions 
+	*    Records :  1,338 1,343 
+	*    Columns :  7 
+	*    Data Model Reference :  2007A&A...474..653V 
 
-* 			Data product # :  26 
-		*  Catalogue :  Hipparcos-2 
-		*  Table Name :  hipparcos2_cds.hip7p hipparcos2_dvd.hip2_7p 
-		*  Title :  Double and Multiples: Seven-parameter solutions 
-		*  Records :  1,338 1,343 
-		*  Columns :  7 
-		*  Data Model Reference :  2007A&A...474..653V 
+* Data product # :  27 
+	*    Catalogue :  Hipparcos-2 
+	*    Table Name :  hipparcos2_cds.hip9p hipparcos2_dvd.hip2_9p 
+	*    Title :  Double and Multiples: Nine-parameter solutions 
+	*    Records :  104 102 
+	*    Columns :  11 
+	*    Data Model Reference :  2007A&A...474..653V 
 
-* 			Data product # :  27 
-		*  Catalogue :  Hipparcos-2 
-		*  Table Name :  hipparcos2_cds.hip9p hipparcos2_dvd.hip2_9p 
-		*  Title :  Double and Multiples: Nine-parameter solutions 
-		*  Records :  104 102 
-		*  Columns :  11 
-		*  Data Model Reference :  2007A&A...474..653V 
+* Data product # :  28 
+	*    Catalogue :  Hipparcos-2 
+	*    Table Name :  hipparcos2_cds.hipvim hipparcos2_dvd.hip2_vim 
+	*    Title :  Double and Multiples: Variability-induced (VIM) solutions 
+	*    Records :  25 43 
+	*    Columns :  7 
+	*    Data Model Reference :  2007A&A...474..653V 
 
-* 			Data product # :  28 
-		*  Catalogue :  Hipparcos-2 
-		*  Table Name :  hipparcos2_cds.hipvim hipparcos2_dvd.hip2_vim 
-		*  Title :  Double and Multiples: Variability-induced (VIM) solutions 
-		*  Records :  25 43 
-		*  Columns :  7 
-		*  Data Model Reference :  2007A&A...474..653V 
+* Data product # : 29
+	*    Catalogue : Hipparcos-2
+	*    Table Name : hipparcos2_dvd.resrec_header
+	*    Title : Hipparcos Intermediate Astrometry - Abcissa residuals: Header records
+	*    Records : 117,955
+	*    Columns : 9
+	*    Data Model Reference : Table G.8 in Springer book (ReadMe)
 
-* 			Data product # : 29
-		*  Catalogue : Hipparcos-2
-		*  Table Name : hipparcos2_dvd.resrec_header
-		*  Title : Hipparcos Intermediate Astrometry - Abcissa residuals: Header records
-		*  Records : 117,955
-		*  Columns : 9
-		*  Data Model Reference : Table G.8 in Springer book (ReadMe)
+* Data product # : hipparcos2_dvd.resrec_data
+	*    Catalogue : Hipparcos Intermediate Astrometry - Abcissa residuals: Data records
+	*    Table Name : 13,678,867
+	*    Title : 9
+	*    Records : Table G.8 in Springer book (ReadMe)
+	*    Columns : 
+	*    Data Model Reference : 
 
-* 			Data product # : hipparcos2_dvd.resrec_data
-		*  Catalogue : Hipparcos Intermediate Astrometry - Abcissa residuals: Data records
-		*  Table Name : 13,678,867
-		*  Title : 9
-		*  Records : Table G.8 in Springer book (ReadMe)
-		*  Columns : 
-		*  Data Model Reference : 
+* Data product # : hipparcos2_dvd.absrec_header
+	*    Catalogue : Hipparcos Intermediate Astrometry - Field transit records: Header records
+	*    Table Name : 117,955
+	*    Title : 13
+	*    Records : Table G.9 in Springer book (ReadMe)
+	*    Columns : 
+	*    Data Model Reference : 
 
-* 			Data product # : hipparcos2_dvd.absrec_header
-		*  Catalogue : Hipparcos Intermediate Astrometry - Field transit records: Header records
-		*  Table Name : 117,955
-		*  Title : 13
-		*  Records : Table G.9 in Springer book (ReadMe)
-		*  Columns : 
-		*  Data Model Reference : 
+* Data product # : hipparcos2_dvd.absrec_data
+	*    Catalogue : Hipparcos Intermediate Astrometry - Field transit records: Data records
+	*    Table Name : 13,678,867
+	*    Title : 28
+	*    Records : Table G.9 in Springer book (ReadMe)
+	*    Columns : 
+	*    Data Model Reference : 
 
-* 			Data product # : hipparcos2_dvd.absrec_data
-		*  Catalogue : Hipparcos Intermediate Astrometry - Field transit records: Data records
-		*  Table Name : 13,678,867
-		*  Title : 28
-		*  Records : Table G.9 in Springer book (ReadMe)
-		*  Columns : 
-		*  Data Model Reference : 
+* Data product # :  30 
+	*    Catalogue :  Tycho-1 
+	*    Table Name :  tycho1.tyc_main 
+	*    Title :  The main part of Tycho Catalogue 
+	*    Records :  1,058,332 
+	*    Columns :  61 
+	*    Data Model Reference :  S2.2, T2.2.1 
 
-* 			Data product # :  30 
-		*  Catalogue :  Tycho-1 
-		*  Table Name :  tycho1.tyc_main 
-		*  Title :  The main part of Tycho Catalogue 
-		*  Records :  1,058,332 
-		*  Columns :  61 
-		*  Data Model Reference :  S2.2, T2.2.1 
+* Data product # :  31 
+	*    Catalogue :  Tycho-1 
+	*    Table Name :  tycho1.tyc_ep_header 
+	*    Title :  Tycho Epoch Photometry - Annex A: Header records 
+	*    Records :  34,446 
+	*    Columns :  18 
+	*    Data Model Reference :  S2.6, T2.6.1 (Readme) 
 
-* 			Data product # :  31 
-		*  Catalogue :  Tycho-1 
-		*  Table Name :  tycho1.tyc_ep_header 
-		*  Title :  Tycho Epoch Photometry - Annex A: Header records 
-		*  Records :  34,446 
-		*  Columns :  18 
-		*  Data Model Reference :  S2.6, T2.6.1 (Readme) 
+* Data product # :  tycho1.tyc_ep_data 
+	*    Catalogue :  Tycho Epoch Photometry - Annex A: Individual transit records 
+	*    Table Name :  6,760,543 
+	*    Title :  18 
+	*    Records :  S2.6, T2.6.2 (Readme) 
+	*    Columns : 
+	*    Data Model Reference : 
 
-* 			Data product # :  tycho1.tyc_ep_data 
-		*  Catalogue :  Tycho Epoch Photometry - Annex A: Individual transit records 
-		*  Table Name :  6,760,543 
-		*  Title :  18 
-		*  Records :  S2.6, T2.6.2 (Readme) 
-		*  Columns : 
-		*  Data Model Reference : 
+* Data product # : 32
+	*    Catalogue : Tycho-1
+	*    Table Name : tycho1.tyc_epo
+	*    Title : Tycho Epoch Photometry - Annex B
+	*    Records : 508,710
+	*    Columns : 6
+	*    Data Model Reference : I/239/ReadMe (Readme)
 
-* 			Data product # : 32
-		*  Catalogue : Tycho-1
-		*  Table Name : tycho1.tyc_epo
-		*  Title : Tycho Epoch Photometry - Annex B
-		*  Records : 508,710
-		*  Columns : 6
-		*  Data Model Reference : I/239/ReadMe (Readme)
+* Data product # : tycho1.tyc_epo_header*
+	*    Catalogue : Tycho Epoch Photometry - Annex B: Header records
+	*    Table Name : 458,089
+	*    Title : 18
+	*    Records : S2.6, T2.6.1 (Readme)
+	*    Columns : 
+	*    Data Model Reference : 
 
-* 			Data product # : tycho1.tyc_epo_header*
-		*  Catalogue : Tycho Epoch Photometry - Annex B: Header records
-		*  Table Name : 458,089
-		*  Title : 18
-		*  Records : S2.6, T2.6.1 (Readme)
-		*  Columns : 
-		*  Data Model Reference : 
+* Data product # : tycho1.tyc_epo_data*
+	*    Catalogue : Tycho Epoch Photometry - Annex B: Individual transit records
+	*    Table Name : 78,778,542
+	*    Title : 18
+	*    Records : S2.6, T2.6.2 (Readme)
+	*    Columns : 
+	*    Data Model Reference : 
 
-* 			Data product # : tycho1.tyc_epo_data*
-		*  Catalogue : Tycho Epoch Photometry - Annex B: Individual transit records
-		*  Table Name : 78,778,542
-		*  Title : 18
-		*  Records : S2.6, T2.6.2 (Readme)
-		*  Columns : 
-		*  Data Model Reference : 
+* Data product # :  33 
+	*    Catalogue :  Tycho-2 
+	*    Table Name :  tycho2.tyc2 
+	*    Title :  The Tycho-2 Main Catalogue 
+	*    Records :  2,539,913 
+	*    Columns :  38 
+	*    Data Model Reference :  2000A&A...355L..27H 
 
-* 			Data product # :  33 
-		*  Catalogue :  Tycho-2 
-		*  Table Name :  tycho2.tyc2 
-		*  Title :  The Tycho-2 Main Catalogue 
-		*  Records :  2,539,913 
-		*  Columns :  38 
-		*  Data Model Reference :  2000A&A...355L..27H 
+* Data product # :  34 
+	*    Catalogue :  Tycho-2 
+	*    Table Name :  tycho2.suppl_1 
+	*    Title :  Tycho-2 Supplement-1 
+	*    Records :  17,588 
+	*    Columns :  24 
+	*    Data Model Reference :  2000A&A...355L..27H 
 
-* 			Data product # :  34 
-		*  Catalogue :  Tycho-2 
-		*  Table Name :  tycho2.suppl_1 
-		*  Title :  Tycho-2 Supplement-1 
-		*  Records :  17,588 
-		*  Columns :  24 
-		*  Data Model Reference :  2000A&A...355L..27H 
+* Data product # :  35 
+	*    Catalogue :  Tycho-2 
+	*    Table Name :  tycho2.suppl_2 
+	*    Title :  Tycho-2 Supplement-2 
+	*    Records :  1,146 
+	*    Columns :  24 
+	*    Data Model Reference :  2000A&A...355L..27H 
 
-* 			Data product # :  35 
-		*  Catalogue :  Tycho-2 
-		*  Table Name :  tycho2.suppl_2 
-		*  Title :  Tycho-2 Supplement-2 
-		*  Records :  1,146 
-		*  Columns :  24 
-		*  Data Model Reference :  2000A&A...355L..27H 
+* Data product # : 36
+	*    Catalogue : Tycho-2
+	*    Table Name : tycho2.tyc_sc_header
+	*    Title : Tycho Intermediate Astrometry - Sorted Identified Counts: Header records
+	*    Records : 574,915,849
+	*    Columns : 8
+	*    Data Model Reference : Tycho2_SortedCounts_ReadMe.txt
 
-* 			Data product # : 36
-		*  Catalogue : Tycho-2
-		*  Table Name : tycho2.tyc_sc_header
-		*  Title : Tycho Intermediate Astrometry - Sorted Identified Counts: Header records
-		*  Records : 574,915,849
-		*  Columns : 8
-		*  Data Model Reference : Tycho2_SortedCounts_ReadMe.txt
+* Data product # : tycho2.tyc_sc_para
+	*    Catalogue : Tycho Intermediate Astrometry - Sorted Identified Counts: Parasite records
+	*    Table Name : 574,915,849
+	*    Title : 15
+	*    Records : Tycho2_SortedCounts_ReadMe.txt
+	*    Columns : 
+	*    Data Model Reference : 
 
-* 			Data product # : tycho2.tyc_sc_para
-		*  Catalogue : Tycho Intermediate Astrometry - Sorted Identified Counts: Parasite records
-		*  Table Name : 574,915,849
-		*  Title : 15
-		*  Records : Tycho2_SortedCounts_ReadMe.txt
-		*  Columns : 
-		*  Data Model Reference : 
+* Data product # : tycho2.tyc_sc_data
+	*    Catalogue : Tycho Intermediate Astrometry - Sorted Identified Counts: Counts records
+	*    Table Name : 574,915,849
+	*    Title : 7
+	*    Records : Tycho2_SortedCounts_ReadMe.txt
+	*    Columns : 
+	*    Data Model Reference : 
 
-* 			Data product # : tycho2.tyc_sc_data
-		*  Catalogue : Tycho Intermediate Astrometry - Sorted Identified Counts: Counts records
-		*  Table Name : 574,915,849
-		*  Title : 7
-		*  Records : Tycho2_SortedCounts_ReadMe.txt
-		*  Columns : 
-		*  Data Model Reference : 
+* Data product # :  37 
+	*    Catalogue :  Tycho-2 
+	*    Table Name :  tycho2.tdsc_catalogue 
+	*    Title :  Main Tycho Double Star Catalogue 
+	*    Records :  98,482 
+	*    Columns :  38 
+	*    Data Model Reference :  2002A&A...384..180F 
 
-* 			Data product # :  37 
-		*  Catalogue :  Tycho-2 
-		*  Table Name :  tycho2.tdsc_catalogue 
-		*  Title :  Main Tycho Double Star Catalogue 
-		*  Records :  98,482 
-		*  Columns :  38 
-		*  Data Model Reference :  2002A&A...384..180F 
+* Data product # :  38 
+	*    Catalogue :  Tycho-2 
+	*    Table Name :  tycho2.tdsc_supplem 
+	*    Title :  Tycho Double Star Catalogue - Supplement 
+	*    Records :  4,777 
+	*    Columns :  38 
+	*    Data Model Reference :  2002A&A...384..180F 
 
-* 			Data product # :  38 
-		*  Catalogue :  Tycho-2 
-		*  Table Name :  tycho2.tdsc_supplem 
-		*  Title :  Tycho Double Star Catalogue - Supplement 
-		*  Records :  4,777 
-		*  Columns :  38 
-		*  Data Model Reference :  2002A&A...384..180F 
+* Data product # :  39 
+	*    Catalogue :  Tycho-2 
+	*    Table Name :  tycho2.tdsc_notes 
+	*    Title :  Tycho Double Star Catalogue - Notes 
+	*    Records :  149 
+	*    Columns :  5 
+	*    Data Model Reference :  2002A&A...384..180F 
 
-* 			Data product # :  39 
-		*  Catalogue :  Tycho-2 
-		*  Table Name :  tycho2.tdsc_notes 
-		*  Title :  Tycho Double Star Catalogue - Notes 
-		*  Records :  149 
-		*  Columns :  5 
-		*  Data Model Reference :  2002A&A...384..180F 
+* Data product # :  40 
+	*    Catalogue :  Tycho-2 
+	*    Table Name :  tycho2.colorphotds_catalogue 
+	*    Title :  Two-colour photometry for components of Hipparcos doubles 
+	*    Records :  9,473 
+	*    Columns :  15 
+	*    Data Model Reference :  2000A&A...356..141F 
 
-* 			Data product # :  40 
-		*  Catalogue :  Tycho-2 
-		*  Table Name :  tycho2.colorphotds_catalogue 
-		*  Title :  Two-colour photometry for components of Hipparcos doubles 
-		*  Records :  9,473 
-		*  Columns :  15 
-		*  Data Model Reference :  2000A&A...356..141F 
+* Data product # : 41
+	*    Catalogue : Tycho-2
+	*    Table Name : tycho2.tic2
+	*    Title :  Second Tycho Input Catalogue (TIC2) 
+	*    Records : 4,351,323
+	*    Columns : 26
+	*    Data Model Reference : TIC2_ReadMe.txt
 
-* 			Data product # : 41
-		*  Catalogue : Tycho-2
-		*  Table Name : tycho2.tic2
-		*  Title :  Second Tycho Input Catalogue (TIC2) 
-		*  Records : 4,351,323
-		*  Columns : 26
-		*  Data Model Reference : TIC2_ReadMe.txt
-
-* 			Data product # : 42
-		*  Catalogue : Tycho-2
-		*  Table Name : tycho2.tic2_lut
-		*  Title : Look-up table between Hipparcos/Tycho data products
-		*  Records : 3,332,290
-		*  Columns : 13
-		*  Data Model Reference : LUT_ReadMe.txt
-
+* Data product # : 42
+	*    Catalogue : Tycho-2
+	*    Table Name : tycho2.tic2_lut
+	*    Title : Look-up table between Hipparcos/Tycho data products
+	*    Records : 3,332,290
+	*    Columns : 13
+	*    Data Model Reference : LUT_ReadMe.txt
 
 ### Legacy archive (Cos-B): 
 
