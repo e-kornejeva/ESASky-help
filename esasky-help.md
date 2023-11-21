@@ -504,7 +504,7 @@ The International Ultraviolet Explorer (IUE) was a joint project between ESA, NA
 |LWR       |1850-3350 Å      |2 10-15 erg sec-1 cm-2 Å-1 |
 
 
-In all cases, two apertures were available: a small circular aperture of 3’’ radius, and a large 10’’ x 20’’ rectangular aperture. In low-resolution mode, the resolution is ~ 0.6 nm, corresponding to resolving powers of R ~ 250 at 150 nm and R ~ 450 at 270 nm. In high-resolution mode, the resolution is ~ 0.02 nm, corresponding to resolving powers of R ~ 7500 at 150 nm and R ~ 13500 at 270 nm, respectively.
+In all cases, two apertures were available: a small circular aperture of 3’’ radius, and a large 10’’ x 20’’ rectangular aperture. In low-resolution mode, the resolution is ~ 0.6 nm, corresponding to resolving powers of R\~250 at 150 nm and R\~450 at 270 nm. In high-resolution mode, the resolution is ~ 0.02 nm, corresponding to resolving powers of R\~7500 at 150 nm and R\~13500 at 270 nm, respectively.
 
 _ESASky_ provides fully calibrated spectra from all three spectrographs, which are directly retrieved from the [IU Newly Extracted Spectra (INES) archive](http://sdc.cab.inta-csic.es/ines/index2.html), hosted at the [Centro de Astrobiología (CAB)](http://cab.inta-csic.es/en/) near Madrid (Spain).
 
