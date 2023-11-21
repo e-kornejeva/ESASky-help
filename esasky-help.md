@@ -1,5 +1,5 @@
 # ESASky Help - ESDC - Cosmos
-
+#### URL: https://www.cosmos.esa.int/web/esdc/esasky-help
 #### IMG: https://www.cosmos.esa.int/documents/401090/1819298/ESASky3_5c.png/91a45df6-0d0a-f65c-74a4-855f3eedaf80?t=1601455745350
 
 ## INTRODUCTION
@@ -3719,6 +3719,8 @@ These catalogues are complemented via DataLink with a download service of scienc
 
 # ESASky Legacy TAP: EU-funded Projects - ESDC - Cosmos
 
+#### URL: https://www.cosmos.esa.int/web/esdc/legacy-tap-eu#HELP
+
 ESASky legacy is a TAP ([Table Access Protocol](http://www.ivoa.net/documents/TAP/)) service to provide the community access to complete, self-standing catalogues and data collections from ESA astronomy legacy missions, ensuring their long-term preservation. This service, which is an [IVOA](http://www.ivoa.net/) standard for most modern science archives, is an entry point to data products and their successors that can be exposed by ESASky.
 
 The [European Commission Research Executive Agency](https://ec.europa.eu/info/departments/research-executive-agency_en)) (H2020 and FP7) projects available in the [ESASky legacy TAP](http://esaskylegacy.esac.esa.int/esasky-legacy-sl-tap/tap) are:
@@ -3731,7 +3733,7 @@ The [European Commission Research Executive Agency](https://ec.europa.eu/info/de
 
 ### Herschel Extragalactic Legacy Project (HELP):
 
-#### URL: https://www.cosmos.esa.int/web/esdc/legacy-tap-eu#HELP
+
 
 The Herschel Extragalactic Legacy Project (\[HELP\] [http://www.herschel.sussex.ac.uk](http://www.herschel.sussex.ac.uk/)) is a European Commission Research Executive Agency funded programme specifically targeted to analysing the far infrared extragalactic observations made with the [ESA Observatory Herschel](https://www.cosmos.esa.int/web/herschel). This project collates, curates, homogenises, and creates derived data products for most of the premium multi-wavelength extragalactic data sets. The sky boundaries for the first data release (DR1) cover 1270 deg2 defined by the Herschel SPIRE extragalactic survey fields; notably the Herschel Multi-tiered Extragalactic Survey ([HerMES](http://herschel.esac.esa.int/Docs/GTKP/KPGT_accepted.html#KPGT_soliver_1)) and the Herschel Atlas survey ([H-ATLAS](http://herschel.esac.esa.int/Docs/KPOT/KPOT_accepted.html#KPOT_seales01_2)), Herschel Guaranteed and Open Time Key Programmes, respectively.
 
