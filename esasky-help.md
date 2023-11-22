@@ -363,13 +363,9 @@ Access all the notebooks, and others, on [GitHub](https://github.com/esdc-esac-e
 # EDDIE Cut-out Image Service
 #### URL: https://www.cosmos.esa.int/web/esdc/cutout-service
 
-This service is intended for the generation of high resolution astronomical images, given a field-of-view (FoV), a HiPS map and a specific projection. The output image format is configurable, as well as the zoom level (HealPix nOrder) and the size of the output images.
+This service is intended for the generation of high resolution astronomical images, given a field-of-view (FoV), a HiPS map and a specific projection. The output image format is configurable, as well as the zoom level (HealPix nOrder) and the size of the output images. See this image: https://www.cosmos.esa.int/documents/401090/442498/eddie1.png/9abbc48b-5d16-13fb-b45f-f0aa81ddd7b9?t=1527068696671
 
-#### IMG: https://www.cosmos.esa.int/documents/401090/442498/eddie1.png/9abbc48b-5d16-13fb-b45f-f0aa81ddd7b9?t=1527068696671
-
-To extract your image, start by defining the desired area in the Aladin widget: You have to enter the name or coordinates of your object and adjust the zoom level. Then click on “Get Aladin FoV” to retrieve the right ascension (RA), declination (Dec), FoV size and aspect ratio of the image. Next, choose a sky map from the HiPS menu. The size of the output image can also be customised via the “Image Size” text box. Click on “Refresh image” and then on “Open image in new tab” to display the real cut-out generated image.
-
-#### IMG: https://www.cosmos.esa.int/documents/401090/442498/eddie2.png/9a17f236-65a4-b7f9-3609-073404055778?t=1527068820986
+To extract your image, start by defining the desired area in the Aladin widget: You have to enter the name or coordinates of your object and adjust the zoom level. Then click on “Get Aladin FoV” to retrieve the right ascension (RA), declination (Dec), FoV size and aspect ratio of the image. Next, choose a sky map from the HiPS menu. The size of the output image can also be customised via the “Image Size” text box. Click on “Refresh image” and then on “Open image in new tab” to display the real cut-out generated image. See this image: https://www.cosmos.esa.int/documents/401090/442498/eddie2.png/9a17f236-65a4-b7f9-3609-073404055778?t=1527068820986
 
 Additional support for selecting the cut-out area or “polygon” is available through the “Input Area” selector.
 
@@ -2379,9 +2375,7 @@ GLADE+ is an extended version of the GLADE galaxy catalog for multimessenger sea
 
 IceCube has performed several searches for point-like sources of neutrinos. The events contained in the IceCube All-Sky Point-Source Events Catalog (2008 - 2018; Icecubepsc) make up the sample used in IceCube's 10-year time-integrated neutrino point source search. Events in the sample are track-like neutrino candidates detected by IceCube between April 2008 and July 2018.
 
-**IMPORTANT NOTE:** ESASky displays fewer events than those available in the [IceCube All-Sky Point-Source Events Catalog](http://doi.org/DOI:10.21234/sxvs-mt83) in order to show a less crowded display. An energy cut has been applied to the data to remove most of the lower energy events, therefore, ESASky display events with energies of E>104 GeV in the Northern hemisphere and events with energies of E>105.8 GeV in the Southern hemisphere (approximately the top 1% events in energy; 26706 neutrino candidate events). See the below figure from the Icecube Collaboration (2021) publication ([https://arxiv.org/abs/2101.09836](https://arxiv.org/abs/2101.09836)) showing the distribution of events as a function of reconstructed declination and event energy:
-
-#### IMG: https://www.cosmos.esa.int/documents/401090/1819298/Fig1IceCube.png/b6914640-682f-0da9-3823-99bc1689c512?t=1647275389956
+**IMPORTANT NOTE:** ESASky displays fewer events than those available in the [IceCube All-Sky Point-Source Events Catalog](http://doi.org/DOI:10.21234/sxvs-mt83) in order to show a less crowded display. An energy cut has been applied to the data to remove most of the lower energy events, therefore, ESASky display events with energies of E>104 GeV in the Northern hemisphere and events with energies of E>105.8 GeV in the Southern hemisphere (approximately the top 1% events in energy; 26706 neutrino candidate events). See the below figure from the Icecube Collaboration (2021) publication ([https://arxiv.org/abs/2101.09836](https://arxiv.org/abs/2101.09836)) showing the distribution of events as a function of reconstructed declination and event energy. See this image: https://www.cosmos.esa.int/documents/401090/1819298/Fig1IceCube.png/b6914640-682f-0da9-3823-99bc1689c512?t=1647275389956
 
 For more information on the IceCube All-Sky Point-Source Events Catalog and to download the whole catalog (1.1 million events) please go to [this page](https://doi.org/DOI:10.21234/sxvs-mt83).
 
