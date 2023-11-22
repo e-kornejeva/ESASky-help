@@ -3821,3 +3821,780 @@ StarFormMapper Catalogues
 | 8  | sfm      | sfm.s2d2_taurus_yso          | 405     | 4       | Young Stellar Object catalogue in the Taurus region                                                     |               |
 | 9  | sfm      | sfm.s2d2_upperscorpius_nests | 25      | 4       | Significant Substructure (NESTS) Catalogue in the Upper Scorpius region                                 |               |
 | 10 | sfm      | sfm.s2d2_upperscorpius_yso   | 1,611   | 4       | Young Stellar Object catalogue in the Upper Scorpius region                                             |               |
+
+
+
+
+
+# UPCOMING FEATURES
+ 
+ - [INTEGRAL](http://www.cosmos.esa.int/web/esdc/esasky-skies#INTEGRAL)
+ 
+ - [XMM-Newton](http://www.cosmos.esa.int/web/esdc/esasky-skies#XMM)
+ 
+ - [EXOSAT](http://www.cosmos.esa.int/web/esdc/esasky-skies#EXOSAT)
+ 
+ - [HST](http://www.cosmos.esa.int/web/esdc/esasky-skies#HST)
+ 
+ - [JWST](http://www.cosmos.esa.int/web/esdc/esasky-skies#JWST)
+ 
+ - [ISO](http://www.cosmos.esa.int/web/esdc/esasky-skies#ISO)
+ 
+ - [Spitzer](https://www.cosmos.esa.int/web/esdc/esasky-skies#SPITZER)
+ 
+ - [AKARI](http://www.cosmos.esa.int/web/esdc/esasky-skies#AKARI)
+ 
+ - [Herschel](http://www.cosmos.esa.int/web/esdc/esasky-skies#HERSCHEL)
+ 
+ - [Planck](http://www.cosmos.esa.int/web/esdc/esasky-skies#PLANCK)
+ 
+ - [Haslam 408 MHz](http://www.cosmos.esa.int/web/esdc/esasky-skies#Haslam)
+ 
+ - [Other surveys](http://www.cosmos.esa.int/web/esdc/esasky-skies#OTHERS)
+ 
+ - [Of the data](http://www.cosmos.esa.int/web/esdc/esasky-caveats#DATA)
+ 
+ - [Of the catalogues](http://www.cosmos.esa.int/web/esdc/esasky-caveats#CATS)
+ 
+[Of the all-sky views (HiPS)}(http://www.cosmos.esa.int/web/esdc/esasky-caveats#HIPS)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SKIES (HIPS) INFORMATION
+All-sky views on ESASky are Hierarchical Progressive Surveys (HiPS). These maps are based on the HEALPix tesselation of the sky, but have the advantage that provide different spatial resolutions depending on the size of the sky area being visualized, thus increasing performance speed.
+
+IMPORTANT: The HiPS are intended for visualization only. They are not science-ready products and should not be used to perform scientific data analysis. 
+
+The HiPS on ESASky have been generated using all the observations of a given instrument/band/mission. The specific products used depend on the mission (see below) and are not always science-ready products. In case of overlap between observations, an average of the pixel values was computed by the HiPS generation code. The code used a single set of cuts and transfer function per band, determined by finding a compromise between fields with very different dynamical range. In the case of XMM and INTEGRAL, a pre-processing was done prior to the HiPS generation to enhance field visibility with a general set of cuts. More details on this and other known caveats of the currently available HiPS are explained here.
+
+At present, ESASky displays HiPS for the following missions and surveys:
+
+INTEGRAL (IBIS)
+XMM-Newton (EPIC & OM)
+eROSITA (created by MPE)
+EXOSAT (LE)
+HST (ACS, WFPC2, WFC3, NICMOS, FOC, WFPC)
+JWST (MIRI, NIRCam, NIRISS)
+ISO (CAM)
+AKARI (FIS)
+Spitzer (IRAC)
+Herschel (PACS & SPIRE)
+Planck (HFI & LFI)
+Haslam 408 MHz
+Other surveys (available through external sites)
+Details on the available HiPS for each mission, together with input data and processing information, are given below. 
+
+The individual HiPS can be visualized on a browser using Aladin Lite (in JPEG or PNG format), or in your local machine using Aladin Desktop (in FITS format when available, otherwise in JPEG or PNG). Just copy-paste the corresponding HiPS URL.
+
+For more information on the HiPS concept, go to this CDS webpage.
+
+ 
+
+INTEGRAL
+An RGB colour composite INTEGRAL/IBIS HiPS map (red: 20-35 keV; green: 35-65 keV; blue: 65-100 keV; jpeg format only) constructed from all public data (up to October 2015) by G. Belanger (INTEGRAL SOC). These data were processed in subsets based on proximity in time and space, before being combined into the set of mosaics subsequently used to generate the all-sky map. Each energy band was processed separately.
+
+The shown significance maps result from dividing the intensity by the variance. The cuts in the value of significance in each band were defined such that a (hard) source with a power-law photon spectral index of -2 (like the Crab) would appear white, taking into account the energy-dependent instrumental sensitivity. Sources with steeper (softer) spectra look greener/redder, and sources with flatter (harder) spectra look bluer. 
+
+ 
+
+Created: October 2015
+
+Last updated: May 2016
+
+URL: http://skies.esac.esa.int/Integral/color/
+
+ 
+
+Product info:
+
+- Instrument(s): IBIS/ISGRI
+
+- Passband(s): 20-35 keV, 35-65 keV, 65-100 keV 
+
+- Observation mode(s): Standard photon-by-photon
+
+- Number of observations: ~120,000 pointings 
+
+ 
+
+Product processing info:
+
+- Software and version: Aladin/Hipsgen v.8.174
+
+- Input data processing pipeline: OSA 10.1
+
+- Input data processing level: IMA
+
+- Input data processing date: April 2016
+
+- Input data retrieval date: May 2016  
+
+- Input data source: INTEGRAL SOC 
+
+ 
+
+ 
+
+XMM-NEWTON
+XMM-Newton HiPS maps were created from public high-level image products generated by the XMM-Newton SOC (P. Rodriguez) beyond the standard pipeline products. Color compositions were produced for three bands in the energy range from 0.2 to 12 keV of the three EPIC cameras (PN, MOS1 and MOS2) and for the optical and ultraviolet bands of the Optical Monitor (OM) instrument.
+
+ 
+
+In the X-ray regime the following maps are available through ESASky:
+
+XMM-EPIC-RGB (red: 0.3-0.7 keV; green: 0.7-1.2 keV; blue: 1.2-7 keV) (jpeg)
+ 
+
+Created:  August 2015 (first version)
+
+Last updated: July 2019
+
+URL: http://skies.esac.esa.int/XMM-Newton/EPIC-RGB/
+
+ 
+
+Product info:
+
+- Instrument(s): EPIC PN, MOS1 & MOS2
+
+- Passband(s): 0.2-12keV
+
+- Observation mode(s): Image
+
+- Number of observations: 9000+
+
+ 
+
+HiPS processing info:
+
+- Software and version: Aladin/Hipsgen v.10.130 
+
+- Input data processing date: up to 6th July 2019
+
+- Map creation date: August 2015 (first version)
+
+- Last update: July 2019
+
+- Input data source: XMM-Newton Science Archive (XSA)
+
+ 
+
+The following colour maps are available for the OM instrument:
+
+XMM-UV-color - Ultraviolet - (red:UVW1; green:UVM2; blue:UVW2) (jpeg)
+XMM-UBV-color - Optical - (red:V; green:B; blue:U) (jpeg)
+Created:  September 2015
+
+URL: http://skies.esac.esa.int/XMM-Newton/OMX_LMS-bkg/ (Ultraviolet)
+
+URL: http://skies.esac.esa.int/XMM-Newton/OMX_UBV-bkg/ (Optical)
+
+ 
+
+Product info:
+
+- Instrument(s): OM
+
+- Passband(s): 6 filters:V, B, U, UVW1, UVM2, UVW2
+
+- Observation mode(s): Image 
+
+- Number of observations: from 970 in V filter to 4204 in UVW1
+
+ 
+
+HiPS processing info:
+
+- Software and version: Aladin/Hipsgen v.8.165
+
+- Input data pipeline version: xmmsas_20150701_1240-14.0.0
+
+- Input data processing: Created by ommosaic (ommosaic-2.7.1)
+
+- Input data processing date: up to September 1st 2015 
+
+- Map creation date:  September 2015
+
+- Input data source: XMM-Newton Science Archive (XSA)
+
+ 
+
+ 
+
+EROSITA
+
+The eROSITA Early Data Release (EDR) HiPS maps have been created by the eROSITA team at MPE. Two of these maps, of the eFEDS (eROSITA Final Equatorial Depth Survey), are hosted on the ESA, ESAC HiPS server and are made available through ESASky.
+
+The maps in ESASky are the following:
+
+eFEDS single band (eROSITA/eFEDS rate image (0.2-2.3 keV, smoothed with a gaussian of sigma=4)
+eFEDS RGB (red: 0.2-0.5 keV; green: 0.5-1 keV; blue: 1-2 keV)
+Created: February and April 2022 (respectively)
+URL: http://skies.esac.esa.int/eROSITA/
+
+Product info:
+- Instrument(s): eROSITA
+- Passband(s): 0.2- 2.3 keV
+- Observation type(s): Field scans
+- Number of observations: 4
+ 
+HiPS processing info:
+- Software and version: Aladin/Hipsgen v.11.058
+- Input data source: eROSITA EDR observations
+- Properties files: eFEDS single band; eFEDS RGB
+ 
+ 
+EXOSAT
+The EXOSAT-LE HiPS map displays all objects observed by the EXOSAT Low Energy (LE) telescopes (CMA1 and CMA2 detectors) for the complete mission period. The images used to generate the map are the ones included in the EXOSAT CD-ROM Vol. 1, also available from this HEASARC page. Whenever possible, the HiPS displays images taken with the 3000 Lexan (3Lex) filter; images in other filters are shown only for pointings not observed with the 3Lex filter.
+
+ 
+
+Created: March 2016
+
+URL: http://skies.esac.esa.int/EXOSAT/LE/
+
+Product info:
+
+- Instrument(s): LE (CMA1 & CMA2)
+
+- Passband(s): 3Lex (preferred), 4Lex, PPL, Al/P, Boron (when 3Lex images not available)
+
+- Observation mode(s): Imaging
+
+- Number of observations: 2741
+
+ 
+
+Product processing info:
+
+- Software and version: Aladin/Hipsgen v.9.013
+
+- Input data processing pipeline: Unknown
+
+- Input data processing level: Unknown
+
+- Input data processing date: Unknown
+
+- Input data retrieval date: November 2016
+
+- Input data source: EXOSAT CDROM Vol. 1
+
+ 
+
+ 
+
+HST
+HST HiPS maps were created by grouping all available public images, in all broad bands, from a given instrument up to the quoted retrieval date (see below).
+
+The following maps are available:
+
+HST-ACS (jpeg only)
+HST-NICMOS (jpeg only)
+HST-WFPC2 (jpeg only)
+HST-WFC3 (jpeg only)
+HST-COS (jpeg only)
+HST-WFPC (jpeg only)
+ 
+
+Created:  September-October 2015
+
+URL: http://skies.esac.esa.int/HST/
+
+ 
+
+Product info:
+
+- Instrument(s): ACS, WFPC2, WPC3, NICMOS, WFPC, FOC
+
+- Passband(s): All available for every given instrument. 
+
+- Observation mode(s): Imaging 
+
+- Number of observations: 
+
+ 
+
+Product processing info:
+
+- Software and version: Aladin/Hipsgen v.8.167
+
+- Input data processing pipeline: HST Cache Revision 5350 (OPUS/ORFR 2014.4a, Ureka 1.4.4.3) and previous
+
+- Input data processing level: JPEG preview
+
+- Input data processing date: August 2015 and before 
+
+- Input data retrieval date: August 2015 
+
+- Input data source: European HST Archive (eHST) 
+
+ 
+
+Notes:
+
+Observations in medium and narrow-band filters are not included in the current set of HST HiPS. Therefore, some footprints will appear on apparently empty (non-observed) sky areas. 
+
+Due to the fact that observations with very different flux levels coexisted on the same sky area,  JPEG files were used to generate the HiPS, as these files had previously fixed flux cuts. Although it avoided the cut issue described in the caveats section, this approach allowed less flexibility in the choice of the HiPS generation parameters. As a consequence, some features such as gaps between detectors or detector corners with low sensitivity to light could not be removed from the images, and are clearly visible in the resulting HiPS (e.g. for HST/ACS).
+
+In most HST HiPS, some misalignments between images exist; their value is very small (<2 arcsec), but clearly visible due to the very high resolution of the detectors.. As a result, in some regions objects appear duplicated or more after the images are combined in the HiPS generation. The issue has been reported to the eHST team. 
+
+There is also a small positional offset (< 1") between the source coordinates from the HSC and their location on the HST HiPS maps. This is due to the fact that the HST HiPS where generated from HST data products, while the HSC was created from HLA data products, and there is a discrepancy between the astrometric solutions from both samples.
+
+​
+
+ 
+
+JWST
+The JWST HiPS maps are created by grouping all available public science images from a given instrument and updated frequently (daily) with the latest images. 
+
+The following maps are available:
+JWST MIRI Imaging
+JWST MIRI Coronagraphic Imaging
+JWST NIRCam Imaging
+JWST NIRCam Coronagraphic Imaging
+JWST NIRISS Imaging
+First created: July 2022 (continuously updated)
+URL: https://skies.esac.esa.int/JWST/
+ 
+Product info:
+- Instrument(s): MIRI, NIRCam, NIRISS
+- Passband(s): All imaging filter bands for each instrument. 
+- Wavelength(s): MIRI imaging: 5.6-25.5 microns; MIRI Coronagraphic imaging: 10-23 microns; NIRCam imaging: 0.6-5.0 microns; NIRCam Coronagraphic imaging: 2-5 microns; NIRISS imaging: 0.8-5.0 microns.
+- Observation mode(s): Imaging
+- Number of observations: 80,000+
+ 
+Product processing info:
+- Software and version: Aladin/Hipsgen v.11.025 and upwards
+- Input data processing pipeline: JWST Calibration Reference Data System (context 0913, associated to pipeline version 1.5.3); Data processing software (2022_2a); PRD version (PRDOPSSOC-055); and upwards.
+- Input data processing level: level 3 (*_i2d.fits)
+- Input data processing date: from July 2022 to present date
+- Input data retrieval date: from July 2022 to present date
+- Input data source: European JWST Archive (eJWST) 
+ 
+
+ 
+
+ISO
+A single HiPS map including all ISOCAM observations in all bands (png, jpeg, fits). Parallel modes are excluded. To improve visibility of both galactic and extragalactic regions, a normalisation and additional scaling (based on the Planck flux scaling) were applied to the input data prior to the HiPS generation.
+
+Created:  January 2016
+
+URL: http://skies.esac.esa.int/ISO/CAM/
+
+ 
+
+Product info:
+
+- Instrument(s): CAM 
+
+- Passband(s): SW (all filters), LW (all filters)
+
+- Observation mode(s): CAM01, CAM03 (excl. parallel mode)
+
+- Number of observations: SW: 307; LW: 6861
+
+ 
+
+Product processing info:
+
+- Software and version: Aladin/Hipsgen v.8.165
+
+- Input data processing pipeline: OLP v10
+
+- Input data processing level: AutoAnalysis product
+
+- Input data processing date: December 2006 
+
+- Input data retrieval date: 30 July 2015 
+
+- Input data source: ISO Data Archive (IDA)
+
+ 
+
+Product post-processing info:
+
+- Type of post-processing: Normalisation and scaling
+
+- Post-processing date: January 2016
+
+ 
+
+ 
+
+AKARI
+AKARI-FIS HiPS maps displaying all the data from the AKARI All-Sky Survey, in individual bands and in a color composition. To improve visibility of both galactic and extragalactic regions, a scaling (based on the Planck flux scaling) was applied to the input data prior to the HiPS generation.
+
+ 
+
+The following maps are available:
+
+- N160 (png, jpeg, fits)
+
+- N60 (png, jpeg, fits)
+
+- WideS (png, jpeg, fits)
+
+- WideL (png, jpeg, fits)
+
+- FIS color (Red: WideL; green: WideS; blue: N60) (jpeg only)
+
+ 
+
+Created:  February 2016
+
+URL: http://skies.esac.esa.int/AKARI/
+
+ 
+
+Product info:
+
+- Instrument(s): FIS
+
+- Passband(s): N160, N60, Wide-S, Wide-L
+
+- Observation mode(s): Imaging
+
+- Number of observations: 1672 per band (integrated in a single HEALPix map per band)
+
+ 
+
+Product processing info:
+
+- Software and version: Aladin/Hipsgen v.8.165
+
+- Input data processing pipeline: unknown
+
+- Input data processing level: HEALPix map
+
+- Input data processing date: 21 January 2015 
+
+- Input data retrieval date: 19 August 2015 
+
+- Input data source: CADE
+
+ 
+
+Product post-processing info:
+
+- Type of post-processing: Scaling
+
+- Post-processing date: February 2016
+
+ 
+
+Notes:
+
+The resolution from some maps may be worse than the original AKARI FIS images. This is due to the fact that the HiPS were created from HEALPix maps and not directly from the mission data.
+ 
+
+ 
+
+SPITZER
+The Spitzer HiPS have been produced from the four channels of the IRAC instrument (3.6, 4.5, 5.8, 8 microns) from the Enhanced Imaging Products (SEIP) of the Spitzer Heritage Archive.The SEIPs are from the Cryogenic Release v3.0 (CR3). CR3 includes Spitzer data taken during commissioning and cryogenic operations, including calibration data
+
+Given the richness and wide amplitude range of the Spitzer images it is difficult to produce one HiPS that allows the visualisation of both the bright galactic plane and fainter extragalactic regions, therefore we have produced both faint and bright HiPS for IRAC, where the cuts were set to optimise the visualisation of the extra-galactic regions for the HiPS with 'faint' in their name, and for the HiPS with 'bright' in their name, the cuts were set to optimise the visualisation of the Galactic plane. 
+
+9 Spitzer HiPS have been created in total, these are the following:
+
+ 
+
+Created: October 2018
+
+URL: http://skies.esac.esa.int/Spitzer/
+
+Spitzer cold SEIP IRAC134 color (a color HiPS that has been created by combining the following three HiPS: Spitzer cold SEIP IRAC1 bright, ​Spitzer cold SEIP IRAC3 bright and Spitzer cold SEIP IRAC1 bright).
+Created: May 2018
+
+URL: http://skies.esac.esa.int/Spitzer/
+
+Spitzer cold SEIP IRAC1 bright
+Spitzer cold SEIP IRAC2 faint
+Spitzer cold SEIP IRAC3 faint
+Spitzer cold SEIP IRAC4 faint
+Spitzer cold SEIP IRAC1 bright
+Spitzer cold SEIP IRAC2 bright
+Spitzer cold SEIP IRAC3 bright
+Spitzer cold SEIP IRAC4 bright
+ 
+
+Product info:
+
+- Instrument(s): IRAC
+
+- Band(s): IRAC 1, 2, 3 and 4: 3.6 microns, 4.5 microns, 5.8 microns, 8 microns
+
+- Observation mode(s): IRAC: Spitzer Enhanced Imaging Products (SEIP) Super Mosaics
+
+- Number of observations: IRAC1: 10949; IRAC2: 10944; IRAC3: 10946; IRAC4: 10949
+
+ 
+
+Product processing info:
+
+- Software and version: Aladin/Hipsgen v.9.013 for single frequency HiPS;  Aladin/Hipsgen v.10.076 for color HiPS
+
+- Input data processing pipeline: Spitzer Super-Mosaic Pipeline
+
+ 
+
+- Input data processing date: 2012-09-28T13:49:52
+
+- Input data retrieval date: 2018-08
+
+- Input data source: https://irsa.ipac.caltech.edu/data/SPITZER/Enhanced/SEIP/images
+
+ 
+
+ 
+
+HERSCHEL
+Herschel HiPS maps including all mission public imaging observations in a single instrument/band and in several colour compositions of different bands and instruments.
+
+The following maps are available:
+
+- PACS-70 (png, fits)
+
+- PACS-100 (png, fits)
+
+- PACS-160 (png, fits)
+
+- PACS colour (Red: 160; blue: 70) (png only)
+
+- PACS colour Galactic plane (Red: 160; blue: 70) (jpeg only)
+
+- SPIRE-250 (png, fits)
+
+- SPIRE-350 (png, fits)
+
+- SPIRE-500 (png, fits)
+
+- SPIRE colour (Red: 500; green: 350; blue: 250) (png only)
+
+ 
+
+Created: September 2017
+
+URL: http://skies.esac.esa.int/Herschel/
+
+ 
+
+Product info:
+
+- Instrument(s): PACS, SPIRE
+
+- Band(s): PACS 70 microns, 100 microns, 160 microns; SPIRE: 250 microns, 350 microns, 500 microns
+
+- Observation mode(s): PACS: scan mode, parallel mode; SPIRE: large map, small map, parallel mode
+
+- Number of observations: PACS-70: 4618; PACS-100: 4316; PACS-160: 8935; SPIRE: 5743 per band
+
+ 
+
+Product processing info:
+
+- Software and version: Aladin/Hipsgen v.10 & v.8.165
+
+- Input data processing pipeline: HIPE v.14.1.0 (SPIRE), v14.2.0 & 14.2.1 (PACS) 
+
+- Input data processing level: level 2.5/2.0
+
+- Input data processing date: 04 Sep 2017 (SPIRE), 28 Sep 2017 (PACS)
+
+- Input data retrieval date: Aug 2017
+
+- Input data source: Herschel Science Archive (HSA)
+
+ 
+
+Notes:
+
+In the HiPS generation, the flux cut levels and intensity stretch for the Herschel HiPS are automatically selected for each individual image, and they may not be optimal for visualisation of the features in every image. To circumvent this problem, the data have been normalised using Herschel-optimised cuts and stretch prior to the HiPS generation. Even so, a few fields may not be correctly visualised: they appear either darker (underexposed) or brighter (overexposed). See the caveats section for more details on this problem.
+
+The PACS colour Galactic Plane HiPS belongs to a previous set of Herschel HiPS where the above normalisation strategy was not applied. This map is optimal for the study of features in the Galactic Plane, but most extragalaxtic fields appear dark.
+
+The available PACS HiPS only features observations with available level-2.5 products in the Herschel Science Archive. It will soon be replaced by an improved version including as well all observations with only level-2 products. For more information on the Herschel processing levels and products, see the corresponding documentation.
+
+​
+
+ 
+
+PLANCK
+Planck HiPS maps have been produced using the nine Planck 2015 total intensity maps (T: 30 - 857 GHz) and the six Planck 2015 polarized intensity maps (P: 30 - 353 GHz) for both LFI and HFI instruments. The polarized intensity maps (P) are not available in the PLA as such, and have been produced from the corresponding Stokes Q and U columns inside the frequency maps as follows: P = square_root(Stokes_Q^2 + Stokes_U^2). Since the polarization maps shown in ESASky have been produced for quick visualization of the Planck data, no bias correction has been applied. Please note that the polarized intensity maps have been smoothed with Gaussian kernels ranging from 30 arc minutes at 30 GHz to 10 arcminutes at 353 GHz.
+
+Similarly, HiPS maps from two physical models derived from the Planck 2015 component separation (Commander solution) have been produced and can be found in the "Others" section of the HiPS skies panel. These two HiPS correspond to the polarized intensity dust model (nside=1024) and the polarized intensity low resolution synchrotron model (nside=256). As in the previous polarization maps, the dust and synchrotron polarized intensity maps needed to generate the HiPS have been produced as Commander_Dust_P=square_root(Commander_Dust_Stokes_Q^2 + Commander_Dust_Stokes_U^2), and Commander_Synchrotron_P=square_root(Commander_Synch_Stokes_Q^2 + Commander_Synch_Stokes_U^2), respectively. Please note that the Commander_Synchtrotron_P has been smoothed with a 40 arc-minute Gaussian kernel and the Commander_Dust_P has been smoothed with a 10 arc-minute Gaussian kernel..
+
+IMPORTANT: The Planck HiPS are meant for visualisation only. For science, please use the maps in the archive (linked below). 
+
+The following maps are available:
+
+- HFI 857 (HEALPix fits map directly from the Planck Legacy Archive (PLA))
+
+- HFI 545 (HEALPix fits map directly from the PLA)
+
+- HFI 353 (HEALPix fits map directly from the PLA)
+
+- HFI 217 (HEALPix fits map directly from the PLA)
+
+- HFI 143 (HEALPix fits map directly from the PLA)
+
+- HFI 100 (HEALPix fits map directly from the PLA)
+
+- LFI 070 (HEALPix fits map directly from the PLA)
+
+- LFI 044 (HEALPix fits map directly from the PLA)
+
+- LFI 030 (HEALPix fits map directly from the PLA)
+
+- Dust polarized intensity (HEALPix fits map directly from the PLA)
+
+- Synchrotron polarized intensity (HEALPix fits map directly from the PLA)
+
+ 
+
+Created: August 2017
+
+ 
+
+Product info:
+
+- Instrument(s): HFI, LFI
+
+- Passband(s):  030 - 857 GHz
+
+- Observation mode(s): Imaging
+
+- Number of observations: single full-sky HEALPix map per band
+
+ 
+
+Product processing info:
+
+- Software and version: Aladin/Hipsgen v.8.017
+
+- Input data processing pipeline:
+
+- Input data processing level: HEALPix map
+
+- Input data processing date: 2015 Release
+
+- Input data retrieval date: September 2015
+
+- Input data source: Planck Legacy Archive
+
+ 
+
+HASLAM 408 MHZ
+The Haslam HiPS is based on the 2014 re-processed Haslam 408 MHz data from the MPIR Survey Sampler produced by Remazeilles et al. (MNRAS, 2015, 451, 4311). Note that this map has been "destriped and desourced" from the original Haslam map. Further details and a only-destriped map can be found in https://lambda.gsfc.nasa.gov/product/foreground/2014_haslam_408_info.cfm.
+
+ 
+
+OTHERS
+In addition to the ESA missions, ESASky also displays the following image HiPS in the drop down menus (note that all 1200+ HiPS in the CDS HiPS Registry can also be loaded via the Skies + button, 'Browse HiPS Registry) :
+
+ - [Fermi color](http://alasky.u-strasbg.fr/Fermi/Color/)
+ - [Swift-BAT (by JAXA/ISAS)](http://darts.isas.jaxa.jp/pub/judo2/HiPS/swift_bat_flux/)
+ - [JAXA/SUZAKU color (by JAXA/ISAS)](https://alasky.u-strasbg.fr/GALEX/GALEXGR6_7_color/)
+ - [GALEX GR6/7 AIS color](https://alasky.u-strasbg.fr/GALEX/GALEXGR6_7_color/)
+ - [DSS2 color](http://alasky.u-strasbg.fr/DSS/DSSColor/)
+ - [DSS2 red](http://alasky.u-strasbg.fr/DSS/DSS2Merged/)
+ - [SDSS9 color](http://alasky.u-strasbg.fr/SDSS/DR9/color/)
+ - [SuperCOSMOS Ha](http://alasky.u-strasbg.fr/SHS/)
+ - [VTSS Ha](http://alasky.u-strasbg.fr/VTSS/Ha/)
+ - [Mellinger color](http://alasky.u-strasbg.fr/MellingerRGB/)
+ - [Finkbeiner Ha](http://alasky.u-strasbg.fr/FinkbeinerHalpha/)
+ - [PanSTARRS color-i-r-g](http://alasky.u-strasbg.fr/Pan-STARRS/DR1/color-i-r-g/)
+ - [2MASS color](http://alasky.u-strasbg.fr/2MASS/Color/)
+ - [AllWISE color](http://alasky.u-strasbg.fr/AllWISE/RGB-W4-W2-W1/)
+ - [AKARI IRC (by JAXA/ISAS)](http://darts.isas.jaxa.jp/pub/judo2/HiPS/akari_irc/)
+ - [IRIS color](http://alasky.u-strasbg.fr/IRISColor/)
+ - [CO composite survey](http://alasky.u-strasbg.fr/CO/)
+ - [CHIPASS 1.4 GHz](http://cade.irap.omp.eu/documents/Ancillary/4Aladin/CHIPASS)
+ - [NVSS](http://alasky.u-strasbg.fr/NVSS/intensity/)
+ - [CGPS-VGPS continuum (by IRAP/CADE)](http://cade.irap.omp.eu/documents/Ancillary/4Aladin/CGPS_VGPS_CONT/)
+ - [GASS NH (by IRAP/CADE)](http://cade.irap.omp.eu/documents/Ancillary/4Aladin/GASS/)
+ - [SUMSS 843 MHz](http://alasky.u-strasbg.fr/SUMSS/)
+ - [WENSS 325 MHz](http://alasky.u-strasbg.fr/WENSS/)
+ - [TGSS ADR progressive survey (by ASTRON)](https://hips.astron.nl/ASTRON/P/tgssadr/)
+ - [Apertif Data release 1 survey (by ASTRON)](https://hips.astron.nl/ASTRON/P/apertif_dr1/)
+ - [LOFAR Two-metre Sky Survey (LoTSS) DR2 high resolution (by ASTRON)](https://hips.astron.nl/ASTRON/P/lotss_dr2_high/)
+ - [WMAP V 9yr](https://alasky.u-strasbg.fr/WMAP9yr/WMAPV9yr/)
+ - WMAP W 9yr
+ - WMAP Q 9yr
+ - WMAP Ka 9yr
+ - WMAP K 9 yr
+ - QUIJOTE MFI 11GHz Intensity
+ - QUIJOTE MFI 13GHz Intensity
+ - QUIJOTE MFI 17GHz Intensity
+ - QUIJOTE MFI 19GHz Intensity
+ - QUIJOTE MFI 11GHz Polarization
+ - QUIJOTE MFI 13GHz Polarization
+ - QUIJOTE MFI 17GHz Polarization
+ - QUIJOTE MFI 19GHz Polarization 
+
+
+These maps have not been generated by the ESDC, who takes no responsibility for their quality or accuracy. Most of them have been created by the CDS. The other cases are noted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+# CAVEATS
+Below gives a list of the known caveats for the current version of ESASky:
+
+Of the data 
+Of the catalogues 
+Of the all-sky views (HiPS)
+​​
+
+# CAVEATS OF THE DATA
+There are some caveats on the data currently provided by ESASky:
+
+Data are regularly updated in the application and some important datasets might still be missing. Data are complete up to the dates described in the ESASky help pages.
+The Herschel Data Distribution provides combined Standalone Browse Products per observation with either the three wavelengths for the SPIRE maps or two for the PACS maps. This makes it currently impossible to send a Herschel observation to Virtual Observatory tools like e.g. Aladin.
+ 
+
+# CAVEATS OF THE CATALOGUES
+The current catalogues functionality on ESASky has the following caveats:
+
+For the XMM-Newton Serendipitous Source catalogue, only sources with QUALITY=GOOD are shown.
+Please note that some catalogues may display rounded or truncated values in ESASky; however, all the original digits are kept when the catalogue tables are downloaded or loaded into a VO application through SAMP.
+
+ 
+
+# CAVEATS OF THE ALL-SKY VIEWS (HIPS)
+IMPORTANT The HiPS are intended for visualization only. They are not science-ready products and should not be used to perform scientific data analysis.
+
+The all-sky views (HiPS) currently available on ESASky have some known caveats:
+
+ - The current HiPS maps have fixed flux cuts and pixel intensity stretching for high and low intensities. As a consequence, if strong flux level differences exist between different observations, it is often not possible to find an automated way that would allow good static visualisation of all the data. For XMM-Newton and INTEGRAL, the scaling of the input data to the same background level provided a good representation of all the images in the HiPS. In other cases this approach did not work well and we proceeded with re-scaling of the standardised images based on the Planck flux scale (ISOCAM, AKARI, Herschel-SPIRE). This alternative processing was not successful for Herschel-PACS, where we implemented individual pixel cuts and stretching to each image before adding it to the HiPS all sky map.  There is still room for improvements and we are currently exploring more flexible scheme.
+
+ - Herschel RGB HiPS maps: because of the way the Herschel images were standardised and stretched for the all sky HiPS maps, the pixel distribution does not have a physical meaning and as a consequence the RGB maps are not representative for the actual characteristics of the emitting regions (temperature). Even more difficult to produce is a representative RGB HiPS for PACS and SPIRE combined. That is why we do not provide such a HiPS map in this version. We are exploring alternative ways to produce meaningful RGB maps for Herschel for the next release.
+
+ - HiPS from ongoing missions (HST, XMM-Newton, INTEGRAL) do not contain all the observational data available in the archives, but only the public data up to the HiPS map creation date indicated in the HiPS information page. These HiPS maps will be periodically replaced with newer ones adding more recent observations to the previous HiPS.
+
+
+Information in connection with your use of the website, such as information in server logs, including information on how the website was used by you and your search queries. This is collected and analysed in order to continue improving the application. 
