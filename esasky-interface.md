@@ -240,9 +240,7 @@ This short [movie](https://www.youtube.com/watch?v=ct53j7EuokA) shows the SSO fe
 
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#MultiM
 
-This tool shows public multi-messenger events from gravitational waves and neutrinos, displays their probability footprints on the sky and provides access to the data. Click on the multi-messenger icon to open the window:
-
-#### IMG: https://www.cosmos.esa.int/documents/401090/1819298/multim.png/1f97d876-17ee-b65d-6eff-7fa83495f1db?t=1641926581649
+This tool shows public multi-messenger events from gravitational waves and neutrinos, displays their probability footprints on the sky and provides access to the data. Click on the multi-messenger icon to open the window: https://www.cosmos.esa.int/documents/401090/1819298/multim.png/1f97d876-17ee-b65d-6eff-7fa83495f1db?t=1641926581649
 
 The Gravitational Waves tab displays a list of the gravitational wave events detected by Advanced LIGO and Advanced Virgo from the observing run 3 (O3) and by the LIGO-Virgo-KAGRA collaborations 4th observing run (O4). Click on a gravitational wave event to go to the centre of the associated footprint. A solid line shows the 50% confidence contours and a dashed line the 90% confidence contours. The probability map is also shown. The probability map and contours are extracted from the data available in the [GCN webpage](https://gcn.gsfc.nasa.gov/lvc_events.html), without including the ejected ones. We use the files LALinference when available and Bayestar. For more information visit [LIGO collaboration](https://ligo.org/) and [Virgo collaboration](https://www.virgo-gw.eu/) webpages and the [Gravitational-Wave Candidate Event Database (GraceDB) webpage](http://gracedb.ligo.org/). See here for more information on the columns displayed in ESASky.
 
