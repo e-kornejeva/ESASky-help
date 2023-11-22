@@ -104,9 +104,7 @@ To search in an arbitrary shape on the sky, select the polygon search icon. Clic
 
 # SKIES MENU
 #### URL: https://www.cosmos.esa.int/web/esdc/esasky-interface#skies
-The top left of the interface shows the coordinates of the cursor, the coordinate system, Equatorial (J2000) or Galactic, the field of view (FoV), the sky that is currently being displayed, and below this, a line of buttons. The first to the left is the skies icon:
-
-#### IMG: https://www.cosmos.esa.int/documents/401090/1819298/esasky30_skies_button.png
+The top left of the interface shows the coordinates of the cursor, the coordinate system, Equatorial (J2000) or Galactic, the field of view (FoV), the sky that is currently being displayed, and below this, a line of buttons. The first to the left is the skies icon: https://www.cosmos.esa.int/documents/401090/1819298/esasky30_skies_button.png
 
 Clicking on the icon brings up the Skies menu. The skies are ordered into wavelength regions, from Gamma-ray to Radio, and an Others section at the bottom which currently holds physical models. Select a sky by choosing the wavelength region in the first panel, and browse the skies in the second panel. Details on each sky can be found by clicking the i icon. For further details and a list of all the available skies, go to the [skies (HiPS) information page](https://www.cosmos.esa.int/web/esdc/esasky-skies).
 
